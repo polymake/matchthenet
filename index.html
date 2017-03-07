@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Joswig, Michael">
+		<meta name="author" content="Loho, Georg">
+		<meta name="author" content="Lorenz, Benjamin">
+		<meta name="author" content="Raber, Rico">
+		<meta name="author" content="The polymake team">
+		<title>MatchTheNet</title>
+		<link rel="stylesheet" href="styles/mainStyle.css">
+		<link rel="stylesheet" href="styles/settings.css">
+		<link rel="stylesheet" href="styles/animate.css">
+		<script src="js/three.polymake.js"></script>
+		<script src="js/translation.js"></script>
+		<script src="js/interact.js"></script>
+	</head>
+	<body>
+
+
+<!-- ::::::::::::::::::::::: STARTSCREEN ::::::::::::::::::::::::::::: -->
+		
+		<div id=startScreen>
+
+
+			<img id=startImgFolded1 class='startScreenImg notDraggable' src='img/truncoct_fold3.svg'>
+			<img id=startImgFolded2 class='startScreenImg notDraggable' src='img/truncoct_fold3.svg'>
+			<img id=startImgNearlyFolded1 class='startScreenImg notDraggable' src='img/truncoct_fold2.svg'>
+			<img id=startImgNearlyFolded2 class='startScreenImg notDraggable' src='img/truncoct_fold2.svg'>
+			<img id=startImgHalfFolded1 class='startScreenImg notDraggable' src='img/truncoct_fold1.svg'>
+			<img id=startImgHalfFolded2 class='startScreenImg notDraggable' src='img/truncoct_fold1.svg'>
+			<img id=startImgNet1 class='startScreenImg notDraggable' src='img/truncoct_net.svg'>
+			<img id=startImgNet2 class='startScreenImg notDraggable' src='img/truncoct_net.svg'>
+
+			<div id='startLogo' class='logo notDraggable'><span class=Match>Match</span><span class=The>The</span><span class=Net>Net</span></div>
+
+			<p id=intro>
+			</p>
+
+
+			<div id='startSelectLanguage'>
+				<div id='startSelectLanguageText'>Please select a language</div>
+			</div>
+
+			<div id='startDifficultyDiv'>
+				<div id='difficultyText'>Level of difficulty</div>
+				<span id='startDifficultyTextEasy'></span>
+				<span id='startDifficulty1' alt=1 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficulty2' alt=2 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficulty3' alt=3 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficulty4' alt=4 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficulty5' alt=5 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficulty6' alt=6 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficulty7' alt=7 class='startDifficulty difficulty'>&zwnj;</span>
+				<span id='startDifficultyTextDifficult'></span>
+			</div>
+
+			<div id='startNumOfPolysDiv'>
+				<div id='startNumOfPolysText'>Number of polytopes</div>
+				<span id='numOfPolys2' alt=2 class='numOfPolys'>2</span>
+				<span id='numOfPolys3' alt=3 class='numOfPolys'>3</span>
+				<span id='numOfPolys4' alt=4 class='numOfPolys'>4</span>
+				<span id='numOfPolys5' alt=5 class='numOfPolys'>5</span>
+			</div>
+
+			<div class='buttonType1 bordered' id='more'></div>
+			<div class='buttonType1 bordered' id='startGame'></div>
+
+			<footer id=copyright>&copy; 2016 Joswig, Loho, Lorenz, Raber &amp; the polymake team; license CC BY-NC-SA 3.0</footer>
+
+
+			<div id=moreScreen style='display: none;' class='animated bounceIn'>
+			  &copy; 2016 <a href="http://www.math.tu-berlin.de/~joswig/" target="_blank">Michael Joswig</a>, Georg Loho, Benjamin Lorenz, Rico Raber &amp; the <a href="http://www.polymake.org/doku.php/team" target="_blank">polymake team</a><br>
+			  license <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Creative Commons BY-NC-SA 3.0" target="_blank">CC BY-NC-SA 3.0</a> <br><br>
+			  <div>Stopwatch icon <img src="img/watch.svg" style="border: 0px solid; height: 1.0rem"> made by <a href="http://www.flaticon.com/authors/dario-ferrando" title="Dario Ferrando">Dario Ferrando</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a><br> license <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC BY 3.0</a></div><br>
+			  <div>Checkered icon <img src="img/checkered.svg" style="border: 0px solid; height: 1.0rem"> and Drag Flick icon <img src="img/drag.svg" style="border: 0px solid; height: 1.0rem"> made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a><br> license <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC BY 3.0</a></div><br/>
+           <div>JavaScript 3D library <a href="http://threejs.org" target="_blank">three.js</a> made by three.js authors<br/><a href="https://github.com/mrdoob/three.js/blob/master/LICENSE" target="_blank">MIT license </a></div><br/>
+           <div>JavaScript drag and drop library <a href="http://interactjs.io" target="_blank">interact.js</a> made by Taye Adeyemi &lt;dev@taye.me&gt;<br/><a href="https://github.com/taye/interact.js/blob/master/LICENSE" target="_blank">MIT license</a></div>
+				<div class='buttonType1 bordered' id='closeMoreButton'></div>
+			</div>
+
+
+
+		</div><!-- end of start screen -->
+
+
+<!-- ::::::::::::::::::::::::  GAME SCREEN :::::::::::::::::::::::::::::::::::::::::::::  -->
+
+
+		<div id='game' style='display:none'>
+
+			<header>
+
+				<div id='logo' class='logo notDraggable'><span class=Match>Match</span><span class=The>The</span><span class=Net>Net</span></div>
+
+				
+				<div id='points'>
+					<div id='scoreWord'></div>
+					<div class='bordered' id='numPoints'>
+						<span id=pointsNumber>0</span>
+						<span id='addPointsDiv' style='display:none'></span>
+					</div>
+				</div>
+
+				<div id='bestScore'>
+					<div id='bestScoreWord'></div>
+					<div class='bordered' id='numBestScore'></div>
+				</div>
+
+				<div id='roundDiv'><img id='checkered' class='notDraggable' src=img/checkered.svg><div class='bordered' id='roundNumber'></div></div>
+
+				<div id='timeDiv'><img id='watch' class='watch notDraggable' src='img/watch.svg'><div class='bordered' id='timeNumber'>0</div></div>
+
+			</header>
+
+			
+
+			<!--  ___________________ANIMATIONS________________________  -->
+			<table id=gameTable>
+
+				<tr id=polytopesRow class='gameTableRow'>
+					<td class='polytope animation' id='poly0'></td>
+
+					<td>
+					</td>
+
+					<td class='polytope animation' id='poly1'></td>
+
+					<td>
+					</td>
+
+					<td class='polytope animation' id='poly2'></td>
+
+					<td>
+					</td>
+
+					<td class='polytope animation' id='poly3' style='display:none'></td>
+
+					<td>
+					</td>
+
+					<td class='polytope animation' id='poly4' style='display:none'></td>
+
+				</tr>
+
+				<tr id=equalsRow class='gameTableRow'>
+					<td>
+					<img class='equal notDraggable' src='img/equal.svg'>
+					<span id='addPoints0' class='addPoints'></span>
+					</td>
+
+					<td>
+					</td>
+
+					<td>
+					<img class='equal notDraggable' src='img/equal.svg'>
+					<span id='addPoints1' class='addPoints'></span>
+					</td>
+
+					<td>
+					</td>
+
+					<td>
+					<img class='equal notDraggable' src='img/equal.svg'>
+					<span id='addPoints2' class='addPoints'></span>
+					</td>
+
+					<td>
+					</td>
+
+					<td>
+					<img class='equal notDraggable' src='img/equal.svg' style='display:none'>
+					<span id='addPoints3' class='addPoints'></span>
+					</td>
+
+					<td>
+					</td>
+
+					<td>
+					<img class='equal notDraggable' src='img/equal.svg' style='display:none'>
+					<span id='addPoints4' class='addPoints'></span>
+					</td>
+				</tr>
+
+				<tr id=netsRow class='gameTableRow'>
+					<td>
+					<div class='animation container dropzone' id='netbox0'><img class='net draggable drag-drop notDraggable' id='net0'></img></div>
+					<div id='dragHint'>
+						<div id='dragText'></div><br>
+						<img id='dragIcon' src='img/drag.svg' class='notDraggable'>
+					</div>
+					<div id='folding0' class='animation folding' style='display:none'></div>
+					</td>
+
+					<td>
+							<img name=0 class='arrow notDraggable' src='img/doublearrow.svg'>
+					</td>
+
+					<td>
+					<div class='animation container dropzone' id='netbox1'><img class='net draggable drag-drop notDraggable' id='net1'></img></div>
+					<div id='folding1' class='animation folding' style='display:none'></div>
+					</td>
+
+					<td>
+							<img name=1 class='arrow notDraggable' src='img/doublearrow.svg'>
+					</td>
+
+					<td>
+					<div class='animation container dropzone' id='netbox2'><img class='net draggable drag-drop notDraggable' id='net2'></img></div>
+					<div id='folding2' class='animation folding' style='display:none'></div>
+					</td>
+
+					<td>
+							<img name=2 class='arrow notDraggable' src='img/doublearrow.svg' style='display:none'>
+					</td>
+
+					<td>
+					<div class='animation container dropzone' id='netbox3'><img class='net draggable drag-drop notDraggable' id='net3'></img></div>
+					<div id='folding3' class='animation folding' style='display:none'></div>
+					</td>
+
+					<td>
+							<img name=3 class='arrow notDraggable' src='img/doublearrow.svg' style='display:none'>
+					</td>
+
+					<td>
+					<div class='animation container dropzone' id='netbox4'><img class='net draggable drag-drop notDraggable' id='net4'></img></div>
+					<div id='folding4' class='animation folding' style='display:none'></div>
+					</td>
+				</tr>
+
+			</table>
+
+
+			<!--  ___________________ END OF ANIMATIONS________________________  -->
+
+			
+			<footer id='buttons'>
+
+				<div class='buttonType1 bordered' id='reset'>
+				</div>				
+
+				<div id='restartHint' style='display:none'>Test test test test test</div>
+
+				<div id='difficultyDiv'>
+					<span id='difficultyTextEasy'></span>
+					<span id='gameDifficulty1' alt=1 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='gameDifficulty2' alt=2 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='gameDifficulty3' alt=3 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='gameDifficulty4' alt=4 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='gameDifficulty5' alt=5 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='gameDifficulty6' alt=6 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='gameDifficulty7' alt=7 class='gameDifficulty difficulty'>&zwnj;</span>
+					<span id='difficultyTextDifficult'></span>
+				</div>
+
+				<div class='buttonType1 bordered' id='ok'>
+				</div>
+
+				<div class='buttonType1 bordered' id='solution' style='display:none'>
+				</div>				
+
+				<div class='buttonType1 bordered' id='next' style='display:none'>
+				</div>
+
+			</footer>
+
+
+
+
+		</div> <!-- end of 'game' div -->
+
+
+
+		<img id='settingsButton' class='notDraggable' src="img/settings.svg">
+
+		<div id=settingsScreen style='display:none' class='animated bounceIn'>
+			<strong id=controlsText>Controls</strong><br>
+			<table>
+				<tr>
+					<td id=rotationSpeedText></td>
+					<td><input id=controlsRotationSpeed type='range' min=1 max=10 value=5 step=0.5></td>
+				</tr>
+				<tr>
+					<td id=zoomEnabledText></td>
+					<td><input id=controlsZoomEnabled type='checkbox' checked></td>
+				</tr>
+				<tr>
+					<td id=zoomSpeedText></td>
+					<td><input id=controlsZoomSpeed type='range' min=0 max=6 value=1 step=0.5></td>
+				</tr>
+				<tr style='display:none'>
+					<td>Controls pan enabled:</td>
+					<td><input id=controlsPanEnabled type='checkbox'></td>
+				</tr>
+			</table>
+
+			<div class='bordered' id='closeSettingsButton'></div>
+		</div>
+
+
+		<div id='gameOver'  class='animated bounceIn' style='display: none;'>
+			<p id='congrats'>Congratulations!</p>
+			<p id='completedGame'>You have successfully completed the game.</p>
+			<table id='gameOverTable'>
+				<tr class='row2'>
+					<td id="youText" class='endpointsWords col1'></td>
+					<td id='numOfYourPoints' class='endpoints bordered col2'>0</td>
+					<td id="highscoreText" class='endpointsWords col3'></td>
+					<td id='numOfHighscore' class='endpoints bordered col4'>0</td>
+				</tr>
+				<tr class='row3'>
+					<td><img class="watch col1 notDraggable endWatch" src='img/watch.svg'></td>
+					<td id='numOfYourTime' class='endpoints bordered col2'>0</td>
+					<td><img class="watch col3 notDraggable endWatch" src='img/watch.svg'></td>
+					<td id='numOfHighscoreTime' class='endpoints bordered col4'>0</td>
+				</tr>
+			</table>
+
+				<div class='buttonType1 bordered' id='newGame'></div>				
+		</div>
+
+
+		<div id='polyScripts'></div>
+		<div id='foldingScripts'></div>
+
+		<script src="js/variables.js"></script>
+		<script src="js/design.js"></script>
+		<script src="js/writeTranslatedText.js"></script>
+		<script src="js/eventListeners.js"></script>
+		<script src="js/basicFunctions.js"></script>
+		<script src="js/getTuples.js"></script>
+		<script src="data/datatuples.js"></script>
+		<script src="js/mainScript.js"></script>
+		<script src="js/dragndrop2.js"></script>
+		<script src="js/folding.js"></script>
+		<script src="js/startGame.js"></script>
+		
+	</body>
+</html>

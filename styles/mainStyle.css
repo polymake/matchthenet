@@ -1,0 +1,526 @@
+/* copyright Loho, Lorenz, Joswig, Raber & polymake team */
+
+/* disable text selection */
+*{
+	cursor: default;
+	-webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+}
+
+body, button{
+	font-size: 1.6vmin;
+}
+
+
+
+.addPoints{
+	font-size: 2vmin;
+}
+
+#startScreen{
+	width: 100%;
+	height: 100%;
+}
+
+#moreScreen, #settingsScreen{
+	border: solid 1px;
+	position: fixed;
+	background-color: hsla(0, 100%, 100%, 1);
+	padding: 2vmin;
+	font-weight: normal;
+}
+
+#moreScreen{
+	left: 50%;
+	top: 50%;
+	margin: -20vmin -35vmin;
+	width: 70vmin;
+	height: 40vmin;
+}
+
+#settingsScreen{
+	right: 5vmin;
+	top: 5vmin;
+}
+
+
+#startGame, #startDifficultyDiv, #startNumOfPolysDiv, #startSelectLanguage{
+	position: fixed;
+	left: 75%;
+	transform: translate(-50%, 0);
+	text-align: center;
+}
+
+#startSelectLanguage{
+	width: 100%;
+}
+
+#startDifficultyDiv{
+	width: 100%;
+	top: 40%;
+}
+
+#startNumOfPolysDiv{
+	top: 60%;
+}
+
+#startSelectLanguage{
+	top: 20%;
+}
+
+#difficultyText, #startNumOfPolysText, #startSelectLanguageText{
+	margin-bottom: 1.5vmin;
+}
+
+#more, #startGame{
+	top: 80%;
+}
+
+.language{
+	margin: 0vmin 1vmin;
+	cursor: pointer;
+}
+
+
+canvas, .net{
+  display: block;
+	/*cursor: move;*/
+}
+
+canvas{
+	margin: auto;
+}
+
+.polytope{
+}
+
+#gameTable{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	text-align: center;
+}
+
+.dropzone {
+   width: 75%;
+	margin: auto auto;
+}
+
+.net{
+	position: relative;
+	margin: auto auto;
+	opacity: 0.6;
+}
+
+
+
+.dropzone.over {
+  border: 0.2vmin dashed #888;
+  border-radius: 2vmin;
+}
+
+
+.endpoints, .endpointsWords{
+	font-size: 1.5vmin;
+}
+
+
+#gameOver{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -22.5vmin 0 0 -30vmin;
+	text-align: center;
+	background-color: white;
+	width: 60vmin;
+	height: 42vmin;
+	border: black solid 1px;
+}
+
+#intro{
+	position: fixed;
+	top: 45%;
+	transform: translate(-50%, -50%);
+	max-width: 40vw;
+	font-weight: normal;
+	font-size: 2.5vmin;
+}
+
+#intro, #more{
+	left: 28%;
+}
+
+#more{
+	transform: translate(-50%, 0);
+}
+
+
+.endpoints{
+  font-style: normal;
+}
+
+#gameOverTable{
+	width: 35vmin;
+	margin-bottom: 5vmin;
+	margin: 5vmin auto;
+
+}
+
+.col1, .col3{
+	text-align: right;
+	width: 11vmin;
+}
+
+.col2, .col4{
+	margin: 0 1vmin;
+}
+	
+
+#gameOverTable tr{
+	line-height: 5vmin;
+}
+
+#container{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.bordered, .difficulty, .numOfPolys{
+	display: inline-block;
+	height: 2.9vmin;
+	line-height: 2.9vmin;
+	border: solid black 0.1vmin;
+	text-align: center;
+}
+
+.difficulty, .numOfPolys{
+	border-radius: 100%;
+}
+
+
+#restartHint{
+	position: fixed;
+	bottom: 5.5vmin;
+	text-align: center;
+	left: 51%;
+	transform: translate(-50%,0);
+}
+
+
+#checkered, .watch{
+	height: 2.9vmin;
+	line-height: 2.9vmin;
+}
+
+.endWatch{
+	position: relative;
+	right: -3.6vmin;
+	top: 0.8vmin;
+}
+
+#checkered, #watch{
+	display: inline-block;
+}
+
+
+.bordered{
+	width: 11vmin;
+	border-radius: 2vmin;
+}
+
+
+
+button, .buttonType1{
+	cursor: pointer;
+	position: fixed;
+	font-weight: bold;
+}
+
+.buttonType1{
+	color: white;
+}
+
+
+#ok, #reset, #solution, #difficultyDiv, #next{
+	position: absolute;
+	bottom: 0;
+	margin: 1.5vmin;
+}
+
+#logo, #startLogo{
+	position: fixed;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.Match, .The{
+	color: hsla(155, 100%, 35%, 1);
+}
+
+.Net{
+	color: hsla(208, 100%, 74%, 1);
+}
+
+#logo{
+	font-size: 3.5vmin;
+	left: 0vmin;
+}
+
+#startLogo{
+	font-size: 6vmin;
+	left: 50%;
+	transform: translate(-50%, 0);
+	top: 3vmin;
+}
+
+
+#ok, #next{
+	right: 0;
+}
+
+#next{
+	background-color: hsla(48, 100%, 60%, 1);
+}
+
+#reset{
+	left: 0;
+}
+
+#closeMoreButton, #closeSettingsButton, #ok,#startGame{
+	background-color: hsla(155, 100%, 35%, 1);
+}
+
+#closeMoreButton, #closeSettingsButton{
+	left: 50%; 
+	transform: translate(-50%, 0);
+}
+
+#closeSettingsButton {
+	cursor: pointer;
+	position: relative;
+	font-weight: bold;
+	color: white;
+}
+
+
+#solution{
+	right: 12vmin;
+}
+
+#difficultyDiv{
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#reset, #newGame, #solution, #more{
+	background-color: hsla(208, 100%, 74%, 1);
+}
+
+#newGame{
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+#startDifficulty1, #numOfPolys3 {
+	background-color: hsla(208, 100%, 74%, 1);
+}
+
+#gameDifficulty1{
+	background-color: hsla(0, 0%, 75%, 1);
+}
+
+
+#points, #roundDiv, #timeDiv,  #logo, #bestScore{
+	position: fixed;
+	top: 0;
+	margin: 1.5vmin;
+}
+
+#timeDiv{
+	right: 5vmin;
+}
+
+#roundDiv{
+	right: 21vmin;
+}
+
+#points{
+	left: 26vmin;
+}
+
+#bestScore{
+	left: 45vmin;
+}
+
+
+#roundNumber, #timeNumber{
+	margin-left: 2.9vmin;
+}
+
+.arrow{
+	margin: auto;
+	padding: 3vmin 0;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.equal{
+	height: 1.5vmin;
+	opacity: 0.7;
+}
+
+
+
+#numPoints, #numBestScore{
+	margin-left: 0.5vmin;
+}
+
+#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #difficultyDiv, #ok, #next, #newGame, #settingsButton{
+	display: inline-block;
+}
+
+#watch, #checkered{
+	float: left;
+}
+
+#roundNumber, #timeNumber{
+	display: block;
+}
+
+#settingsOkButton{
+	width: 4vmin;
+	height: 2vmin;
+}
+
+#settingsButton{
+	width: 2.5vmin;
+	height: 2.5vmin;
+	opacity: 0.1;
+	cursor: pointer;
+	position: fixed;
+	top: 0;
+	right: 0;
+	margin: 1vmin;
+}
+
+
+
+.difficulty, .numOfPolys{
+	width: 2.9vmin;
+	margin: 0 0.5vmin;
+}
+
+.startDifficulty, .numOfPolys{
+	cursor: pointer;
+}
+
+#difficultyTextEasy, #difficultyTextDifficult{
+	line-height: 2.9vmin;
+}
+
+#congrats{
+	color: hsla(118,80%,40%,1);
+	font-size: 3vmin;
+}
+
+#completedGame{
+	font-size: 2.5vmin;
+}
+
+#copyright{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	font-weight: normal;
+	font-size: 1.8vmin;
+}
+
+.startScreenImg{
+	position: fixed;
+	opacity: 0.1;
+	width: 25vmin;
+	transform: translate(-50%, -50%);
+}
+
+#startImgFolded1{
+	left: 13%;	
+	top: 13%;
+}
+
+#startImgNearlyFolded1{
+	left: 37%;	
+	top: 35%;
+}
+
+#startImgHalfFolded1{
+	left: 60%;	
+	top: 15%;
+}
+
+#startImgNet1{
+	left: 85%;	
+	top: 38%;
+}
+
+#startImgHalfFolded2{
+	left: 15%;	
+	top: 65%;
+}
+
+#startImgNet2{
+	left: 40%;	
+	top: 80%;
+}
+
+#startImgFolded2{
+	left: 60%;	
+	top: 55%;
+}
+
+#startImgNearlyFolded2{
+	left: 80%;	
+	top: 85%;
+}
+
+#dragHint{
+	position: fixed;
+	opacity: 0.3;
+}
+
+#dragIcon{
+	width: 5vmin;
+}
+
+a{
+	cursor: pointer;
+}
+
+#controlsZoomSpeed, #controlsRotationSpeed{
+	width: 20vmin;
+}
+
+
+#controlsZoomSpeed, #controlsZoomEnabled, #controlsRotationSpeed, #hideCursor{
+	margin-left: 2vmin;
+}
+
+#controlsText, #mouseText{
+	line-height: 4vmin;
+}

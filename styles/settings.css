@@ -1,0 +1,34 @@
+#settings{
+	margin: 5vw;
+	color: black;
+	font-size: 1.2vw;
+}
+
+#settings *{
+	margin: 1vw;
+}
+
+#settings select{
+	font-size: 1.0vw;
+	height: 2vw;
+}
+
+#selectNumOfPolys{
+	width: 3vw;
+}
+	
+#selectNumOfRounds{
+	width: 4vw;	
+}
+#selectLanguage{
+	width: 6vw;
+}
+
+#settings button{
+	font-size: 1.0vw;
+}
+
+#settings input[type=checkbox]{
+	width: 1.5vw;
+	height: 1.5vw;
+}
