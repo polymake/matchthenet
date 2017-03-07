@@ -13,23 +13,25 @@ You can switch any pair of nets by moving one over the other.
 
 ------------------------------
 
-# Start the game
+## Start the game
 
 Start the game by opening [index.html](index.html) in your favourite web browser with javascript enabled. There is no installation necessary. 
 
 ------------------------------
 
-# Change settings
+## Change settings
 
 Beside the settings button in the upper right corner during the game, there are several customizable setting variables at the beginning of the file [js/variables.js](js/variables.js).
 
 ------------------------------
 
-# Add new languages
+## Add new languages
 
 The file [js/translation.js](js/translation.js) contains the translations of the occuring terms.
 In this file, the list
-```javascript   var showLanguages = ['en','de'];  ```
+```javascript
+var showLanguages = ['en','de'];
+```
 determines the available languages in the game. The first one sets the default.
 
 To add a new language, just copy the list for english ('en') and change the translation for each term.
