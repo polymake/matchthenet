@@ -38,7 +38,7 @@ To add a new language, just copy the list for english ('en') and change the tran
 
 # License and author information
 
-This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber and the [polymake](https://polymake.org) team is published under [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/3.0/). It can be played at [MatchTheNet](https://matchthenet.de).
+This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber and the [polymake](https://polymake.org) team is published under GPLv3 and CC BY-NC-SA, see [LICENSE.md](LICENSE.md) for details. It can be played at [MatchTheNet](https://matchthenet.de).
 
 You can contact the authors via mail:
 surname ( at ) math.tu-berlin.de
