@@ -513,8 +513,12 @@ function restrictNumOfPolys(on) {
       }
 
    }
-   numOfPolysDivs[1].style.backgroundColor = blueColor;
-   numberOfPolytopes = 3;
+   if (on) {
+      numOfPolysDivs[1].style.backgroundColor = blueColor;
+      numberOfPolytopes = 3;
+   } else {
+      numOfPolysDivs[numberOfPolytopes-2].style.backgroundColor = blueColor;
+   }
 }
 
 function selectDifficulty(event){
