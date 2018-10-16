@@ -26,6 +26,8 @@ function setEventListeners(){
 		}
 	};
 
+	window.oncontextmenu = function(event) { return false; }
+
 	for (var i=0; i<arrows.length; i++){
 		arrows[i].addEventListener('click', swapNets);
 		arrows[i].addEventListener('mousemove', highlightArrow);
