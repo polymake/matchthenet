@@ -3,10 +3,11 @@ polytopeCreators.push(function(divNumber, backgroundColor, zoom, polytopeLineWid
 
 var three = document.getElementById( 'poly' + divNumber );
 var scene = new THREE.Scene();
+scene.background = null;
 var renderer = renderers[divNumber];
 renderer.setSize(rendererWidth, rendererHeight);
 renderer.setPixelRatio( window.devicePixelRatio );
-renderer.setClearColor(backgroundColor, 1);
+//renderer.setClearColor(backgroundColor, 1);
 three.appendChild(renderer.domElement);
 // COMMON_CODE_BLOCK_BEGIN
 

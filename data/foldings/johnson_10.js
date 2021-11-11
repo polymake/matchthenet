@@ -3,10 +3,11 @@ foldingCreators.push(function(divNumber, backgroundColor, zoom, foldingLineWidth
 
 var three = document.getElementById( 'folding' + divNumber );
 var scene = new THREE.Scene();
+scene.background = null;
 var renderer = foldingRenderers[divNumber];
 renderer.setSize(rendererWidth, rendererHeight);
 renderer.setPixelRatio( window.devicePixelRatio );
-renderer.setClearColor(backgroundColor, 1);
+//renderer.setClearColor(backgroundColor, 1);
 three.insertBefore(renderer.domElement, three.childNodes[0]);
 // COMMON_CODE_BLOCK_BEGIN
 
