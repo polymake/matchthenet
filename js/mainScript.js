@@ -131,6 +131,8 @@ function restoreGame(){
 	// show normal gaming screen
 	nextButton.style.display = 'none';
 	solutionButton.style.display = 'none';
+	infoButton.style.display = 'none';
+   hideInfoScreen();
 	okButton.style.display = 'inline-block';
 	resetButton.style.display = 'inline-block';
 	pointsNumber.innerHTML = points;
@@ -194,14 +196,40 @@ function computeDifficulty(round){
 function loadScripts(){
 	polytopeCreators = [];
 	foldingCreators = [];
+   descriptions = [];
+	infoScripts.innerHTML = '';
+   infoContainer.innerHTML = '';
 	polyScripts.innerHTML = '';
 	foldingScripts.innerHTML = '';
 	currScrNum = 0;
 	currFoldingScrNum = 0;
 	appendScript();
 	appendFoldingScript();
+   appendDescriptions();
 }
 
+function appendDescriptions(){
+	for (var i=0; i < numberOfPolytopes; i++){
+		var infoScript = document.createElement('script');
+		infoScript.className = 'infoScript';
+		infoScript.src = 'data/desc/' + dataTuple[i] + '.js';
+		infoScripts.appendChild(infoScript);
+   }
+}
+
+
+function prepareDescriptions(){
+   if (descriptions.length == numberOfPolytopes) {
+      var list = document.createElement('ol');
+      for (var i=0; i < descriptions.length; i++){
+         var infoli = document.createElement('li');
+         infoli.className = 'infoDiv';
+         infoli.innerHTML = descriptions[i];
+         list.appendChild(infoli);
+      }
+      infoContainer.appendChild(list);
+   }
+}
 
 // append script for creating next polytope 
 function appendScript(){
@@ -428,8 +456,29 @@ function showStartScreen(){
 	stopAnimatingPolytopes();
 	stopAnimatingFoldings();
 	hideFoldings();
+   hideInfoScreen();
 	//resetDifficulties();
 	//resetNumOfPolys();
+}
+
+function toggleInfoScreen(){
+   if (infoScreenShown) {
+      hideInfoScreen();
+   } else {
+      showInfoScreen();
+   }
+}
+
+function showInfoScreen(){
+	infoScreen.style.display = 'block';
+   infoButton.innerHTML = translation[language]['Close'];
+   infoScreenShown = true;
+}
+
+function hideInfoScreen(){
+	infoScreen.style.display = 'none';
+   infoButton.innerHTML = translation[language]['Info'];
+   infoScreenShown = false;
 }
 
 function showMoreScreen(){
@@ -665,6 +714,8 @@ function checkMatching(){
 	if (round == numOfRounds){
 		nextButton.innerHTML = translation[language]['Finish'];
 	}
+	infoButton.style.display = 'inline-block';
+	infoButton.innerHTML = translation[language]['Info'];
 	solutionButton.style.display = 'inline-block';
 
 }

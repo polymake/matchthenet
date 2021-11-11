@@ -90,9 +90,14 @@ var hideCursorCheckbox = document.getElementById('hideCursor');
 //the folding mode variables
 var foldingDiv = document.getElementById('folding');
 var nextButton = document.getElementById('next');
+var infoButton = document.getElementById('info');
+var infoScreen = document.getElementById('infoScreen');
+var infoContainer = document.getElementById('infoContainer');
+var infoScreenShown = false;
+var infoScripts = document.getElementById('infoScripts');
+var descriptions = [];
 var solutionButton = document.getElementById('solution');
 var foldingRenderId;
-var foldingScripts = document.getElementById('foldingScripts');
 var closeFoldingButton = document.getElementById('closeFoldingButton');
 var centerButton = document.getElementById('centerButton');
 var foldingRenderIds = new Array(maxNumberOfPolytopes);

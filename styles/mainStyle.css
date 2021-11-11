@@ -36,7 +36,7 @@ body, button{
 	height: 100%;
 }
 
-#moreScreen, #settingsScreen{
+#moreScreen, #settingsScreen, #infoScreen {
 	border: solid 1px;
 	position: fixed;
 	background-color: hsla(0, 100%, 100%, 1);
@@ -50,6 +50,20 @@ body, button{
 	margin: -20vmin -35vmin;
 	width: 70vmin;
 	height: 45vmin;
+}
+
+#infoScreen{
+	left: 50%;
+	top: 70%;
+	width: 80%;
+	height: 45vmin;
+   overflow-x: hidden;
+   overflow-y: auto;
+   transform: translate(-50%, -50%);
+}
+
+.infoDiv {
+   font-size: 2.5vmin;
 }
 
 #settingsScreen{
@@ -261,7 +275,7 @@ button, .buttonType1{
 }
 
 
-#ok, #reset, #solution, #difficultyDiv, #next{
+#ok, #reset, #solution, #difficultyDiv, #next, #info {
 	position: absolute;
 	bottom: 0;
 	margin: 1.5vmin;
@@ -321,9 +335,12 @@ button, .buttonType1{
 	color: white;
 }
 
+#info {
+	right: 12vmin;
+}
 
 #solution{
-	right: 12vmin;
+	right: 24vmin;
 }
 
 #difficultyDiv{
@@ -331,7 +348,7 @@ button, .buttonType1{
 	transform: translate(-50%, 0);
 }
 
-#reset, #newGame, #solution, #more{
+#reset, #newGame, #solution, #more, #info {
 	background-color: hsla(208, 100%, 74%, 1);
 }
 
@@ -394,7 +411,7 @@ button, .buttonType1{
 	margin-left: 0.5vmin;
 }
 
-#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #difficultyDiv, #ok, #next, #newGame, #settingsButton{
+#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #difficultyDiv, #ok, #next, #newGame, #settingsButton, #info {
 	display: inline-block;
 }
 
