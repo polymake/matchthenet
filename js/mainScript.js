@@ -205,21 +205,16 @@ function loadScripts(){
 	currFoldingScrNum = 0;
 	appendScript();
 	appendFoldingScript();
-   appendDescriptions();
+   prepareDescriptions();
 }
-
-function appendDescriptions(){
-	for (var i=0; i < numberOfPolytopes; i++){
-		var infoScript = document.createElement('script');
-		infoScript.className = 'infoScript';
-		infoScript.src = 'data/desc/' + dataTuple[i] + '.js';
-		infoScripts.appendChild(infoScript);
-   }
-}
-
 
 function prepareDescriptions(){
-   if (descriptions.length == numberOfPolytopes) {
+   if (descriptions.length < numberOfPolytopes) {
+		var infoScript = document.createElement('script');
+		infoScript.className = 'infoScript';
+		infoScript.src = 'data/desc/' + dataTuple[descriptions.length] + '.js';
+		infoScripts.appendChild(infoScript);
+   } else if (descriptions.length == numberOfPolytopes) {
       var list = document.createElement('ol');
       for (var i=0; i < descriptions.length; i++){
          var infoli = document.createElement('li');
