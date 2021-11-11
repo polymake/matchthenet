@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<!-- generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-SA 3.0; see polymake.org and matchthenet.de -->
+<!-- generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-ND 3.0; see polymake.org and matchthenet.de -->
 <svg height="841pt" id="document" viewBox="0 -618.000000000003 572 618.000000000003" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title id="document_title">planar_net_</title>
-	<polygon points="241.710235533027,-261.710235533029 353.289764466962,-261.710235533029 353.289764466969,-373.289764466968 241.710235533035,-373.289764466972 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="353.289764466955,-150.130706599085 241.710235533027,-150.130706599089 297.500000000003,-53.5 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="353.289764466955,-150.130706599085 353.289764466962,-261.710235533029 241.710235533027,-261.710235533029 241.710235533027,-150.130706599089 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="130.130706599084,-261.710235533045 130.130706599095,-373.289764466986 33.5,-317.50000000002 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="241.710235533027,-261.710235533029 241.710235533035,-373.289764466972 130.130706599095,-373.289764466986 130.130706599084,-261.710235533045 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="241.710235533043,-484.869293400916 353.289764466975,-484.869293400914 297.499999999999,-581.500000000003 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="464.869293400913,-373.289764466955 464.869293400908,-261.710235533022 561.5,-317.499999999994 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="353.289764466969,-373.289764466968 353.289764466962,-261.710235533029 464.869293400908,-261.710235533022 464.869293400913,-373.289764466955 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="241.710235533035,-373.289764466972 353.289764466969,-373.289764466968 353.289764466975,-484.869293400914 241.710235533043,-484.869293400916 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="241.710235533027,-261.710235533029 353.289764466961,-261.710235533029 353.289764466967,-373.289764466967 241.710235533034,-373.289764466971 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="353.289764466954,-150.130706599086 241.710235533027,-150.13070659909 297.500000000005,-53.5 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="353.289764466954,-150.130706599086 353.289764466961,-261.710235533029 241.710235533027,-261.710235533029 241.710235533027,-150.13070659909 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="130.130706599084,-261.710235533045 130.130706599096,-373.289764466985 33.5,-317.500000000018 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="241.710235533027,-261.710235533029 241.710235533034,-373.289764466971 130.130706599096,-373.289764466985 130.130706599084,-261.710235533045 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="241.710235533043,-484.869293400914 353.289764466974,-484.869293400912 297.499999999997,-581.500000000003 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="464.869293400911,-373.289764466953 464.869293400906,-261.710235533022 561.5,-317.499999999996 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="353.289764466967,-373.289764466967 353.289764466961,-261.710235533029 464.869293400906,-261.710235533022 464.869293400911,-373.289764466953 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="241.710235533034,-373.289764466971 353.289764466967,-373.289764466967 353.289764466974,-484.869293400912 241.710235533043,-484.869293400914 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<circle cx="241.710235533027" cy="-261.710235533029" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="353.289764466962" cy="-261.710235533029" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="353.289764466969" cy="-373.289764466968" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="241.710235533035" cy="-373.289764466972" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="241.710235533027" cy="-150.130706599089" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="353.289764466955" cy="-150.130706599085" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="130.130706599095" cy="-373.289764466986" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="353.289764466961" cy="-261.710235533029" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="353.289764466967" cy="-373.289764466967" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="241.710235533034" cy="-373.289764466971" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="241.710235533027" cy="-150.13070659909" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="353.289764466954" cy="-150.130706599086" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="130.130706599096" cy="-373.289764466985" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="130.130706599084" cy="-261.710235533045" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="464.869293400908" cy="-261.710235533022" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="464.869293400913" cy="-373.289764466955" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="353.289764466975" cy="-484.869293400914" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="241.710235533043" cy="-484.869293400916" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="297.500000000003" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="33.5" cy="-317.50000000002" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="561.5" cy="-317.499999999994" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="297.499999999999" cy="-581.500000000003" r="2" style="fill: rgb(0,0,0)" />
-	<!-- 
-	Generated using the Perl SVG Module V2.64
+	<circle cx="464.869293400906" cy="-261.710235533022" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="464.869293400911" cy="-373.289764466953" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="353.289764466974" cy="-484.869293400912" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="241.710235533043" cy="-484.869293400914" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="297.500000000005" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="33.5" cy="-317.500000000018" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="561.5" cy="-317.499999999996" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="297.499999999997" cy="-581.500000000003" r="2" style="fill: rgb(0,0,0)" />
+	<!--
+	Generated using the Perl SVG Module V2.86
 	by Ronan Oger
 	Info: http://www.roitsystems.com/
- -->
+	-->
 </svg>
