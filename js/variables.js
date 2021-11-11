@@ -100,7 +100,7 @@ var foldingPolytopeRoots= new Array(maxNumberOfPolytopes);
 var foldingCreators;
 var foldingRenderers = [];
 for (var i=0; i<maxNumberOfPolytopes; i++){
-	foldingRenderers.push(Detector.webgl? new THREE.WebGLRenderer({antialias: true}): new THREE.CanvasRenderer({antialias: true}));
+	foldingRenderers.push(new THREE.WebGLRenderer({antialias: true}));
 }
 var foldingControls= Array(maxNumberOfPolytopes);
 var foldingAxes = Array(maxNumberOfPolytopes);
@@ -130,7 +130,7 @@ var polytopeObjects = new Array(maxNumberOfPolytopes);
 var polytopeControls = new Array(maxNumberOfPolytopes);
 var polyRotations = new Array(maxNumberOfPolytopes);
 for (var i=0; i<maxNumberOfPolytopes; i++){
-	renderers.push(Detector.webgl? new THREE.WebGLRenderer({antialias: true}): new THREE.CanvasRenderer({antialias: true}));
+	renderers.push(new THREE.WebGLRenderer({antialias: true}));
 }
 var renderIds = new Array(maxNumberOfPolytopes);
 var polytopeCreators;

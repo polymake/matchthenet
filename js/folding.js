@@ -229,6 +229,8 @@ function rotateVertices(edge, scale, nr){
 function update(){
 	for (var nr=0; nr<numberOfPolytopes; nr++){
 		obj = foldingObjects[nr];
+      obj.userData.updatefaces(obj);
+      obj.userData.updateedges(obj);
 		for (index = 0; index < obj.children.length; ++index) { 
 			if (obj.children[index] instanceof THREE.Line || obj.children[index] instanceof THREE.Mesh) {
 				obj.children[index].geometry.verticesNeedUpdate=true; 
