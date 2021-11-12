@@ -616,6 +616,7 @@ var data = {
 		 ['johnson_77_dual_easy', 'johnson_78_dual_easy', 'johnson_79_dual_easy'],
 
 		 /* NEW TRIPLET MARKER */
+['triplet_distorted-cubes_1_easy', 'triplet_distorted-cubes_2_easy', 'triplet_distorted-cubes_3_easy'], //distorted-cubes-triplet
 ['triplet_rsph_1_easy', 'triplet_rsph_2_easy', 'triplet_rsph_3_easy'], //rsph-triplet
 ['triplet_j48_1_easy', 'triplet_j48_2_easy', 'triplet_j48_3_easy'], //j48-triplet
 
