@@ -68,13 +68,13 @@ var obj0 = new THREE.Object3D();
 obj0.name = "holger-cyclic";
 obj0.userData.explodable = 1;
 obj0.userData.points = [];
-obj0.userData.points.push(new PMPoint(0, 0, 0));
-obj0.userData.points.push(new PMPoint(0.0158806, 0.0158806, 0.0158806));
-obj0.userData.points.push(new PMPoint(0.0317613, 0.0635225, 0.127045));
-obj0.userData.points.push(new PMPoint(0.0476419, 0.142926, 0.428777));
-obj0.userData.points.push(new PMPoint(0.0635225, 0.25409, 1.01636));
-obj0.userData.points.push(new PMPoint(0.0794031, 0.397016, 1.98508));
-obj0.userData.points.push(new PMPoint(0.0952838, 0.571703, 3.43022));
+obj0.userData.points.push(new PMPoint(-0.0476419, -0.206448, -1.00048));
+obj0.userData.points.push(new PMPoint(-0.0317613, -0.190568, -0.984599));
+obj0.userData.points.push(new PMPoint(-0.0158806, -0.142926, -0.873435));
+obj0.userData.points.push(new PMPoint(0, -0.0635225, -0.571703));
+obj0.userData.points.push(new PMPoint(0.0158806, 0.0476419, 0.0158806));
+obj0.userData.points.push(new PMPoint(0.0317613, 0.190568, 0.984599));
+obj0.userData.points.push(new PMPoint(0.0476419, 0.365254, 2.42974));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->

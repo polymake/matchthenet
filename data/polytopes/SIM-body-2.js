@@ -68,16 +68,16 @@ var obj0 = new THREE.Object3D();
 obj0.name = "SIM-body-2";
 obj0.userData.explodable = 1;
 obj0.userData.points = [];
-obj0.userData.points.push(new PMPoint(1.30749, 0, 0));
-obj0.userData.points.push(new PMPoint(1.30749, 0.784492, 0));
-obj0.userData.points.push(new PMPoint(0.784492, 1.30749, 0));
-obj0.userData.points.push(new PMPoint(0.784492, 0, 1.30749));
-obj0.userData.points.push(new PMPoint(1.30749, 0, 0.784492));
-obj0.userData.points.push(new PMPoint(0, 1.30749, 0.784492));
-obj0.userData.points.push(new PMPoint(0, 1.30749, 0));
-obj0.userData.points.push(new PMPoint(0, 0.784492, 1.30749));
-obj0.userData.points.push(new PMPoint(0, 0, 1.30749));
-obj0.userData.points.push(new PMPoint(0, 0, 0));
+obj0.userData.points.push(new PMPoint(0.758342, -0.549144, -0.549144));
+obj0.userData.points.push(new PMPoint(0.758342, 0.235348, -0.549144));
+obj0.userData.points.push(new PMPoint(0.235348, 0.758342, -0.549144));
+obj0.userData.points.push(new PMPoint(0.235348, -0.549144, 0.758342));
+obj0.userData.points.push(new PMPoint(0.758342, -0.549144, 0.235348));
+obj0.userData.points.push(new PMPoint(-0.549144, 0.758342, 0.235348));
+obj0.userData.points.push(new PMPoint(-0.549144, 0.758342, -0.549144));
+obj0.userData.points.push(new PMPoint(-0.549144, 0.235348, 0.758342));
+obj0.userData.points.push(new PMPoint(-0.549144, -0.549144, 0.758342));
+obj0.userData.points.push(new PMPoint(-0.549144, -0.549144, -0.549144));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
