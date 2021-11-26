@@ -65,16 +65,16 @@ PMPoint.prototype.radius = function() {
 // COMMON_CODE_BLOCK_END
 
 var obj0 = new THREE.Object3D();
-obj0.name = "holger-cyclic";
+obj0.name = "cyclic-koebe";
 obj0.userData.explodable = 1;
 obj0.userData.points = [];
-obj0.userData.points.push(new PMPoint(-0.0476419, -0.206448, -1.00048));
-obj0.userData.points.push(new PMPoint(-0.0317613, -0.190568, -0.984599));
-obj0.userData.points.push(new PMPoint(-0.0158806, -0.142926, -0.873435));
-obj0.userData.points.push(new PMPoint(0, -0.0635225, -0.571703));
-obj0.userData.points.push(new PMPoint(0.0158806, 0.0476419, 0.0158806));
-obj0.userData.points.push(new PMPoint(0.0317613, 0.190568, 0.984599));
-obj0.userData.points.push(new PMPoint(0.0476419, 0.365254, 2.42974));
+obj0.userData.points.push(new PMPoint(-1.37468, 0.00772909, 0.972516));
+obj0.userData.points.push(new PMPoint(-0.0608533, -0.63949, 0.092172));
+obj0.userData.points.push(new PMPoint(-0.174594, -0.583457, -0.382075));
+obj0.userData.points.push(new PMPoint(-0.174594, 0.264823, -0.820369));
+obj0.userData.points.push(new PMPoint(0.0890993, 0.713134, -0.0196421));
+obj0.userData.points.push(new PMPoint(0.166628, 0.479049, 0.404834));
+obj0.userData.points.push(new PMPoint(1.62553, -0.388225, 0.206182));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
@@ -82,7 +82,7 @@ obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, si
 obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 2, 3, 0, 4, 3, 4, 0, 5, 4, 5, 0, 6, 1, 6, 2, 6, 3, 6, 4, 6, 5, 6];
    <!-- Edge style -->
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: polytopeLineWidth, transparent: false } );
-obj0.userData.facets = [[4, 0, 5], [1, 0, 2], [2, 0, 3], [4, 3, 0], [4, 6, 3], [3, 6, 2], [6, 1, 2], [6, 0, 1], [5, 0, 6], [4, 5, 6]];
+obj0.userData.facets = [[4, 0, 5], [2, 0, 3], [1, 0, 2], [4, 3, 0], [3, 6, 2], [6, 1, 2], [4, 6, 3], [6, 0, 1], [5, 0, 6], [4, 5, 6]];
    <!-- Facet style -->
 obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),

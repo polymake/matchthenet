@@ -10,6 +10,8 @@ var data = {
 		"collection": [
 		
 			/* NEW LEVEL 1 MARKER */
+                      'cyclic-koebe', 
+                      'cyclic-koebe_easy', 
                       'zono-johnson-solid-91', 
                       'zono-johnson-solid-91_easy', 
                       'zono-johnson-solid-8', 
@@ -76,8 +78,6 @@ var data = {
                       'ModifiedJ62_easy', 
                       'kis-cube', 
                       'kis-cube_easy', 
-                      'holger-cyclic', 
-                      'holger-cyclic_easy', 
                       'F-3D-0016', 
                       'F-3D-0016_easy', 
                       'F-3D-0015', 
