@@ -1,5 +1,0 @@
-descriptions.push(
-   ''
-);
-
-prepareDescriptions();

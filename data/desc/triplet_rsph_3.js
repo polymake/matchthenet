@@ -1,5 +1,5 @@
 descriptions.push(
-   'Random spherical polytope of dimension 3; seed=17510478853191942909; precision=default'
+   'simplicial polytope with 30 vertices, 84 edges and 56 facets'
 );
 
 prepareDescriptions();
