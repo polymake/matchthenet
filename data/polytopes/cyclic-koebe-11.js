@@ -1,14 +1,14 @@
 // generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-ND 3.0; see polymake.org and matchthenet.de
-foldingCreators.push(function(divNumber, backgroundColor, zoom, foldingLineWidth, rendererWidth, rendererHeight){
+polytopeCreators.push(function(divNumber, backgroundColor, zoom, polytopeLineWidth, rendererWidth, rendererHeight){
 
-var three = document.getElementById( 'folding' + divNumber );
+var three = document.getElementById( 'poly' + divNumber );
 var scene = new THREE.Scene();
 scene.background = null;
-var renderer = foldingRenderers[divNumber];
+var renderer = renderers[divNumber];
 renderer.setSize(rendererWidth, rendererHeight);
 renderer.setPixelRatio( window.devicePixelRatio );
 //renderer.setClearColor(backgroundColor, 1);
-three.insertBefore(renderer.domElement, three.childNodes[0]);
+three.appendChild(renderer.domElement);
 // COMMON_CODE_BLOCK_BEGIN
 
 const intervalLength = 25; // for automatic animations
@@ -65,76 +65,30 @@ PMPoint.prototype.radius = function() {
 // COMMON_CODE_BLOCK_END
 
 var obj0 = new THREE.Object3D();
-obj0.name = "planar_net_";
+obj0.name = "cyclic-koebe-11";
 obj0.userData.explodable = 1;
 obj0.userData.points = [];
-obj0.userData.points.push(new PMPoint(0, 0, 0));
-obj0.userData.points.push(new PMPoint(1.90385, 0, 0));
-obj0.userData.points.push(new PMPoint(0.248333, 0.423459, 0));
-obj0.userData.points.push(new PMPoint(-0.0484378, -0.95359, 0));
-obj0.userData.points.push(new PMPoint(-0.543856, 1.93755, 0));
-obj0.userData.points.push(new PMPoint(-0.929447, 1.66155, 0));
-obj0.userData.points.push(new PMPoint(0.733457, -1.50161, 0));
-obj0.userData.points.push(new PMPoint(-1.89404, 0.192916, 0));
-obj0.userData.points.push(new PMPoint(1.11166, 1.51409, 0));
-obj0.userData.points.push(new PMPoint(1.22011, -1.56606, 0));
-obj0.userData.points.push(new PMPoint(-0.278752, -3.11407, 0));
-obj0.userData.points.push(new PMPoint(1.35999, 1.93755, 0));
+obj0.userData.points.push(new PMPoint(-1.8492, 1.22472, 1.33932));
+obj0.userData.points.push(new PMPoint(-0.404731, -0.467669, 0.0336164));
+obj0.userData.points.push(new PMPoint(-0.440099, -0.426231, -0.117416));
+obj0.userData.points.push(new PMPoint(-0.440099, -0.305422, -0.343411));
+obj0.userData.points.push(new PMPoint(-0.296914, -0.0105981, -0.597319));
+obj0.userData.points.push(new PMPoint(0.0990236, 0.406512, -0.554633));
+obj0.userData.points.push(new PMPoint(0.419015, 0.51185, -0.0865754));
+obj0.userData.points.push(new PMPoint(0.449425, 0.343708, 0.291176));
+obj0.userData.points.push(new PMPoint(0.377845, 0.170663, 0.466105));
+obj0.userData.points.push(new PMPoint(0.302631, 0.0485276, 0.538249));
+obj0.userData.points.push(new PMPoint(1.67356, -1.94578, -0.355516));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
-obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 1, 4, 2, 4, 0, 5, 2, 5, 1, 6, 3, 6, 0, 7, 3, 7, 1, 8, 4, 8, 1, 9, 6, 9, 3, 10, 6, 10, 4, 11, 8, 11];
+obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 2, 3, 0, 4, 3, 4, 0, 5, 4, 5, 0, 6, 5, 6, 0, 7, 6, 7, 0, 8, 7, 8, 0, 9, 8, 9, 0, 10, 1, 10, 2, 10, 3, 10, 4, 10, 5, 10, 6, 10, 7, 10, 8, 10, 9, 10];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
-obj0.userData.facets = [[0, 1, 2], [6, 1, 3], [9, 1, 6], [0, 3, 1], [3, 10, 6], [4, 8, 11], [0, 7, 3], [4, 1, 8], [2, 1, 4], [0, 2, 5]];
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: polytopeLineWidth, transparent: false } );
+obj0.userData.facets = [[0, 7, 6], [8, 7, 0], [8, 0, 9], [0, 5, 4], [0, 3, 2], [0, 2, 1], [0, 4, 3], [0, 6, 5], [3, 10, 2], [4, 10, 3], [5, 10, 4], [10, 0, 1], [10, 9, 0], [10, 8, 9], [10, 1, 2], [6, 10, 5], [10, 7, 8], [6, 7, 10]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } )];
-obj0.userData.axes = [[4,8],
-      [6,3],
-      [1,6],
-      [4,1],
-      [3,0],
-      [1,3],
-      [0,2],
-      [2,1],
-      [1,0]];
-
-obj0.userData.angles = [2.27218788510774,
-      1.926012198519,
-      2.21763986052981,
-      2.03512860637482,
-      1.92601267460308,
-      1.92600940541765,
-      2.50926056353816,
-      2.27219072379364,
-      2.21763932450803];
-
-obj0.userData.subtrees = [[11],
-      [10],
-      [9],
-      [8,11],
-      [7],
-      [6,9,10],
-      [5],
-      [4,8,11],
-      [3,6,7,9,10]];
-
-obj0.userData.polytoperoot = [[0.0890992569125735,0.713134000979367,-0.0196420992320149],
-      [-1.58260579140813,16.449799152337,9.36058165577411],
-      [22.9238074215785,-12.1316500881884,25.1952887541091]];
-
-obj0.userData.oldscale = 0;
-foldables.push(obj0);
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 init_object(obj0);
 scene.add(obj0);
 
@@ -456,26 +410,28 @@ var explodeScale = 0;
 var svgElement;
 var renderId;
 
-	var render = function () {
-		foldingRenderIds[divNumber]= requestAnimationFrame(render);
-		control.update();
-		renderer.render(scene, camera);
-	};
+   var initTime = Date.now();
+   var ellapsedTime = 0;
+   var render = function () {
+      if (ellapsedTime < rotationTime){
+         ellapsedTime = Date.now() - initTime;
+         obj0.rotation.x += speedScale('x', ellapsedTime) * rotation('x', divNumber);
+         obj0.rotation.y += speedScale('y', ellapsedTime) * rotation('y', divNumber);
+         obj0.rotation.z += speedScale('z', ellapsedTime) * rotation('z', divNumber);
+      }
+      renderIds[divNumber] = requestAnimationFrame(render);
+      control.update();
+      renderer.render(scene, camera);
+   };
 if ( THREE.WEBGL.isWebGLAvailable() ) {
 	render();
 } else {
 	var warning = WEBGL.getWebGLErrorMessage();
 	three.appendChild( warning );
 }
-   obj0.userData.updatefaces = updateFacesPosition;
-   obj0.userData.updateedges = updateEdgesPosition;
-   foldingSubtrees[divNumber] = obj0.userData.subtrees;
-   foldingAngles[divNumber] = obj0.userData.angles;
-   foldingAxes[divNumber] = obj0.userData.axes;
-   foldingAllpoints[divNumber] = obj0.userData.points;
-   foldingObjects[divNumber] = obj0;
-   foldingControls[divNumber] = controls;
-   foldingCameras[divNumber] = camera;
-   foldingPolytopeRoots[divNumber] = obj0.userData.polytoperoot;
+
+   polytopeObjects[divNumber] = obj0;
+   polytopeControls[divNumber] = controls;
+   polytopeCameras[divNumber] = camera;
 });
-appendFoldingScript();
+appendScript();

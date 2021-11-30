@@ -10,8 +10,6 @@ var data = {
 		"collection": [
 		
 			/* NEW LEVEL 1 MARKER */
-                      'cyclic-koebe', 
-                      'cyclic-koebe_easy', 
                       'zono-johnson-solid-91', 
                       'zono-johnson-solid-91_easy', 
                       'zono-johnson-solid-8', 
@@ -112,6 +110,23 @@ var data = {
                       'F-3D-0001_easy', 
                       'F-3D-0000', 
                       'F-3D-0000_easy', 
+                      'kis-octa', 
+                      'kis-octa_easy', 
+                      'kis-ico', 
+                      'kis-ico_easy', 
+                      'cyclic-koebe-8', 
+                      'cyclic-koebe-8_easy', 
+                      'cyclic-koebe-7', 
+                      'cyclic-koebe-7_easy', 
+                      'cyclic-koebe-6', 
+                      'cyclic-koebe-6_easy', 
+                      'cyclic-koebe-12', 
+                      'cyclic-koebe-12_easy', 
+                      'cyclic-koebe-11', 
+                      'cyclic-koebe-11_easy', 
+                      'cyclic-koebe-10', 
+                      'cyclic-koebe-10_easy', 
+                      
 			/* OLD LEVELS
 			'cube_easy',
 			'cuboctahedron_easy',
@@ -721,6 +736,8 @@ var data = {
 		 ['johnson_77_dual_easy', 'johnson_78_dual_easy', 'johnson_79_dual_easy'],
 
 		 /* NEW TRIPLET MARKER */
+['triplet_kis-plat_1_easy', 'triplet_kis-plat_2_easy', 'triplet_kis-plat_3_easy'], //kis-plat-triplet 
+['triplet_cyclic-koebe-hard_1_easy', 'triplet_cyclic-koebe-hard_2_easy', 'triplet_cyclic-koebe-hard_3_easy'], //cyclic-koebe-hard-triplet 
 ['triplet_SIM-body-triplet_1_easy', 'triplet_SIM-body-triplet_2_easy', 'triplet_SIM-body-triplet_3_easy'], //SIM-body-triplet-triplet
 ['triplet_polytrope-triplet_1_easy', 'triplet_polytrope-triplet_2_easy', 'triplet_polytrope-triplet_3_easy'], //polytrope-triplet-triplet
 ['triplet_AJ-triplet_1_easy', 'triplet_AJ-triplet_2_easy', 'triplet_AJ-triplet_3_easy'], //AJ-triplet-triplet
