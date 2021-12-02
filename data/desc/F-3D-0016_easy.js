@@ -1,5 +1,5 @@
 descriptions.push(
-   'simplicial polytope with 4 vertices, 6 edges and 4 facets'
+   'This is a simplicial polytope with 4 vertices, 6 edges and 4 facets.'
 );
 
 prepareDescriptions();

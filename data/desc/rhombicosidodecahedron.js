@@ -1,5 +1,5 @@
 descriptions.push(
-   'Wythoff polytope of type H3 with rings {0 2}<br/>= rhombicosidodecahedron'
+   'An Archimedean solid named rhombicosidodecahedron. This is a polytope with 60 vertices, 132 edges and 74 facets.'
 );
 
 prepareDescriptions();

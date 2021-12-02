@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J47: Gyroelongated pentagonal cupolarotunda'
+   'Polarized polytope of Johnson solid J47: A simplicial polytope with 47 vertices, 135 edges and 90 facets.'
 );
 
 prepareDescriptions();

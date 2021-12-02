@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Wythoff polytope of type B3 with rings {1}<br/>= cuboctahedron'
+   'Polarized polytope of a cuboctahedron. This is a cubical polytope with 14 vertices, 24 edges and 12 facets.'
 );
 
 prepareDescriptions();

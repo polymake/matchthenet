@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J16: Elongated pentagonal bipyramid'
+   'Polarized polytope of Johnson solid J16: A polytope with 15 vertices, 37 edges and 24 facets.'
 );
 
 prepareDescriptions();

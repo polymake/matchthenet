@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J53: biaugmented pentagonal prism'
+   'Polarized polytope of Johnson solid J53: A simplicial polytope with 13 vertices, 33 edges and 22 facets.'
 );
 
 prepareDescriptions();

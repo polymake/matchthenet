@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J27: Triangular orthobicupola'
+   'Polarized polytope of Johnson solid J27: A polytope with 14 vertices, 30 edges and 18 facets.'
 );
 
 prepareDescriptions();

@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J44: Gyroelongated triangular bicupola'
+   'Polarized polytope of Johnson solid J44: A simplicial polytope with 26 vertices, 72 edges and 48 facets.'
 );
 
 prepareDescriptions();

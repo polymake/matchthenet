@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J60: metabiaugmented dodecahedron'
+   'Polarized polytope of Johnson solid J60: A simplicial polytope with 20 vertices, 54 edges and 36 facets.'
 );
 
 prepareDescriptions();

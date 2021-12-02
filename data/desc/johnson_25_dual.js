@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J25: Gyroelongated pentagonal rotunda'
+   'Polarized polytope of Johnson solid J25: A simplicial polytope with 37 vertices, 105 edges and 70 facets.'
 );
 
 prepareDescriptions();

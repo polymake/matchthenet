@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J11: Gyroelongated pentagonal pyramid'
+   'Polarized polytope of Johnson solid J11: A simplicial polytope with 16 vertices, 42 edges and 28 facets.'
 );
 
 prepareDescriptions();

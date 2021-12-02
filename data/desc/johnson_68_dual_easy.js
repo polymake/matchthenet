@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J68: Augmented truncated dodecahedron'
+   'Polarized polytope of Johnson solid J68: A simplicial polytope with 37 vertices, 105 edges and 70 facets.'
 );
 
 prepareDescriptions();

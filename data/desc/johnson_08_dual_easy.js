@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J8: Elongated square pyramid'
+   'Polarized polytope of Johnson solid J8: A polytope with 9 vertices, 16 edges and 9 facets.'
 );
 
 prepareDescriptions();

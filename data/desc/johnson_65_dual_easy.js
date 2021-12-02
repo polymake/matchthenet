@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J65: Augmented truncated tetrahedron'
+   'Polarized polytope of Johnson solid J65: A polytope with 14 vertices, 27 edges and 15 facets.'
 );
 
 prepareDescriptions();

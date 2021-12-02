@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J33: Pentagonal gyrocupolarotunda'
+   'Polarized polytope of Johnson solid J33: A simplicial polytope with 27 vertices, 75 edges and 50 facets.'
 );
 
 prepareDescriptions();

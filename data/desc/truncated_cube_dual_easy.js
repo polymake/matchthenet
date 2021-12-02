@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Wythoff polytope of type B3 with rings {1 2}<br/>= truncated cube'
+   'Polarized polytope of a truncated cube. This is a simplicial polytope with 14 vertices, 36 edges and 24 facets.'
 );
 
 prepareDescriptions();

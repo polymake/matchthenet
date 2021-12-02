@@ -1,5 +1,5 @@
 descriptions.push(
-   'Tetrahedron with all vertices truncated.'
+   'An Archimedean solid named truncated tetrahedron. This is a simple polytope with 12 vertices, 18 edges and 8 facets.'
 );
 
 prepareDescriptions();

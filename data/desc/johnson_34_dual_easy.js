@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J34: Pentagonal orthobirotunda'
+   'Polarized polytope of Johnson solid J34: A simplicial polytope with 32 vertices, 90 edges and 60 facets.'
 );
 
 prepareDescriptions();

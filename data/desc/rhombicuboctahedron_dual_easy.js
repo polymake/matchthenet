@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Wythoff polytope of type B3 with rings {0 2}<br/>= rhombicuboctahedron'
+   'Polarized polytope of a rhombicuboctahedron. This is a simplicial polytope with 26 vertices, 72 edges and 48 facets.'
 );
 
 prepareDescriptions();

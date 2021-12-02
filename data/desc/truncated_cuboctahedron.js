@@ -1,5 +1,5 @@
 descriptions.push(
-   'Wythoff polytope of type B3 with rings {0 1 2}<br/>= truncated cuboctahedron'
+   'An Archimedean solid named truncated cuboctahedron. This is a simple polytope with 48 vertices, 72 edges and 26 facets.'
 );
 
 prepareDescriptions();

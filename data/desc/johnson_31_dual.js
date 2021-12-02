@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J31: Pentagonal gyrobicupola'
+   'Polarized polytope of Johnson solid J31: A polytope with 22 vertices, 48 edges and 28 facets.'
 );
 
 prepareDescriptions();

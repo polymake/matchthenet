@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a Johnson solid J56: metabiaugmented hexagonal prism'
+   'Polarized polytope of Johnson solid J56: A simplicial polytope with 14 vertices, 36 edges and 24 facets.'
 );
 
 prepareDescriptions();

@@ -1,5 +1,5 @@
 descriptions.push(
-   'Wythoff polytope of type H3 with rings {0 1}<br/>= truncated dodecahedron'
+   'An Archimedean solid named truncated dodecahedron. This is a polytope with 60 vertices, 150 edges and 92 facets.'
 );
 
 prepareDescriptions();
