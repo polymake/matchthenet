@@ -114,8 +114,6 @@ var data = {
                       'F-3D-0001_easy', 
                       'F-3D-0000', 
                       'F-3D-0000_easy', 
-                      'cyclic-koebe-9', 
-                      'cyclic-koebe-9_easy', 
                       'cyclic-koebe-8', 
                       'cyclic-koebe-8_easy', 
                       'cyclic-koebe-7', 
