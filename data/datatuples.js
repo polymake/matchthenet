@@ -10,6 +10,12 @@ var data = {
 		"collection": [
 		
 			/* NEW LEVEL 1 MARKER */
+                      'gem3', 
+                      'gem3_easy', 
+                      'gem2', 
+                      'gem2_easy', 
+                      'gem1', 
+                      'gem1_easy', 
                       'zono-johnson-solid-91', 
                       'zono-johnson-solid-91_easy', 
                       'zono-johnson-solid-8', 
