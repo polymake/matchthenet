@@ -471,6 +471,12 @@ button, .buttonType1{
 	font-size: 1.8vmin;
 }
 
+.background{
+	position: fixed;
+	opacity: 0.2;
+   width: 100%;
+}
+
 .startScreenImg{
 	position: fixed;
 	opacity: 0.1;
