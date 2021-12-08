@@ -87,5 +87,5 @@ license CC BY 3.0
 Checkered icon and Drag Flick icon made by Freepik from www.flaticon.com
 license CC BY 3.0
 
-iconoir:info-empty icon, Copyright (c) 2021 Luca Burgio
+iconoir:info-empty icon by Luca Burgio from https://github.com/lucaburgio/iconoir
 license MIT
