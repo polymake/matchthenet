@@ -72,11 +72,12 @@
 			<footer id=copyright>&copy; 2016 Joswig, Loho, Lorenz, Raber &amp; the polymake team; license GPLv3 / CC BY-NC-SA 3.0</footer>
 
 
-			<div id=moreScreen style='display: none;' class='animated bounceIn'>
+			<div id=moreScreen style='display: none;' class='animated '>
 			  &copy; 2016 <a href="http://www.math.tu-berlin.de/~joswig/" target="_blank">Michael Joswig</a>, Georg Loho, Benjamin Lorenz, Rico Raber &amp; the <a href="http://www.polymake.org/doku.php/team" target="_blank">polymake team</a><br>
            license source: <a href="http://www.gnu.org/licenses/gpl-3.0.txt" title="GPLv3" target="_blank">GPLv3</a>; data and images: <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Creative Commons BY-NC-SA 3.0" target="_blank">CC BY-NC-SA 3.0</a> <br><br>
 			  <div>Stopwatch icon <img src="img/watch.svg" style="border: 0px solid; height: 1.0rem"> made by <a href="http://www.flaticon.com/authors/dario-ferrando" title="Dario Ferrando">Dario Ferrando</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a><br> license <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC BY 3.0</a></div><br>
 			  <div>Checkered icon <img src="img/checkered.svg" style="border: 0px solid; height: 1.0rem"> and Drag Flick icon <img src="img/drag.svg" style="border: 0px solid; height: 1.0rem"> made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a><br> license <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC BY 3.0</a></div><br/>
+			  <div>Iconoir info icon <img src="img/info.svg" style="border: 0px solid; height: 1.0rem"> made by <a href="https://github.com/lucaburgio" title="Luca Burgio">Luca Burgio</a><br> license <a href="https://github.com/lucaburgio/iconoir/blob/master/LICENSE" title="MIT" target="_blank">MIT</a></div><br/>
         <div>JavaScript 3D library <a href="http://threejs.org" target="_blank">three.js</a> made by three.js authors<br/><a href="https://github.com/mrdoob/three.js/blob/master/LICENSE" target="_blank">MIT license </a></div><br/>
         <div>JavaScript drag and drop library <a href="http://interactjs.io"
 						    target="_blank">interact.js</a>
@@ -129,27 +130,52 @@
 			<table id=gameTable>
 
 				<tr id=polytopesRow class='gameTableRow'>
-					<td class='polytope animation' id='poly0'></td>
+					<td class='polytope animation' id='poly0'>
+					<div class='infoHint' id='infoHint0' style='display:none'>
+						<img id='infoIcon' src='img/info.svg' class='notDraggable'>
+					</div>
+					<div class='infoBox' id='infoBox0' style='display:none'></div>
+               </td>
 
 					<td>
 					</td>
 
-					<td class='polytope animation' id='poly1'></td>
+					<td class='polytope animation' id='poly1'>
+					<div class='infoHint' id='infoHint1' style='display:none'>
+						<img id='infoIcon' src='img/info.svg' class='notDraggable'>
+					</div>
+					<div class='infoBox' id='infoBox1' style='display:none'></div>
+               </td>
 
 					<td>
 					</td>
 
-					<td class='polytope animation' id='poly2'></td>
+					<td class='polytope animation' id='poly2'>
+					<div class='infoHint' id='infoHint2' style='display:none'>
+						<img id='infoIcon' src='img/info.svg' class='notDraggable'>
+					</div>
+					<div class='infoBox' id='infoBox2' style='display:none'></div>
+               </td>
 
 					<td>
 					</td>
 
-					<td class='polytope animation' id='poly3' style='display:none'></td>
+					<td class='polytope animation' id='poly3' style='display:none'>
+					<div class='infoHint' id='infoHint3' style='display:none'>
+						<img id='infoIcon' src='img/info.svg' class='notDraggable'>
+					</div>
+					<div class='infoBox' id='infoBox3' style='display:none'></div>
+					</td>
 
 					<td>
 					</td>
 
-					<td class='polytope animation' id='poly4' style='display:none'></td>
+					<td class='polytope animation' id='poly4' style='display:none'>
+               <div class='infoHint' id='infoHint4' style='display:none'>
+                  <img id='infoIcon' src='img/info.svg' class='notDraggable'>
+               </div>
+					<div class='infoBox' id='infoBox4' style='display:none'></div>
+					</td>
 
 				</tr>
 
@@ -270,9 +296,6 @@
 				<div class='buttonType1 bordered' id='solution' style='display:none'>
 				</div>
 
-				<div class='buttonType1 bordered' id='info' style='display:none'>
-				</div>
-
 				<div class='buttonType1 bordered' id='next' style='display:none'>
 				</div>
 
@@ -332,13 +355,6 @@
 
 				<div class='buttonType1 bordered' id='newGame'></div>
 		</div>
-
-      <div id='infoScreen' style='display: none;'>
-         <h2>Information on the current polytopes:</h2>
-         <div id='infoContainer'>
-         </div>
-      </div>
-
 
 		<div id='infoScripts'></div>
 		<div id='polyScripts'></div>

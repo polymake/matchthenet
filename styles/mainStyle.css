@@ -48,8 +48,8 @@ body, button{
 	left: 50%;
 	top: 50%;
 	margin: -20vmin -35vmin;
-	width: 70vmin;
-	height: 45vmin;
+	width: 80vmin;
+	height: 55vmin;
 }
 
 #infoScreen{
@@ -120,6 +120,7 @@ canvas{
 }
 
 .polytope{
+   position: relative;
 }
 
 #gameTable{
@@ -206,7 +207,7 @@ canvas{
 .col2, .col4{
 	margin: 0 1vmin;
 }
-	
+
 
 #gameOverTable tr{
 	line-height: 5vmin;
@@ -275,7 +276,7 @@ button, .buttonType1{
 }
 
 
-#ok, #reset, #solution, #difficultyDiv, #next, #info {
+#ok, #reset, #solution, #next, #info {
 	position: absolute;
 	bottom: 0;
 	margin: 1.5vmin;
@@ -324,7 +325,7 @@ button, .buttonType1{
 }
 
 #closeMoreButton, #closeSettingsButton{
-	left: 50%; 
+	left: 50%;
 	transform: translate(-50%, 0);
 }
 
@@ -340,7 +341,7 @@ button, .buttonType1{
 }
 
 #solution{
-	right: 24vmin;
+	right: 12vmin;
 }
 
 #difficultyDiv{
@@ -411,7 +412,7 @@ button, .buttonType1{
 	margin-left: 0.5vmin;
 }
 
-#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #difficultyDiv, #ok, #next, #newGame, #settingsButton, #info {
+#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #ok, #next, #newGame, #settingsButton, #info {
 	display: inline-block;
 }
 
@@ -485,43 +486,105 @@ button, .buttonType1{
 }
 
 #startImgFolded1{
-	left: 13%;	
+	left: 13%;
 	top: 13%;
 }
 
 #startImgNearlyFolded1{
-	left: 37%;	
+	left: 37%;
 	top: 35%;
 }
 
 #startImgHalfFolded1{
-	left: 60%;	
+	left: 60%;
 	top: 15%;
 }
 
 #startImgNet1{
-	left: 85%;	
+	left: 85%;
 	top: 38%;
 }
 
 #startImgHalfFolded2{
-	left: 15%;	
+	left: 15%;
 	top: 65%;
 }
 
 #startImgNet2{
-	left: 40%;	
+	left: 40%;
 	top: 80%;
 }
 
 #startImgFolded2{
-	left: 60%;	
+	left: 60%;
 	top: 55%;
 }
 
 #startImgNearlyFolded2{
-	left: 80%;	
+	left: 80%;
 	top: 85%;
+}
+
+.infoBox{
+	position: absolute;
+   top: 10%;
+   right: 15%;
+	border: solid 1px;
+	background-color: hsla(0, 100%, 100%, 1);
+	padding: 2vmin;
+	font-weight: normal;
+	width: 30vmin;
+	height: 20vmin;
+   font-size: small;
+	/*margin: -20vmin -35vmin;
+	width: 80%;
+	height: 45vmin;
+   overflow-x: hidden;
+   overflow-y: auto;
+   transform: translate(-50%, -50%);*/
+}
+
+.infoHint {
+	position: absolute;
+   bottom: 3vmin;
+   right: 3vmin;
+}
+.infoHint img {
+	opacity: 0.3;
+}
+
+[data-tooltip]:before {
+    /* needed - do not touch */
+    content: attr(data-tooltip);
+    position: absolute;
+    opacity: 0;
+
+    /* customizable */
+    padding: 10px;
+    width: 30vmin;
+    color: #333;
+    border-radius: 10px;
+    font-size: small;
+}
+
+[data-tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+
+    /* customizable */
+    background: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 100;
+}
+
+[data-tooltip]:not([data-tooltip-persistent]):before {
+    pointer-events: none;
+}
+
+
+#infoIcon {
+   width: 4vmin;
 }
 
 #dragHint{

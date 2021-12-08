@@ -14,12 +14,12 @@ function setEventListeners(){
 	resetButton.addEventListener('click', resetButtonClick);
 	newGameButton.addEventListener('click', newGameButtonClick);
 	nextButton.addEventListener('click', nextRound);
-	infoButton.addEventListener('click', toggleInfoScreen);
+	//infoButton.addEventListener('click', toggleInfoScreen);
 	solutionButton.addEventListener('click', function(){
 		foldingActivated = true;
 		createFoldings();
 		solutionButton.style.display = 'none';
-      hideInfoScreen();
+      //hideInfoScreen();
 	});
 	window.onresize = function(){
 		if (!gameIsOver){
