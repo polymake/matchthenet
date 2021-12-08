@@ -120,6 +120,7 @@ canvas{
 }
 
 .polytope{
+   position: relative;
 }
 
 #gameTable{
@@ -516,6 +517,68 @@ button, .buttonType1{
 #startImgNearlyFolded2{
 	left: 80%;
 	top: 85%;
+}
+
+.infoBox{
+	position: absolute;
+   top: 10%;
+   right: 15%;
+	border: solid 1px;
+	background-color: hsla(0, 100%, 100%, 1);
+	padding: 2vmin;
+	font-weight: normal;
+	width: 30vmin;
+	height: 20vmin;
+   font-size: small;
+	/*margin: -20vmin -35vmin;
+	width: 80%;
+	height: 45vmin;
+   overflow-x: hidden;
+   overflow-y: auto;
+   transform: translate(-50%, -50%);*/
+}
+
+.infoHint {
+	position: absolute;
+   bottom: 3vmin;
+   right: 3vmin;
+}
+.infoHint img {
+	opacity: 0.3;
+}
+
+[data-tooltip]:before {
+    /* needed - do not touch */
+    content: attr(data-tooltip);
+    position: absolute;
+    opacity: 0;
+
+    /* customizable */
+    padding: 10px;
+    width: 30vmin;
+    color: #333;
+    border-radius: 10px;
+    font-size: small;
+}
+
+[data-tooltip]:hover:before {
+    /* needed - do not touch */
+    opacity: 1;
+
+    /* customizable */
+    background: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    z-index: 100;
+}
+
+[data-tooltip]:not([data-tooltip-persistent]):before {
+    pointer-events: none;
+}
+
+
+#infoIcon {
+   width: 4vmin;
 }
 
 #dragHint{

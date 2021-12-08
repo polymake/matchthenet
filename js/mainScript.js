@@ -93,6 +93,21 @@ function startGame(){
 	initialize(1);
 }
 
+function showInfoHint(count){
+	for (var i=0; i<maxNumberOfPolytopes; i++){
+      var hint = document.getElementById('infoHint'+i);
+	   hint.style.display = i < count ? 'block' : 'none';
+      if (i == count-1) {
+         hint.style.right = "unset";
+         hint.style.left = "3vmin";
+      } else {
+         hint.style.left = "unset";
+         hint.style.right = "3vmin";
+      }
+   }
+
+}
+
 function showDragHint(){
 	dragHint.style.display = 'block';
 	switch(numberOfPolytopes){
@@ -139,6 +154,7 @@ function restoreGame(){
 	bestScoreNumber.innerHTML = highscore;
 	addPointsDiv.style.display = 'none';
 	moreScreen.style.display = 'none';
+   showInfoHint(0);
 	interact('.draggable').draggable(true);
 }
 
@@ -215,14 +231,10 @@ function prepareDescriptions(){
 		infoScript.src = 'data/desc/' + dataTuple[descriptions.length] + '.js';
 		infoScripts.appendChild(infoScript);
    } else if (descriptions.length == numberOfPolytopes) {
-      var list = document.createElement('ol');
       for (var i=0; i < descriptions.length; i++){
-         var infoli = document.createElement('li');
-         infoli.className = 'infoDiv';
-         infoli.innerHTML = descriptions[i];
-         list.appendChild(infoli);
+         var div = document.getElementById("infoHint"+i);
+         div.setAttribute("data-tooltip", descriptions[i]);
       }
-      infoContainer.appendChild(list);
    }
 }
 
@@ -713,6 +725,7 @@ function checkMatching(){
    //infoButton.innerHTML = translation[language]['Info'];
 	solutionButton.style.display = 'inline-block';
 
+   showInfoHint(numberOfPolytopes);
 }
 
 
