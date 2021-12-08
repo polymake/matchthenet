@@ -131,8 +131,8 @@ function restoreGame(){
 	// show normal gaming screen
 	nextButton.style.display = 'none';
 	solutionButton.style.display = 'none';
-	infoButton.style.display = 'none';
-   hideInfoScreen();
+	//infoButton.style.display = 'none';
+   //hideInfoScreen();
 	okButton.style.display = 'inline-block';
 	resetButton.style.display = 'inline-block';
 	pointsNumber.innerHTML = points;
@@ -198,7 +198,7 @@ function loadScripts(){
 	foldingCreators = [];
    descriptions = [];
 	infoScripts.innerHTML = '';
-   infoContainer.innerHTML = '';
+   //infoContainer.innerHTML = '';
 	polyScripts.innerHTML = '';
 	foldingScripts.innerHTML = '';
 	currScrNum = 0;
@@ -451,7 +451,7 @@ function showStartScreen(){
 	stopAnimatingPolytopes();
 	stopAnimatingFoldings();
 	hideFoldings();
-   hideInfoScreen();
+   //hideInfoScreen();
 	//resetDifficulties();
 	//resetNumOfPolys();
 }
@@ -709,8 +709,8 @@ function checkMatching(){
 	if (round == numOfRounds){
 		nextButton.innerHTML = translation[language]['Finish'];
 	}
-	infoButton.style.display = 'inline-block';
-	infoButton.innerHTML = translation[language]['Info'];
+   //infoButton.style.display = 'inline-block';
+   //infoButton.innerHTML = translation[language]['Info'];
 	solutionButton.style.display = 'inline-block';
 
 }
