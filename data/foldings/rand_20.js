@@ -123,7 +123,7 @@ obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 4, 5, 1, 6, 5, 6, 1, 
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3], [16, 15, 33, 34, 35], [12, 11, 28, 29, 30, 31, 32], [9, 8, 24, 25, 26, 27], [6, 1, 0, 4, 5], [2, 1, 7, 8, 9], [3, 2, 10, 11, 12], [15, 14, 36, 37, 38], [4, 18, 19, 20, 21, 5], [30, 29, 42, 43, 44], [31, 30, 45], [23, 6, 5, 22], [0, 3, 13, 14, 15, 16, 17], [41, 20, 19, 39, 40]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[31,30],
       [30,29],
       [20,19],
