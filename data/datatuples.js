@@ -3,8 +3,8 @@ var data = {
 	// for testing
 	0: {
 		"collection": [
-		/* NEW LEVEL 1 MARKER */
-		
+		/* NEW LEVEL MARKER */
+				
 		],
 		"tuples": [['johnson_01','johnson_01','johnson_01']]
 		},
@@ -275,6 +275,7 @@ var data = {
 			'truncated_icosidodecahedron_dual_easy',
 			'truncated_octahedron_dual_easy',
 			'truncated_tetrahedron_dual_easy',
+			'gem4_easy',
 			'gem3_easy',
                        'gem1_easy',
 			'cyclic-koebe-12_easy',
@@ -563,6 +564,7 @@ var data = {
 			'truncated_icosidodecahedron_dual',
 			'truncated_octahedron_dual',
 			'truncated_tetrahedron_dual',
+			'gem4',
 			'gem3',
 			'gem1',
 			'cyclic-koebe-12',
@@ -738,6 +740,8 @@ var data = {
 		 ['johnson_77_dual_easy', 'johnson_78_dual_easy', 'johnson_79_dual_easy'],
 
 		 /* NEW TRIPLET MARKER */
+['triplet_gem-triplet-2_1_easy', 'triplet_gem-triplet-2_2_easy', 'triplet_gem-triplet-2_3_easy'], //gem-triplet-2-triplet 
+['triplet_gem-triplet-1_1_easy', 'triplet_gem-triplet-1_2_easy', 'triplet_gem-triplet-1_3_easy'], //gem-triplet-1-triplet 
 ['triplet_zono-johnson-triplet_1_easy', 'triplet_zono-johnson-triplet_2_easy', 'triplet_zono-johnson-triplet_3_easy'], //zono-johnson-triplet-triplet 
 ['triplet_kis-plat_1_easy', 'triplet_kis-plat_2_easy', 'triplet_kis-plat_3_easy'], //kis-plat-triplet 
 ['triplet_cyclic-koebe-hard_1_easy', 'triplet_cyclic-koebe-hard_2_easy', 'triplet_cyclic-koebe-hard_3_easy'], //cyclic-koebe-hard-triplet 
