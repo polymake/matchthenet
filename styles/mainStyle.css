@@ -206,7 +206,7 @@ canvas{
 .col2, .col4{
 	margin: 0 1vmin;
 }
-	
+
 
 #gameOverTable tr{
 	line-height: 5vmin;
@@ -275,7 +275,7 @@ button, .buttonType1{
 }
 
 
-#ok, #reset, #solution, #difficultyDiv, #next, #info {
+#ok, #reset, #solution, #next, #info {
 	position: absolute;
 	bottom: 0;
 	margin: 1.5vmin;
@@ -324,7 +324,7 @@ button, .buttonType1{
 }
 
 #closeMoreButton, #closeSettingsButton{
-	left: 50%; 
+	left: 50%;
 	transform: translate(-50%, 0);
 }
 
@@ -479,42 +479,42 @@ button, .buttonType1{
 }
 
 #startImgFolded1{
-	left: 13%;	
+	left: 13%;
 	top: 13%;
 }
 
 #startImgNearlyFolded1{
-	left: 37%;	
+	left: 37%;
 	top: 35%;
 }
 
 #startImgHalfFolded1{
-	left: 60%;	
+	left: 60%;
 	top: 15%;
 }
 
 #startImgNet1{
-	left: 85%;	
+	left: 85%;
 	top: 38%;
 }
 
 #startImgHalfFolded2{
-	left: 15%;	
+	left: 15%;
 	top: 65%;
 }
 
 #startImgNet2{
-	left: 40%;	
+	left: 40%;
 	top: 80%;
 }
 
 #startImgFolded2{
-	left: 60%;	
+	left: 60%;
 	top: 55%;
 }
 
 #startImgNearlyFolded2{
-	left: 80%;	
+	left: 80%;
 	top: 85%;
 }
 
