@@ -411,7 +411,7 @@ button, .buttonType1{
 	margin-left: 0.5vmin;
 }
 
-#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #difficultyDiv, #ok, #next, #newGame, #settingsButton, #info {
+#scoreWord, #bestScoreWord, #numPoints, #reset, #solution, #ok, #next, #newGame, #settingsButton, #info {
 	display: inline-block;
 }
 
