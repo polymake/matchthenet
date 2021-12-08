@@ -541,7 +541,7 @@ button, .buttonType1{
 .infoHint {
 	position: absolute;
    bottom: 3vmin;
-   right: 3vmin;
+   left: 3vmin;
 }
 .infoHint img {
 	opacity: 0.3;

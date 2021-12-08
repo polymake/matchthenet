@@ -97,13 +97,6 @@ function showInfoHint(count){
 	for (var i=0; i<maxNumberOfPolytopes; i++){
       var hint = document.getElementById('infoHint'+i);
 	   hint.style.display = i < count ? 'block' : 'none';
-      if (i == count-1) {
-         hint.style.right = "unset";
-         hint.style.left = "3vmin";
-      } else {
-         hint.style.left = "unset";
-         hint.style.right = "3vmin";
-      }
    }
 
 }
