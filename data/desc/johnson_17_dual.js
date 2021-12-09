@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J17: A polytope with 16 vertices, 40 edges and 26 facets.'
+   'Polarized polytope of Johnson solid J17: A simple polytope with 16 vertices, 24 edges and 10 facets.'
 );
 
 prepareDescriptions();

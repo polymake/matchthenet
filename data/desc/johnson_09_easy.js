@@ -1,5 +1,5 @@
 descriptions.push(
-   'Johnson solid J9: A polytope with 11 vertices, 25 edges and 16 facets.'
+   'Johnson solid J9: A polytope with 11 vertices, 20 edges and 11 facets.'
 );
 
 prepareDescriptions();

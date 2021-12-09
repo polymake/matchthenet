@@ -1,5 +1,5 @@
 descriptions.push(
-   'This is a polytope with 32 vertices, 84 edges and 54 facets.'
+   'This is a cubical polytope with 32 vertices, 60 edges and 30 facets.'
 );
 
 prepareDescriptions();

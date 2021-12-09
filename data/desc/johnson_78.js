@@ -1,5 +1,5 @@
 descriptions.push(
-   'Johnson solid J78: A polytope with 55 vertices, 143 edges and 90 facets.'
+   'Johnson solid J78: A polytope with 55 vertices, 105 edges and 52 facets.'
 );
 
 prepareDescriptions();

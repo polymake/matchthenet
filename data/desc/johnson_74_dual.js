@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J74: A simplicial polytope with 62 vertices, 180 edges and 120 facets.'
+   'Polarized polytope of Johnson solid J74: A cubical polytope with 62 vertices, 120 edges and 60 facets.'
 );
 
 prepareDescriptions();

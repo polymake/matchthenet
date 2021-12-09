@@ -1,5 +1,5 @@
 descriptions.push(
-   'A platonic solid named dodecahedron. This is a polytope with 20 vertices, 42 edges and 24 facets.'
+   'A platonic solid named dodecahedron. This is a simple polytope with 20 vertices, 30 edges and 12 facets.'
 );
 
 prepareDescriptions();

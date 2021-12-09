@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a snub cube. This is a simplicial polytope with 38 vertices, 108 edges and 72 facets.'
+   'Polarized polytope of a snub cube. This is a polytope with 38 vertices, 60 edges and 24 facets.'
 );
 
 prepareDescriptions();

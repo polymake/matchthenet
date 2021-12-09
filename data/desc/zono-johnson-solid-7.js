@@ -1,5 +1,5 @@
 descriptions.push(
-   'This is a polytope with 38 vertices, 90 edges and 54 facets.'
+   'This is a polytope with 38 vertices, 66 edges and 30 facets.'
 );
 
 prepareDescriptions();

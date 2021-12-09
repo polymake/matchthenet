@@ -1,5 +1,5 @@
 descriptions.push(
-   'Johnson solid J44: A polytope with 18 vertices, 45 edges and 29 facets.'
+   'Johnson solid J44: A polytope with 18 vertices, 42 edges and 26 facets.'
 );
 
 prepareDescriptions();

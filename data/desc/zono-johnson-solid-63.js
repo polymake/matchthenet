@@ -1,5 +1,5 @@
 descriptions.push(
-   'This is a simplicial polytope with 68 vertices, 198 edges and 132 facets.'
+   'This is a polytope with 68 vertices, 126 edges and 60 facets.'
 );
 
 prepareDescriptions();

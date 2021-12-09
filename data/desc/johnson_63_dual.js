@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J63: A simplicial polytope with 8 vertices, 18 edges and 12 facets.'
+   'Polarized polytope of Johnson solid J63: A polytope with 8 vertices, 15 edges and 9 facets.'
 );
 
 prepareDescriptions();

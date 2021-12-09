@@ -1,5 +1,5 @@
 descriptions.push(
-   'Johnson solid J64: A simplicial polytope with 10 vertices, 24 edges and 16 facets.'
+   'Johnson solid J64: A polytope with 10 vertices, 18 edges and 10 facets.'
 );
 
 prepareDescriptions();
