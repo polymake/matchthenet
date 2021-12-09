@@ -567,7 +567,9 @@ button, .buttonType1{
     font-size: small;
 }
 
-[data-tooltip]:hover:before {
+[data-tooltip]:hover:before,
+[data-tooltip]:active:before,
+[data-tooltop]:focus:before {
     /* needed - do not touch */
     opacity: 1;
 
