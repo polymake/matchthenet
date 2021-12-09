@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J29: A polytope with 18 vertices, 36 edges and 20 facets.'
+   lang = { "en": "Polarized polytope of Johnson solid J29: It is a simple polytope with 18 vertices, 32 edges and 16 facets.", "de": "Duales Polytop des Johnson-Koerpers J29: Es ist ein kubisches Polytop mit 18 Ecken, 32 Kanten und 16 Seiten."}
 );
 
 prepareDescriptions();

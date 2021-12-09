@@ -1,5 +1,5 @@
 descriptions.push(
-   'This is a simplicial polytope with 14 vertices, 36 edges and 24 facets.'
+   lang = { "en": "It is a simplicial polytope with 14 vertices, 36 edges and 24 facets.", "de": "Es ist ein simpliziales Polytop mit 14 Ecken, 36 Kanten und 24 Seiten."}
 );
 
 prepareDescriptions();

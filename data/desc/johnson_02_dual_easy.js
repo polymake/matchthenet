@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J2: A polytope with 6 vertices, 11 edges and 7 facets.'
+   lang = { "en": "Polarized polytope of Johnson solid J2: It is a polytope with 6 vertices, 10 edges and 6 facets.", "de": "Duales Polytop des Johnson-Koerpers J2: Es ist ein Polytop mit 6 Ecken, 10 Kanten und 6 Seiten."}
 );
 
 prepareDescriptions();

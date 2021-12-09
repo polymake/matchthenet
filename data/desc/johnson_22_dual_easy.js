@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J22: A simplicial polytope with 20 vertices, 54 edges and 36 facets.'
+   lang = { "en": "Polarized polytope of Johnson solid J22: It is a polytope with 20 vertices, 33 edges and 15 facets.", "de": "Duales Polytop des Johnson-Koerpers J22: Es ist ein Polytop mit 20 Ecken, 33 Kanten und 15 Seiten."}
 );
 
 prepareDescriptions();

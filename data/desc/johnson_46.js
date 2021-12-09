@@ -1,5 +1,5 @@
 descriptions.push(
-   'Johnson solid J46: A polytope with 30 vertices, 83 edges and 55 facets.'
+   lang = { "en": "This is a Johnson solid named J46. It is a polytope with 30 vertices, 70 edges and 42 facets.", "de": "Dies ist ein Johnson-Koerper namens J46. Es ist ein Polytop mit 30 Ecken, 70 Kanten und 42 Seiten."}
 );
 
 prepareDescriptions();

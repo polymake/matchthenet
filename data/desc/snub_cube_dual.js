@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of a snub cube. This is a simplicial polytope with 38 vertices, 108 edges and 72 facets.'
+   lang = { "en": "Polarized polytope of a snub cube: It is a polytope with 38 vertices, 60 edges and 24 facets.", "de": "Duales Polytop des snub cube.: Es ist ein Polytop mit 38 Ecken, 60 Kanten und 24 Seiten."}
 );
 
 prepareDescriptions();

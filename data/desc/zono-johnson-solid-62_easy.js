@@ -1,5 +1,5 @@
 descriptions.push(
-   'This is a polytope with 86 vertices, 240 edges and 156 facets.'
+   lang = { "en": "It is a polytope with 86 vertices, 164 edges and 80 facets.", "de": "Es ist ein Polytop mit 86 Ecken, 164 Kanten und 80 Seiten."}
 );
 
 prepareDescriptions();

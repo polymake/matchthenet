@@ -1,5 +1,5 @@
 descriptions.push(
-   'Polarized polytope of Johnson solid J69: A simplicial polytope with 42 vertices, 120 edges and 80 facets.'
+   lang = { "en": "Polarized polytope of Johnson solid J69: It is a polytope with 42 vertices, 110 edges and 70 facets.", "de": "Duales Polytop des Johnson-Koerpers J69: Es ist ein Polytop mit 42 Ecken, 110 Kanten und 70 Seiten."}
 );
 
 prepareDescriptions();
