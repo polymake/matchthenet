@@ -226,7 +226,16 @@ function prepareDescriptions(){
    } else if (descriptions.length == numberOfPolytopes) {
       for (var i=0; i < descriptions.length; i++){
          var div = document.getElementById("infoHint"+i);
-         div.setAttribute("data-tooltip", descriptions[i]);
+         var desc = descriptions[i];
+         if (typeof(desc) == "string") {
+            div.setAttribute("data-tooltip", desc);
+         } else {
+            if (language in desc) {
+               div.setAttribute("data-tooltip", desc[language]);
+            } else {
+               div.setAttribute("data-tooltip", desc["en"]);
+            }
+         }
       }
    }
 }
