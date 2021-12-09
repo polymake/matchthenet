@@ -159,7 +159,7 @@ obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 1, 5, 4, 5, 1, 6, 6, 
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3], [5, 1, 0, 4], [2, 1, 6, 7, 8], [0, 3, 9, 10], [16, 1, 5, 14, 15], [3, 2, 11, 12, 13], [0, 17, 18, 4], [3, 28, 29, 30, 9], [21, 5, 4, 19, 20], [0, 10, 31, 32], [44, 4, 18, 42, 43], [10, 9, 33, 34, 35], [10, 56, 57, 58, 31], [17, 45, 46, 47, 18], [32, 31, 59, 60, 61], [7, 6, 22, 23, 24], [15, 14, 39, 40, 41], [8, 7, 25, 26, 27], [13, 12, 36, 37, 38], [20, 19, 48, 49, 50], [43, 42, 69, 70, 71], [29, 53, 54, 55, 30], [35, 34, 62, 63, 64], [45, 72, 73, 74, 46], [57, 75, 76, 77, 58], [24, 23, 51, 52], [37, 36, 65, 66], [62, 78, 79, 63], [68, 67, 80, 81], [41, 40, 67, 68]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x7B211F, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x2A6B3D, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[68,67],
       [63,62],
       [58,57],

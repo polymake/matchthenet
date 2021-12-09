@@ -3,8 +3,8 @@
 <!-- generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-ND 3.0; see polymake.org and matchthenet.de -->
 <svg height="841pt" id="document" viewBox="0 -811 566.185905707432 811" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title id="document_title">planar_net_</title>
-	<polygon points="159.690081383446,-432.870382385029 429.495824323989,-432.870382385029 294.59295285372,-666.529009858475 " style="fill: rgb(123,33,31); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="294.59295285372,-53.5 429.495824323988,-287.158627473457 159.690081383446,-287.158627473449 " style="fill: rgb(123,33,31); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="159.690081383446,-432.870382385029 429.495824323989,-432.870382385029 294.59295285372,-666.529009858475 " style="fill: rgb(42,107,61); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="294.59295285372,-53.5 429.495824323988,-287.158627473457 159.690081383446,-287.158627473449 " style="fill: rgb(42,107,61); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="512.106624308596,-360.014504929242 77.0792813988387,-360.014504929239 159.690081383446,-287.158627473449 429.495824323988,-287.158627473457 " style="fill: rgb(157,116,59); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="55.2896406994137,-397.75526969928 272.803312154306,-774.5 168.402871470283,-739.384887314271 33.5,-505.726259840792 " style="fill: rgb(157,116,59); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="316.382593553114,-774.499999999993 533.896265008019,-397.755269699299 555.685905707432,-505.72625984082 420.78303423712,-739.38488731426 " style="fill: rgb(157,116,59); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />

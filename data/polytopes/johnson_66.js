@@ -105,7 +105,7 @@ obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 0, 7, 6, 7, 8, 
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: polytopeLineWidth, transparent: false } );
 obj0.userData.facets = [[2, 1, 16], [0, 1, 2, 3, 4, 5, 6, 7], [18, 0, 7], [11, 25, 27, 12], [3, 22, 4], [13, 12, 27], [6, 5, 20], [14, 21, 13], [14, 13, 27, 26], [15, 14, 26], [22, 23, 12, 13, 21, 20, 5, 4], [19, 18, 7, 6, 20, 21, 14, 15], [23, 11, 12], [24, 26, 27, 25], [8, 19, 15], [8, 15, 26, 24], [11, 10, 25], [9, 8, 24], [9, 24, 25, 10], [17, 9, 10], [2, 16, 17, 10, 11, 23, 22, 3], [16, 1, 0, 18, 19, 8, 9, 17]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x3D5132, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 init_object(obj0);
 scene.add(obj0);
 
