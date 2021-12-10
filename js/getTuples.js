@@ -29,13 +29,12 @@ function getTuple(round, difficulty){
 				}
 			} 
 		}
-		// get the data from the predefined tuples if no data in collection
-		else{
-			tuple = tuples[randomNumber(tuples.length)];
-		}
-	
-	return tuple
 	}
+		// get the data from the predefined tuples if no data in collection
+	else{
+		tuple = tuples[randomNumber(tuples.length)];
+	}	
+	return tuple	
 }
 			
 
