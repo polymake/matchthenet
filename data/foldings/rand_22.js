@@ -123,7 +123,7 @@ obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 4, 5, 5, 6, 1, 7, 6, 
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3], [7, 1, 0, 4, 5, 6], [10, 9, 28, 29], [21, 20, 40, 41, 42, 43], [22, 7, 6, 19, 20, 21], [8, 30, 31, 32, 9], [3, 2, 8, 9, 10, 11], [20, 19, 44, 45], [2, 1, 12, 13, 14, 15], [14, 13, 38, 39], [6, 5, 23, 24, 25], [4, 26, 27, 5], [0, 3, 16, 17, 18], [11, 10, 33, 34, 35, 36, 37]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[20,19],
       [21,20],
       [14,13],
@@ -167,7 +167,7 @@ obj0.userData.subtrees = [[44,45],
       [4,5,6,7,19,20,21,22,23,24,25,26,27,40,41,42,43,44,45]];
 
 obj0.userData.polytoperoot = [[0.159364396258628,-0.408838018598047,-1.09202880629441],
-      [0.0728649440414369,0.329538635262007,-1.02846723310122],
+      [0.072864944041437,0.329538635262007,-1.02846723310122],
       [1.18656236329581,0.577144685672526,0.268992791762809]];
 
 obj0.userData.oldscale = 0;

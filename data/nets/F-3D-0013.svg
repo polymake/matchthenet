@@ -7,7 +7,7 @@
 	<polygon points="540.499397350249,-313.150632782219 489.799457615225,-384.851175166982 33.5,-384.851175166982 236.299758940141,-98.0490056278966 " style="fill: rgb(186,59,38); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="337.699638410155,-599.952802321296 489.799457615225,-384.851175166982 561.5,-435.551114902006 409.400180794918,-650.652742056319 " style="fill: rgb(186,59,38); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="495.950391722376,-53.5 540.499397350249,-313.150632782219 236.299758940141,-98.0490056278966 " style="fill: rgb(186,59,38); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="33.5,-384.851175166982 337.699638410155,-599.952802321296 352.549306952804,-686.503013248715 92.8986741705621,-731.052018876626 " style="fill: rgb(186,59,38); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="33.5,-384.851175166982 337.699638410155,-599.952802321296 352.549306952805,-686.503013248715 92.8986741705624,-731.052018876626 " style="fill: rgb(186,59,38); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<circle cx="33.5" cy="-384.851175166982" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="489.799457615225" cy="-384.851175166982" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="337.699638410155" cy="-599.952802321296" r="2" style="fill: rgb(0,0,0)" />
@@ -15,11 +15,11 @@
 	<circle cx="540.499397350249" cy="-313.150632782219" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="561.5" cy="-435.551114902006" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="409.400180794918" cy="-650.652742056319" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="352.549306952804" cy="-686.503013248715" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="92.8986741705621" cy="-731.052018876626" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="352.549306952805" cy="-686.503013248715" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="92.8986741705624" cy="-731.052018876626" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="495.950391722376" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
 	<!--
-	Generated using the Perl SVG Module V2.84
+	Generated using the Perl SVG Module V2.86
 	by Ronan Oger
 	Info: http://www.roitsystems.com/
 	-->
