@@ -3,6 +3,8 @@
 Copyright (c) 2016-2017 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
 
 ## data files ```(data/* img/*)```
+	
+Most of the polytopes are produced by polymake automatically. Some additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
 
 license [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 

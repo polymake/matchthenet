@@ -42,5 +42,7 @@ To add a new language, just copy the list for english ('en') and change the tran
 
 This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber and the [polymake](https://polymake.org) team is published under GPLv3 and CC BY-NC-SA, see [LICENSE.md](LICENSE.md) for details. It can be played at [MatchTheNet](https://matchthenet.de).
 
+Additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
+
 You can contact the authors via mail:
 surname ( at ) math.tu-berlin.de

@@ -49,7 +49,7 @@ body, button{
 	top: 50%;
 	margin: -20vmin -35vmin;
 	width: 80vmin;
-	height: 55vmin;
+	height: 58vmin;
 }
 
 #infoScreen{
@@ -325,7 +325,7 @@ button, .buttonType1{
 }
 
 #closeMoreButton, #closeSettingsButton{
-	left: 50%;
+	left: 53%;
 	transform: translate(-50%, 0);
 }
 
