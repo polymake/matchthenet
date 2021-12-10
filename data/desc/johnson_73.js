@@ -1,5 +1,5 @@
 descriptions.push(
-   lang = { "en": "This is a Johnson solid named J73. It is a polytope with 60 vertices, 120 edges and 62 facets.", "de": "Dies ist ein Johnson-Körper namens J73. Es ist ein Polytop mit 60 Ecken, 120 Kanten und 62 Seiten."}
+   lang = { "en": "This is a Johnson solid named J73: A polytope with 60 vertices, 120 edges and 62 facets.", "de": "Dies ist ein Johnson-Körper namens J73: Ein Polytop mit 60 Ecken, 120 Kanten und 62 Seiten."}
 );
 
 prepareDescriptions();

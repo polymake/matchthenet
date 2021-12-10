@@ -1,5 +1,5 @@
 descriptions.push(
-   lang = { "en": "Polarized polytope of Johnson solid J80: It is a polytope with 42 vertices, 90 edges and 50 facets.", "de": "Duales Polytop des Johnson-Körper J80: Es ist ein Polytop mit 42 Ecken, 90 Kanten und 50 Seiten."}
+   lang = { "en": "Polarized polytope of Johnson solid J80: A polytope with 42 vertices, 90 edges and 50 facets.", "de": "Duales Polytop des Johnson-Körpers J80: Ein Polytop mit 42 Ecken, 90 Kanten und 50 Seiten."}
 );
 
 prepareDescriptions();
