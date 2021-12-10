@@ -165,7 +165,10 @@ var data = {
                        'zono-johnson-solid-12_easy',
                        'zono-johnson-solid-1_easy'
 		],
-		"tuples": []
+		"tuples": [
+		['triplet_gem-triplet-2_1_easy', 'triplet_gem-triplet-2_2_easy', 'triplet_gem-triplet-2_3_easy'], //gem-triplet-2-triplet 
+		['triplet_gem-triplet-1_1_easy', 'triplet_gem-triplet-1_2_easy', 'triplet_gem-triplet-1_3_easy'], //gem-triplet-1-triplet 
+		]
 	},
 
 	2: {
@@ -454,7 +457,10 @@ var data = {
                        'zono-johnson-solid-12',
                        'zono-johnson-solid-1'
 		],
-		"tuples": []
+		"tuples": [
+		['triplet_gem-triplet-2_1', 'triplet_gem-triplet-2_2', 'triplet_gem-triplet-2_3'], //gem-triplet-2-triplet 
+		['triplet_gem-triplet-1_1', 'triplet_gem-triplet-1_2', 'triplet_gem-triplet-1_3'], //gem-triplet-1-triplet 
+		]
 	},
 
 	4: {
@@ -740,8 +746,6 @@ var data = {
 		 ['johnson_77_dual_easy', 'johnson_78_dual_easy', 'johnson_79_dual_easy'],
 
 		 /* NEW TRIPLET MARKER */
-['triplet_gem-triplet-2_1_easy', 'triplet_gem-triplet-2_2_easy', 'triplet_gem-triplet-2_3_easy'], //gem-triplet-2-triplet 
-['triplet_gem-triplet-1_1_easy', 'triplet_gem-triplet-1_2_easy', 'triplet_gem-triplet-1_3_easy'], //gem-triplet-1-triplet 
 ['triplet_zono-johnson-triplet_1_easy', 'triplet_zono-johnson-triplet_2_easy', 'triplet_zono-johnson-triplet_3_easy'], //zono-johnson-triplet-triplet 
 ['triplet_kis-plat_1_easy', 'triplet_kis-plat_2_easy', 'triplet_kis-plat_3_easy'], //kis-plat-triplet 
 ['triplet_cyclic-koebe-hard_1_easy', 'triplet_cyclic-koebe-hard_2_easy', 'triplet_cyclic-koebe-hard_3_easy'], //cyclic-koebe-hard-triplet 
