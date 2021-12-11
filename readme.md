@@ -40,7 +40,7 @@ To add a new language, just copy the list for english ('en') and change the tran
 
 # License and author information
 
-This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber and the [polymake](https://polymake.org) team is published under GPLv3 and CC BY-NC-SA, see [LICENSE.md](LICENSE.md) for details. It can be played at [MatchTheNet](https://matchthenet.de).
+This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan Yürük and the [polymake](https://polymake.org) team is published under GPLv3 and CC BY-NC-SA, see [LICENSE.md](LICENSE.md) for details. It can be played at [MatchTheNet](https://matchthenet.de).
 
 Additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
 
