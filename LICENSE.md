@@ -1,6 +1,6 @@
 # MatchTheNet
 
-Copyright (c) 2016-2017 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
+Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
 
 ## data files ```(data/* img/*)```
 	
@@ -11,7 +11,7 @@ license [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 ## source ```(js/* styles/* index.html)```
 
     MatchTheNet
-    Copyright (c) 2016-2017 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
+    Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan Yürük & the polymake team
     
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
