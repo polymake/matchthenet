@@ -4,7 +4,7 @@ Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber,
 
 ## data files ```(data/* img/*)```
 	
-Most of the polytopes are produced by polymake automatically. Some additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
+Most of the polytopes are produced by polymake automatically. Some additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz. The background image of christmas edition is contributed by Lars Kastner and Antje Schulz.
 
 license [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 

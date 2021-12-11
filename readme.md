@@ -44,5 +44,7 @@ This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan
 
 Additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
 
+The background image of the christmas edition is contributed by Lars Kastner and Antje Schulz.
+
 You can contact the authors via mail:
 surname ( at ) math.tu-berlin.de
