@@ -1,6 +1,6 @@
 # MatchTheNet
 
-Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
+Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan Yürük & the polymake team
 
 ## data files ```(data/* img/*)```
 	
