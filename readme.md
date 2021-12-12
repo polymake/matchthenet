@@ -42,7 +42,9 @@ To add a new language, just copy the list for english ('en') and change the tran
 
 This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan Yürük and the [polymake](https://polymake.org) team is published under GPLv3 and CC BY-NC-SA, see [LICENSE.md](LICENSE.md) for details. It can be played at [MatchTheNet](https://matchthenet.de).
 
-Additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
+Contributions by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Antje Schulz, Sylvain Spitz.
+
+[Original publication](https://drops.dagstuhl.de/opus/volltexte/2017/7243/) in the proceedings of the 33rd International Symposium on Computational Geometry (SoCG 2017).
 
 You can contact the authors via mail:
 surname ( at ) math.tu-berlin.de
