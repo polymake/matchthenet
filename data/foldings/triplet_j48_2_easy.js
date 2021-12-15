@@ -259,11 +259,11 @@ obj0.userData.axes = [[70,69],
       [3,2],
       [1,0]];
 
-obj0.userData.angles = [2.48923451380541,
+obj0.userData.angles = [2.48923451380542,
       2.48923451380543,
       2.48923451380543,
       2.77832866619901,
-      2.48923451380543,
+      2.48923451380542,
       3.04445334360208,
       2.77832866619901,
       2.48923451380542,
@@ -272,7 +272,7 @@ obj0.userData.angles = [2.48923451380541,
       2.48923451380542,
       2.77832866619902,
       2.76951626538485,
-      3.0444533436021,
+      3.04445334360209,
       2.48923451380543,
       2.76951626538485,
       2.77832866619901,
@@ -284,7 +284,7 @@ obj0.userData.angles = [2.48923451380541,
       2.48923451380542,
       2.77832866619903,
       2.77832866619903,
-      2.48923451380542,
+      2.48923451380541,
       3.04445334360211,
       3.04445334360209,
       2.76951626538485,
@@ -364,8 +364,8 @@ obj0.userData.subtrees = [[77],
       [5,10,11,12,13,23,24,25,26,36,37,38,39,40,41,52,53,54,55,56,57,65,66,67,68,74,75,76]];
 
 obj0.userData.polytoperoot = [[-0.851648838080879,0.0575205977984486,0.360850594160193],
-      [-6.87384483426462,2.92362083237684,1.80689704462615],
-      [0.587785252292479,3.12662702088012,-2.82292081242804]];
+      [-6.87384483426461,2.92362083237683,1.80689704462615],
+      [0.587785252292476,3.12662702088012,-2.82292081242804]];
 
 obj0.userData.oldscale = 0;
 foldables.push(obj0);
@@ -594,6 +594,8 @@ function init_faces(obj) {
 
     var materials = obj.userData.facetmaterial;
     var geometry = new THREE.BufferGeometry();
+    var frontmaterials = [];
+    var backmaterials = [];
     geometry.setAttribute('position',bufattr);
     if (Array.isArray(materials)) {
         var tricount = 0;
@@ -603,10 +605,30 @@ function init_faces(obj) {
             geometry.addGroup(tricount,(facet.length-2)*3,i);
             tricount += (facet.length-2)*3;
         }
+        for (var j=0; j<materials.length; j++) {
+            var fmat = materials[j].clone()
+            fmat.side = THREE.FrontSide;
+            frontmaterials.push(fmat);
+            var bmat = materials[j].clone()
+            bmat.side = THREE.BackSide;
+            backmaterials.push(bmat);
+        }
+    } else if (materials instanceof THREE.Material) {
+        frontmaterials = materials.clone()
+        frontmaterials.side = THREE.FrontSide;
+        backmaterials = materials.clone()
+        backmaterials.side = THREE.BackSide;
     }
-    var mesh = new THREE.Mesh(geometry, materials);
-    mesh.name = "faces";
-    obj.add(mesh);
+    // duplicating the object with front and back should avoid transparency issues
+    //var mesh = new THREE.Mesh(geometry, materials);
+    var frontmesh = new THREE.Mesh(geometry, frontmaterials);
+    var backmesh = new THREE.Mesh(geometry, backmaterials);
+    frontmesh.name = "frontfaces";
+    backmesh.name = "backfaces";
+    backmesh.renderOrder = -100;
+    frontmesh.renderOrder = 100;
+    obj.add(backmesh);
+    obj.add(frontmesh);
     updateFacesPosition(obj);
 }
 // //INITIALIZING
@@ -615,7 +637,7 @@ function init_faces(obj) {
 function updateFacesPosition(obj) {
     var points = obj.userData.points;
     var indices = obj.userData.triangleindices;
-    var faces = obj.getObjectByName("faces");
+    var faces = obj.getObjectByName("frontfaces");
     var ba = faces.geometry.getAttribute("position");
     for (var i=0; i<indices.length; i++) {
         ba.setXYZ(i, points[indices[i]].vector.x, points[indices[i]].vector.y ,points[indices[i]].vector.z);
