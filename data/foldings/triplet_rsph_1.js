@@ -135,7 +135,7 @@ obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 0, 4, 2, 4, 1, 5, 2, 
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2], [0, 3, 1], [4, 2, 8], [0, 2, 4], [2, 13, 8], [0, 6, 3], [2, 5, 9], [4, 8, 14], [18, 27, 38], [2, 1, 5], [21, 41, 30], [8, 13, 21], [3, 6, 11], [8, 21, 30], [6, 17, 11], [3, 18, 26], [3, 11, 18], [18, 38, 48], [26, 18, 37], [48, 38, 54], [45, 52, 57], [18, 11, 27], [20, 12, 29], [7, 1, 3], [14, 8, 22], [12, 28, 39], [21, 13, 31], [14, 22, 32], [12, 19, 28], [5, 1, 10], [12, 3, 19], [5, 10, 16], [7, 12, 20], [40, 50, 55], [7, 3, 12], [33, 23, 43], [37, 18, 47], [9, 23, 33], [9, 5, 15], [40, 29, 50], [39, 28, 49], [45, 35, 52], [16, 10, 24], [9, 15, 23], [32, 22, 42], [15, 34, 23], [23, 34, 44], [42, 51, 32], [32, 51, 56], [20, 29, 40], [25, 35, 45], [17, 35, 25], [11, 25, 36], [25, 45, 53], [36, 25, 46], [11, 17, 25]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[45,52],
       [32,51],
       [40,50],
@@ -221,9 +221,9 @@ obj0.userData.angles = [2.47454718490979,
       2.61829978183815,
       2.48810253477918,
       2.59557750620478,
-      3.1040065887096,
-      2.35752246677844,
-      3.0361212520866,
+      3.10400658870961,
+      2.35752246677845,
+      3.03612125208661,
       2.6953413707095,
       2.10567889410607,
       2.83897828252321,
@@ -535,6 +535,8 @@ function init_faces(obj) {
 
     var materials = obj.userData.facetmaterial;
     var geometry = new THREE.BufferGeometry();
+    var frontmaterials = [];
+    var backmaterials = [];
     geometry.setAttribute('position',bufattr);
     if (Array.isArray(materials)) {
         var tricount = 0;
@@ -544,10 +546,30 @@ function init_faces(obj) {
             geometry.addGroup(tricount,(facet.length-2)*3,i);
             tricount += (facet.length-2)*3;
         }
+        for (var j=0; j<materials.length; j++) {
+            var fmat = materials[j].clone()
+            fmat.side = THREE.FrontSide;
+            frontmaterials.push(fmat);
+            var bmat = materials[j].clone()
+            bmat.side = THREE.BackSide;
+            backmaterials.push(bmat);
+        }
+    } else if (materials instanceof THREE.Material) {
+        frontmaterials = materials.clone()
+        frontmaterials.side = THREE.FrontSide;
+        backmaterials = materials.clone()
+        backmaterials.side = THREE.BackSide;
     }
-    var mesh = new THREE.Mesh(geometry, materials);
-    mesh.name = "faces";
-    obj.add(mesh);
+    // duplicating the object with front and back should avoid transparency issues
+    //var mesh = new THREE.Mesh(geometry, materials);
+    var frontmesh = new THREE.Mesh(geometry, frontmaterials);
+    var backmesh = new THREE.Mesh(geometry, backmaterials);
+    frontmesh.name = "frontfaces";
+    backmesh.name = "backfaces";
+    backmesh.renderOrder = -100;
+    frontmesh.renderOrder = 100;
+    obj.add(backmesh); 
+    obj.add(frontmesh); 
     updateFacesPosition(obj);
 }
 // //INITIALIZING
@@ -556,7 +578,7 @@ function init_faces(obj) {
 function updateFacesPosition(obj) {
     var points = obj.userData.points;
     var indices = obj.userData.triangleindices;
-    var faces = obj.getObjectByName("faces");
+    var faces = obj.getObjectByName("frontfaces");
     var ba = faces.geometry.getAttribute("position");
     for (var i=0; i<indices.length; i++) {
         ba.setXYZ(i, points[indices[i]].vector.x, points[indices[i]].vector.y ,points[indices[i]].vector.z);

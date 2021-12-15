@@ -137,7 +137,7 @@ obj0.userData.edgeindices = [0, 1, 0, 2, 0, 3, 1, 4, 2, 4, 1, 5, 2, 6, 1, 7, 4, 
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: polytopeLineWidth, transparent: false } );
 obj0.userData.facets = [[24, 32, 39, 36, 28], [25, 32, 24, 17], [48, 46, 3, 11], [17, 48, 11], [25, 17, 11, 14, 21], [39, 32, 38, 43], [38, 32, 25], [46, 45, 2, 0], [46, 0, 3], [14, 11, 3, 8], [38, 25, 21, 34], [39, 43, 54, 53], [6, 12, 9, 4, 2], [53, 54, 52, 50, 51], [18, 26, 31, 23], [18, 23, 12], [51, 50, 31, 26], [43, 44, 54], [23, 19, 9, 12], [44, 42, 52, 54], [5, 1, 7, 10], [4, 7, 1], [23, 31, 35, 27, 19], [50, 52, 40, 35], [57, 55, 5, 10], [41, 58, 59, 37], [20, 16, 10, 7, 13], [40, 33, 27, 35], [57, 10, 16], [37, 59, 29], [59, 57, 16, 29], [33, 29, 16, 20], [33, 20, 27], [42, 37, 29, 33, 40], [19, 27, 20, 13], [42, 40, 52], [19, 13, 9], [44, 41, 37, 42], [50, 35, 31], [4, 9, 13, 7], [58, 56, 55, 57, 59], [41, 34, 58], [8, 5, 55], [34, 21, 56, 58], [21, 14, 56], [14, 8, 55, 56], [2, 4, 1, 0], [43, 38, 34, 41, 44], [8, 3, 0, 1, 5], [30, 51, 26], [15, 18, 12, 6], [6, 2, 45], [36, 39, 53], [36, 53, 51, 30], [22, 30, 26, 18, 15], [22, 15, 47], [15, 6, 45, 47], [28, 36, 30, 22], [24, 28, 49], [28, 22, 47, 49], [49, 47, 45, 46, 48], [24, 49, 48, 17]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 init_object(obj0);
 scene.add(obj0);
 
@@ -363,6 +363,8 @@ function init_faces(obj) {
 
     var materials = obj.userData.facetmaterial;
     var geometry = new THREE.BufferGeometry();
+    var frontmaterials = [];
+    var backmaterials = [];
     geometry.setAttribute('position',bufattr);
     if (Array.isArray(materials)) {
         var tricount = 0;
@@ -372,10 +374,30 @@ function init_faces(obj) {
             geometry.addGroup(tricount,(facet.length-2)*3,i);
             tricount += (facet.length-2)*3;
         }
+        for (var j=0; j<materials.length; j++) {
+            var fmat = materials[j].clone()
+            fmat.side = THREE.FrontSide;
+            frontmaterials.push(fmat);
+            var bmat = materials[j].clone()
+            bmat.side = THREE.BackSide;
+            backmaterials.push(bmat);
+        }
+    } else if (materials instanceof THREE.Material) {
+        frontmaterials = materials.clone()
+        frontmaterials.side = THREE.FrontSide;
+        backmaterials = materials.clone()
+        backmaterials.side = THREE.BackSide;
     }
-    var mesh = new THREE.Mesh(geometry, materials);
-    mesh.name = "faces";
-    obj.add(mesh);
+    // duplicating the object with front and back should avoid transparency issues
+    //var mesh = new THREE.Mesh(geometry, materials);
+    var frontmesh = new THREE.Mesh(geometry, frontmaterials);
+    var backmesh = new THREE.Mesh(geometry, backmaterials);
+    frontmesh.name = "frontfaces";
+    backmesh.name = "backfaces";
+    backmesh.renderOrder = -100;
+    frontmesh.renderOrder = 100;
+    obj.add(backmesh); 
+    obj.add(frontmesh); 
     updateFacesPosition(obj);
 }
 // //INITIALIZING
@@ -384,7 +406,7 @@ function init_faces(obj) {
 function updateFacesPosition(obj) {
     var points = obj.userData.points;
     var indices = obj.userData.triangleindices;
-    var faces = obj.getObjectByName("faces");
+    var faces = obj.getObjectByName("frontfaces");
     var ba = faces.geometry.getAttribute("position");
     for (var i=0; i<indices.length; i++) {
         ba.setXYZ(i, points[indices[i]].vector.x, points[indices[i]].vector.y ,points[indices[i]].vector.z);

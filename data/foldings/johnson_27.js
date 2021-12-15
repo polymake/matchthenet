@@ -71,80 +71,80 @@ obj0.userData.points = [];
 obj0.userData.points.push(new PMPoint(0, 0, 0));
 obj0.userData.points.push(new PMPoint(1, 0, 0));
 obj0.userData.points.push(new PMPoint(0.5, 0.866025, 0));
-obj0.userData.points.push(new PMPoint(0.5, -0.866025, 0));
+obj0.userData.points.push(new PMPoint(0, -1, 0));
+obj0.userData.points.push(new PMPoint(1, -1, 0));
 obj0.userData.points.push(new PMPoint(-0.366025, 1.36603, 0));
 obj0.userData.points.push(new PMPoint(-0.866025, 0.5, 0));
-obj0.userData.points.push(new PMPoint(1.86603, 0.5, 0));
-obj0.userData.points.push(new PMPoint(1.36603, 1.36603, 0));
+obj0.userData.points.push(new PMPoint(1.5, 0.866025, 0));
 obj0.userData.points.push(new PMPoint(-0.866025, -0.5, 0));
-obj0.userData.points.push(new PMPoint(-0.366025, -1.36603, 0));
-obj0.userData.points.push(new PMPoint(1.36603, -1.36603, 0));
-obj0.userData.points.push(new PMPoint(1.86603, -0.5, 0));
-obj0.userData.points.push(new PMPoint(-1.36603, 1.36603, 0));
-obj0.userData.points.push(new PMPoint(0.5, 1.86603, 0));
-obj0.userData.points.push(new PMPoint(2.36603, 1.36603, 0));
 obj0.userData.points.push(new PMPoint(0.5, -1.86603, 0));
+obj0.userData.points.push(new PMPoint(2, -1, 0));
+obj0.userData.points.push(new PMPoint(2, 0, 0));
+obj0.userData.points.push(new PMPoint(-1.36603, 1.36603, 0));
+obj0.userData.points.push(new PMPoint(1, 1.73205, 0));
+obj0.userData.points.push(new PMPoint(0.133975, 2.23205, 0));
 obj0.userData.points.push(new PMPoint(-1.36603, -1.36603, 0));
-obj0.userData.points.push(new PMPoint(2.36603, -1.36603, 0));
-obj0.userData.points.push(new PMPoint(-0.366025, 2.36603, 0));
-obj0.userData.points.push(new PMPoint(-1.36603, 2.36603, 0));
-obj0.userData.points.push(new PMPoint(-0.866025, -2.23205, 0));
-obj0.userData.points.push(new PMPoint(0, -2.73205, 0));
+obj0.userData.points.push(new PMPoint(-0.5, -1.86603, 0));
+obj0.userData.points.push(new PMPoint(1.5, -1.86603, 0));
+obj0.userData.points.push(new PMPoint(2.86603, -0.5, 0));
+obj0.userData.points.push(new PMPoint(-0.866025, 2.23205, 0));
+obj0.userData.points.push(new PMPoint(-1.86603, -2.23205, 0));
+obj0.userData.points.push(new PMPoint(-1, -2.73205, 0));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
-obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 2, 4, 0, 5, 4, 5, 1, 6, 2, 7, 6, 7, 0, 8, 3, 9, 8, 9, 3, 10, 1, 11, 10, 11, 4, 12, 5, 12, 2, 13, 4, 13, 6, 14, 7, 14, 3, 15, 9, 15, 8, 16, 9, 16, 10, 17, 11, 17, 4, 18, 12, 19, 18, 19, 9, 20, 15, 21, 20, 21];
+obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 4, 3, 4, 2, 5, 0, 6, 5, 6, 1, 7, 2, 7, 0, 8, 3, 8, 3, 9, 4, 9, 4, 10, 1, 11, 10, 11, 5, 12, 6, 12, 2, 13, 5, 14, 13, 14, 8, 15, 3, 16, 15, 16, 4, 17, 9, 17, 10, 18, 11, 18, 5, 19, 12, 19, 15, 20, 16, 21, 20, 21];
    <!-- Edge style -->
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
-obj0.userData.facets = [[0, 1, 2], [3, 1, 0], [0, 2, 4, 5], [15, 3, 9], [5, 4, 12], [8, 16, 9], [0, 8, 9, 3], [15, 9, 20, 21], [2, 13, 4], [18, 19, 12, 4], [11, 10, 17], [7, 6, 14], [11, 1, 3, 10], [2, 1, 6, 7]];
+obj0.userData.facets = [[0, 1, 2], [4, 1, 0, 3], [0, 2, 5, 6], [2, 1, 7], [0, 8, 3], [21, 16, 15, 20], [6, 5, 12], [8, 15, 16, 3], [4, 3, 9], [11, 1, 4, 10], [2, 13, 14, 5], [17, 4, 9], [5, 19, 12], [11, 10, 18]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
-obj0.userData.axes = [[15,9],
-      [12,4],
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.axes = [[16,15],
+      [12,5],
       [11,10],
-      [9,8],
-      [3,9],
-      [7,6],
-      [4,2],
-      [5,4],
-      [1,3],
+      [4,9],
+      [3,8],
+      [5,2],
+      [6,5],
+      [1,4],
+      [4,3],
       [3,0],
       [2,1],
       [0,2],
       [1,0]];
 
-obj0.userData.angles = [2.18627603546528,
+obj0.userData.angles = [1.91063323624902,
+      2.46191883468155,
+      2.18627603546528,
+      2.46191883468155,
+      2.18627603546528,
+      1.91063323624902,
+      2.18627603546528,
+      1.91063323624902,
       2.18627603546528,
       2.18627603546528,
+      2.46191883468155,
       2.18627603546528,
-      2.18627603546528,
-      2.18627603546528,
-      2.18627603546528,
-      2.18627603546529,
-      2.18627603546528,
-      2.18627603546528,
-      2.18627603546528,
-      2.18627603546528,
-      2.46191883468155];
+      2.18627603546528];
 
 obj0.userData.subtrees = [[20,21],
-      [18,19],
+      [19],
+      [18],
       [17],
-      [16],
-      [15,20,21],
-      [14],
-      [13],
-      [12,18,19],
-      [10,11,17],
-      [8,9,15,16,20,21],
-      [6,7,14],
-      [4,5,12,13,18,19],
-      [3,8,9,10,11,15,16,17,20,21]];
+      [15,16,20,21],
+      [13,14],
+      [12,19],
+      [10,11,18],
+      [9,17],
+      [8,15,16,20,21],
+      [7],
+      [5,6,12,13,14,19],
+      [3,4,8,9,10,11,15,16,17,18,20,21]];
 
-obj0.userData.polytoperoot = [[-0.272165526975909,0.95257934441568,0.136082763487954],
-      [2.90650843775588,9.67277953214557,-1],
-      [1.04413304236818,-1.34810504472656,-10.0051413860304]];
+obj0.userData.polytoperoot = [[-0.701465894215495,-0.293217603751632,0.649591437830432],
+      [-71.0801227445812,-21.3583878167874,7.34846922834953],
+      [12.6260337510235,-57.6911181285824,-45.5508807852162]];
 
 obj0.userData.oldscale = 0;
 foldables.push(obj0);
@@ -373,6 +373,8 @@ function init_faces(obj) {
 
     var materials = obj.userData.facetmaterial;
     var geometry = new THREE.BufferGeometry();
+    var frontmaterials = [];
+    var backmaterials = [];
     geometry.setAttribute('position',bufattr);
     if (Array.isArray(materials)) {
         var tricount = 0;
@@ -382,10 +384,30 @@ function init_faces(obj) {
             geometry.addGroup(tricount,(facet.length-2)*3,i);
             tricount += (facet.length-2)*3;
         }
+        for (var j=0; j<materials.length; j++) {
+            var fmat = materials[j].clone()
+            fmat.side = THREE.FrontSide;
+            frontmaterials.push(fmat);
+            var bmat = materials[j].clone()
+            bmat.side = THREE.BackSide;
+            backmaterials.push(bmat);
+        }
+    } else if (materials instanceof THREE.Material) {
+        frontmaterials = materials.clone()
+        frontmaterials.side = THREE.FrontSide;
+        backmaterials = materials.clone()
+        backmaterials.side = THREE.BackSide;
     }
-    var mesh = new THREE.Mesh(geometry, materials);
-    mesh.name = "faces";
-    obj.add(mesh);
+    // duplicating the object with front and back should avoid transparency issues
+    //var mesh = new THREE.Mesh(geometry, materials);
+    var frontmesh = new THREE.Mesh(geometry, frontmaterials);
+    var backmesh = new THREE.Mesh(geometry, backmaterials);
+    frontmesh.name = "frontfaces";
+    backmesh.name = "backfaces";
+    backmesh.renderOrder = -100;
+    frontmesh.renderOrder = 100;
+    obj.add(backmesh); 
+    obj.add(frontmesh); 
     updateFacesPosition(obj);
 }
 // //INITIALIZING
@@ -394,7 +416,7 @@ function init_faces(obj) {
 function updateFacesPosition(obj) {
     var points = obj.userData.points;
     var indices = obj.userData.triangleindices;
-    var faces = obj.getObjectByName("faces");
+    var faces = obj.getObjectByName("frontfaces");
     var ba = faces.geometry.getAttribute("position");
     for (var i=0; i<indices.length; i++) {
         ba.setXYZ(i, points[indices[i]].vector.x, points[indices[i]].vector.y ,points[indices[i]].vector.z);
