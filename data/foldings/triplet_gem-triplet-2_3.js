@@ -138,10 +138,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 0, 7, 6, 7, 0, 8, 1, 8, 1, 9, 2, 9, 2, 10, 3, 10, 3, 11, 4, 11, 4, 12, 5, 12, 5, 13, 6, 13, 6, 14, 7, 14, 0, 15, 7, 15, 0, 16, 8, 17, 16, 17, 8, 18, 1, 19, 18, 19, 9, 20, 2, 21, 20, 21, 10, 22, 3, 23, 22, 23, 11, 24, 4, 25, 24, 25, 12, 26, 5, 27, 26, 27, 13, 28, 6, 29, 28, 29, 14, 30, 7, 31, 30, 31, 8, 32, 17, 32, 16, 33, 17, 33, 18, 34, 19, 34, 20, 35, 21, 35, 22, 36, 23, 36, 24, 37, 25, 37, 26, 38, 27, 38, 28, 39, 29, 39, 17, 40, 32, 40, 17, 41, 33, 41, 18, 42, 34, 42, 20, 43, 35, 43, 22, 44, 36, 44, 24, 45, 37, 45, 26, 46, 38, 46, 28, 47, 39, 47, 40, 48, 32, 49, 48, 49, 17, 50, 40, 51, 50, 51, 33, 52, 41, 53, 52, 53, 42, 54, 34, 55, 54, 55, 43, 56, 35, 57, 56, 57, 44, 58, 36, 59, 58, 59, 45, 60, 37, 61, 60, 61, 46, 62, 38, 63, 62, 63];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3, 4, 5, 6, 7], [32, 40, 48, 49], [40, 17, 50, 51], [35, 43, 56, 57], [33, 52, 53, 41], [36, 44, 58, 59], [38, 46, 62, 63], [34, 42, 54, 55], [37, 45, 60, 61], [38, 26, 46], [39, 28, 47], [17, 33, 41], [32, 17, 40], [34, 18, 42], [35, 20, 43], [36, 22, 44], [37, 24, 45], [32, 8, 17], [19, 18, 34], [21, 20, 35], [23, 22, 36], [25, 24, 37], [27, 26, 38], [29, 28, 39], [16, 33, 17], [0, 16, 17, 8], [8, 1, 0], [19, 1, 8, 18], [2, 1, 9], [2, 9, 20, 21], [3, 2, 10], [3, 10, 22, 23], [4, 3, 11], [4, 11, 24, 25], [5, 4, 12], [5, 12, 26, 27], [6, 5, 13], [6, 13, 28, 29], [7, 6, 14], [7, 14, 30, 31], [0, 7, 15]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x497542, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[38,46],
       [37,45],
       [36,44],
@@ -208,7 +208,7 @@ obj0.userData.angles = [2.81252379080853,
       2.91055450379305,
       2.91055207464926,
       2.99209146917354,
-      2.99209466022918,
+      2.99209466022917,
       2.99209135651757,
       2.99209255589181,
       2.99209146917354,

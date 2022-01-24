@@ -122,10 +122,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 0, 9, 8, 9, 0, 10, 1, 11, 10, 11, 9, 12, 0, 13, 12, 13, 8, 14, 9, 15, 14, 15, 1, 16, 2, 17, 16, 17, 7, 18, 8, 19, 18, 19, 2, 20, 3, 21, 20, 21, 6, 22, 7, 23, 22, 23, 3, 24, 4, 25, 24, 25, 5, 26, 6, 27, 26, 27, 4, 28, 5, 29, 28, 29, 10, 30, 11, 31, 30, 31, 12, 32, 13, 32, 14, 33, 15, 34, 33, 34, 16, 35, 17, 35, 18, 36, 19, 36, 20, 37, 21, 38, 37, 38, 22, 39, 23, 40, 39, 40, 24, 41, 25, 41, 26, 42, 27, 42, 28, 43, 29, 44, 43, 44, 30, 45, 45, 46, 31, 47, 46, 47];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [21, 20, 37, 38], [11, 10, 30, 31], [17, 16, 35], [11, 1, 0, 10], [0, 9, 12, 13], [13, 12, 32], [9, 8, 14, 15], [2, 1, 16, 17], [15, 14, 33, 34], [19, 18, 36], [8, 7, 18, 19], [3, 2, 20, 21], [47, 31, 30, 45, 46], [23, 22, 39, 40], [7, 6, 22, 23], [25, 24, 41], [4, 3, 24, 25], [27, 26, 42], [29, 28, 43, 44], [6, 5, 26, 27], [5, 4, 28, 29]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[31,30],
       [29,28],
       [27,26],

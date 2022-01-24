@@ -116,10 +116,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 4, 5, 5, 6, 6, 7, 1, 8, 7, 8, 3, 9, 9, 10, 0, 11, 10, 11, 2, 12, 12, 13, 13, 14, 14, 15, 3, 16, 15, 16, 1, 17, 17, 18, 2, 19, 18, 19, 7, 20, 8, 21, 20, 21, 5, 22, 22, 23, 6, 24, 23, 24, 4, 25, 25, 26, 5, 27, 26, 27, 6, 28, 28, 29, 7, 30, 29, 30, 9, 31, 10, 32, 31, 32, 13, 33, 33, 34, 14, 35, 34, 35, 14, 36, 36, 37, 15, 38, 37, 38, 12, 39, 39, 40, 13, 41, 40, 41];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3], [21, 8, 7, 20], [8, 1, 0, 4, 5, 6, 7], [9, 31, 32, 10], [0, 3, 9, 10, 11], [6, 5, 22, 23, 24], [3, 2, 12, 13, 14, 15, 16], [4, 25, 26, 27, 5], [14, 13, 33, 34, 35], [15, 14, 36, 37, 38], [12, 39, 40, 41, 13], [7, 6, 28, 29, 30], [2, 1, 17, 18, 19]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[13,12],
       [15,14],
       [14,13],
@@ -160,7 +160,7 @@ obj0.userData.subtrees = [[39,40,41],
       [4,5,6,7,8,20,21,22,23,24,25,26,27,28,29,30]];
 
 obj0.userData.polytoperoot = [[-1.01478024126957,-0.434561451012341,-0.906187940452618],
-      [-0.388291834984313,0.776998697678306,-1.04131025958929],
+      [-0.388291834984312,0.776998697678306,-1.04131025958929],
       [2.69354768169407,1.90392224019537,0.416266453900873]];
 
 obj0.userData.oldscale = 0;

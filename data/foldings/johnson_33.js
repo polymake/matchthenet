@@ -122,10 +122,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 0, 4, 3, 4, 0, 5, 1, 5, 3, 6, 4, 6, 1, 7, 2, 7, 2, 8, 3, 8, 0, 9, 4, 9, 5, 10, 10, 11, 1, 12, 11, 12, 0, 13, 13, 14, 5, 15, 14, 15, 3, 16, 6, 17, 16, 17, 6, 18, 4, 19, 18, 19, 7, 20, 20, 21, 2, 22, 21, 22, 10, 23, 11, 23, 11, 24, 12, 24, 5, 25, 10, 25, 14, 26, 15, 26, 13, 27, 14, 27, 16, 28, 17, 28, 17, 29, 29, 30, 6, 31, 30, 31, 20, 32, 21, 32, 10, 33, 33, 34, 23, 35, 34, 35, 23, 36, 36, 37, 11, 38, 37, 38, 14, 39, 26, 40, 39, 40, 28, 41, 17, 42, 41, 42, 29, 43, 30, 44, 43, 44, 23, 45, 35, 45, 34, 46, 35, 46, 36, 47, 37, 47];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3, 4], [5, 1, 0], [4, 3, 6], [10, 33, 34, 35, 23], [2, 1, 7], [3, 16, 17, 6], [3, 2, 8], [11, 10, 23], [30, 29, 43, 44], [23, 35, 45], [28, 41, 42, 17], [21, 20, 32], [37, 36, 47], [11, 23, 36, 37, 38], [16, 28, 17], [12, 11, 24], [2, 7, 20, 21, 22], [35, 34, 46], [6, 17, 29, 30, 31], [10, 5, 25], [12, 1, 5, 10, 11], [15, 14, 26], [39, 40, 26, 14], [13, 27, 14], [0, 4, 9], [4, 6, 18, 19], [0, 13, 14, 15, 5]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[37,36],
       [35,34],
       [23,35],
@@ -159,7 +159,7 @@ obj0.userData.angles = [1.75950685757846,
       2.58801829469275,
       2.77672882547631,
       1.93566015490838,
-      2.48923451380543,
+      2.48923451380542,
       2.48923451380542,
       2.48923451380542,
       2.58801829469275,

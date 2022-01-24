@@ -132,10 +132,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 0, 4, 3, 4, 0, 5, 5, 6, 1, 7, 6, 7, 3, 8, 8, 9, 4, 10, 9, 10, 1, 11, 11, 12, 2, 13, 12, 13, 4, 14, 14, 15, 0, 16, 15, 16, 2, 17, 17, 18, 18, 19, 3, 20, 19, 20, 6, 21, 21, 22, 22, 23, 7, 24, 23, 24, 5, 25, 25, 26, 26, 27, 27, 28, 6, 29, 28, 29, 8, 30, 30, 31, 9, 32, 31, 32, 9, 33, 33, 34, 34, 35, 10, 36, 35, 36, 12, 37, 37, 38, 38, 39, 13, 40, 39, 40, 18, 41, 19, 42, 41, 42, 21, 43, 43, 44, 22, 45, 44, 45, 22, 46, 23, 47, 46, 47, 26, 48, 27, 49, 48, 49, 27, 50, 28, 51, 50, 51, 31, 52, 52, 53, 53, 54, 54, 55, 55, 56, 32, 57, 56, 57];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3, 4], [13, 12, 37, 38, 39, 40], [8, 30, 31, 32, 9], [7, 1, 0, 5, 6], [26, 48, 49, 27], [24, 7, 6, 21, 22, 23], [19, 18, 41, 42], [5, 25, 26, 27, 28, 29, 6], [28, 27, 50, 51], [4, 3, 8, 9, 10], [22, 21, 43, 44, 45], [2, 1, 11, 12, 13], [23, 22, 46, 47], [0, 4, 14, 15, 16], [3, 2, 17, 18, 19, 20], [52, 53, 54, 55, 56, 57, 32, 31], [10, 9, 33, 34, 35, 36]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[32,31],
       [28,27],
       [27,26],

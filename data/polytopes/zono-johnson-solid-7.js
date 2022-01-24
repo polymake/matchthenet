@@ -112,10 +112,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 0, 2, 0, 3, 1, 4, 2, 4, 0, 5, 0, 6, 1, 7, 5, 7, 2, 8, 6, 8, 3, 9, 5, 9, 3, 10, 6, 10, 7, 11, 9, 11, 8, 12, 10, 12, 4, 13, 9, 14, 10, 14, 7, 15, 8, 16, 13, 17, 15, 17, 13, 18, 16, 18, 9, 19, 10, 20, 11, 21, 19, 21, 12, 22, 20, 22, 13, 23, 14, 24, 19, 24, 20, 24, 15, 25, 16, 26, 17, 27, 23, 27, 25, 27, 18, 28, 23, 28, 26, 28, 21, 29, 25, 29, 22, 30, 26, 30, 27, 31, 29, 31, 28, 32, 30, 32, 24, 33, 27, 34, 28, 34, 29, 35, 33, 35, 30, 36, 33, 36, 31, 37, 32, 37, 34, 37, 35, 37, 36, 37];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: polytopeLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: polytopeLineWidth, transparent: false } );
 obj0.userData.facets = [[13, 4, 1, 7, 15, 17], [5, 0, 3, 9], [2, 4, 13, 18, 16, 8], [1, 4, 2, 0], [0, 6, 10, 3], [19, 9, 14, 24], [7, 1, 0, 5], [17, 15, 25, 27], [9, 3, 10, 14], [0, 2, 8, 6], [29, 35, 37, 31], [7, 5, 9, 11], [6, 8, 12, 10], [35, 33, 36, 37], [15, 7, 11, 21, 29, 25], [8, 16, 26, 30, 22, 12], [29, 21, 19, 24, 33, 35], [13, 23, 28, 18], [16, 18, 28, 26], [27, 31, 37, 34], [25, 29, 31, 27], [21, 11, 9, 19], [14, 10, 20, 24], [12, 22, 20, 10], [13, 17, 27, 23], [23, 27, 34, 28], [33, 24, 20, 22, 30, 36], [26, 28, 32, 30], [28, 34, 37, 32], [36, 30, 32, 37]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x2A6B3D, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 init_object(obj0);
 scene.add(obj0);
 

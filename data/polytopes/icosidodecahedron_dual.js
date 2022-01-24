@@ -106,10 +106,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [1, 2, 2, 3, 1, 6, 3, 6, 3, 7, 4, 8, 5, 8, 2, 9, 4, 9, 3, 10, 9, 10, 1, 11, 1, 12, 9, 12, 3, 13, 0, 14, 6, 14, 11, 14, 13, 14, 4, 15, 7, 15, 10, 15, 0, 16, 7, 16, 13, 16, 1, 17, 8, 18, 9, 18, 11, 20, 17, 20, 5, 21, 12, 21, 17, 21, 18, 21, 0, 22, 19, 22, 15, 23, 16, 23, 14, 24, 20, 24, 22, 24, 8, 25, 15, 25, 19, 26, 23, 26, 25, 26, 20, 27, 21, 27, 5, 28, 19, 28, 27, 28, 16, 29, 22, 29, 26, 29, 8, 30, 26, 30, 28, 30, 20, 31, 22, 31, 28, 31];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: polytopeLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: polytopeLineWidth, transparent: false } );
 obj0.userData.facets = [[2, 3, 6, 1], [2, 9, 10, 3], [6, 3, 13, 14], [2, 1, 12, 9], [7, 3, 10, 15], [1, 6, 14, 11], [13, 3, 7, 16], [12, 1, 17, 21], [10, 9, 4, 15], [1, 11, 20, 17], [9, 12, 21, 18], [14, 13, 16, 0], [9, 18, 8, 4], [11, 14, 24, 20], [16, 7, 15, 23], [14, 0, 22, 24], [4, 8, 25, 15], [17, 20, 27, 21], [23, 15, 25, 26], [0, 16, 29, 22], [18, 21, 5, 8], [16, 23, 26, 29], [21, 27, 28, 5], [20, 24, 22, 31], [20, 31, 28, 27], [26, 25, 8, 30], [8, 5, 28, 30], [22, 29, 26, 19], [31, 22, 19, 28], [19, 26, 30, 28]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x2A6B3D, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 init_object(obj0);
 scene.add(obj0);
 

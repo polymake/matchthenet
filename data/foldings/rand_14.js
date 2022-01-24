@@ -116,10 +116,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 3, 4, 4, 5, 1, 6, 5, 6, 1, 7, 7, 8, 2, 9, 8, 9, 2, 10, 10, 11, 0, 12, 11, 12, 4, 13, 13, 14, 5, 15, 14, 15, 5, 16, 16, 17, 17, 18, 18, 19, 6, 20, 19, 20, 3, 21, 21, 22, 22, 23, 4, 24, 23, 24, 8, 25, 25, 26, 26, 27, 9, 28, 27, 28, 13, 29, 29, 30, 14, 31, 30, 31, 14, 32, 15, 33, 32, 33, 18, 34, 19, 35, 34, 35, 17, 36, 36, 37, 18, 38, 37, 38, 22, 39, 39, 40, 23, 41, 40, 41];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2], [5, 4, 13, 14, 15], [22, 39, 40, 41, 23], [19, 18, 34, 35], [18, 17, 36, 37, 38], [20, 6, 5, 16, 17, 18, 19], [6, 1, 0, 3, 4, 5], [9, 8, 25, 26, 27, 28], [13, 29, 30, 31, 14], [2, 1, 7, 8, 9], [3, 21, 22, 23, 24, 4], [0, 2, 10, 11, 12], [33, 15, 14, 32]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[23,22],
       [18,17],
       [19,18],
@@ -142,7 +142,7 @@ obj0.userData.angles = [1.54001439763055,
       2.32343351997235,
       2.00107313217052,
       2.2257903653596,
-      3.0674494147407,
+      3.06744941474069,
       3.07290760547796,
       2.7745159709357];
 

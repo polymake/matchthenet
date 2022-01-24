@@ -128,10 +128,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 0, 7, 6, 7, 0, 8, 8, 9, 9, 10, 10, 11, 11, 12, 1, 13, 12, 13, 2, 14, 14, 15, 15, 16, 16, 17, 17, 18, 3, 19, 18, 19, 6, 20, 20, 21, 21, 22, 22, 23, 23, 24, 7, 25, 24, 25, 4, 26, 26, 27, 27, 28, 28, 29, 29, 30, 5, 31, 30, 31, 0, 32, 7, 32, 1, 33, 2, 33, 5, 34, 6, 34, 3, 35, 4, 35, 9, 36, 10, 36, 11, 37, 12, 37, 10, 38, 11, 38, 17, 39, 18, 39, 16, 40, 17, 40, 21, 41, 22, 41, 22, 42, 23, 42, 28, 43, 29, 43, 36, 44, 10, 45, 44, 45, 11, 46, 37, 47, 46, 47, 17, 48, 39, 49, 48, 49, 41, 50, 22, 51, 50, 51, 44, 52, 45, 53, 52, 53];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3, 4, 5, 6, 7], [18, 17, 39], [13, 1, 0, 8, 9, 10, 11, 12], [3, 2, 14, 15, 16, 17, 18, 19], [9, 36, 10], [7, 6, 20, 21, 22, 23, 24, 25], [21, 41, 22], [5, 4, 26, 27, 28, 29, 30, 31], [0, 7, 32], [37, 12, 11], [17, 16, 40], [2, 1, 33], [6, 5, 34], [4, 3, 35], [11, 10, 38], [17, 48, 49, 39], [36, 44, 45, 10], [29, 28, 43], [23, 22, 42], [41, 50, 51, 22], [37, 11, 46, 47], [53, 45, 44, 52]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[45,44],
       [22,41],
       [39,17],

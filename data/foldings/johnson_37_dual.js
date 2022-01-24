@@ -124,10 +124,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 1, 5, 4, 5, 2, 6, 3, 7, 6, 7, 1, 8, 2, 9, 8, 9, 3, 10, 0, 11, 10, 11, 4, 12, 5, 13, 12, 13, 5, 14, 1, 15, 14, 15, 0, 16, 4, 17, 16, 17, 6, 18, 7, 19, 18, 19, 2, 20, 6, 21, 20, 21, 8, 22, 9, 23, 22, 23, 10, 24, 11, 25, 24, 25, 12, 26, 13, 27, 26, 27, 13, 28, 5, 29, 28, 29, 16, 30, 17, 31, 30, 31, 18, 32, 19, 33, 32, 33, 6, 34, 18, 35, 34, 35, 20, 36, 21, 37, 36, 37, 22, 38, 23, 39, 38, 39, 26, 40, 27, 41, 40, 41, 27, 42, 13, 43, 42, 43, 18, 44, 32, 45, 44, 45, 36, 46, 37, 47, 46, 47, 41, 48, 27, 49, 48, 49];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3], [5, 1, 0, 4], [4, 12, 13, 5], [12, 26, 27, 13], [40, 41, 27, 26], [19, 18, 32, 33], [7, 6, 18, 19], [3, 2, 6, 7], [2, 1, 8, 9], [15, 1, 5, 14], [29, 5, 13, 28], [43, 13, 27, 42], [49, 27, 41, 48], [18, 44, 45, 32], [6, 34, 35, 18], [2, 20, 21, 6], [9, 8, 22, 23], [23, 22, 38, 39], [20, 36, 37, 21], [36, 46, 47, 37], [11, 10, 24, 25], [0, 3, 10, 11], [16, 30, 31, 17], [0, 16, 17, 4]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x2A6B3D, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[27,41],
       [37,36],
       [32,18],

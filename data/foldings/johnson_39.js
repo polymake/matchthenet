@@ -132,10 +132,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 1, 4, 2, 5, 3, 5, 1, 6, 6, 7, 2, 8, 7, 8, 3, 9, 0, 10, 9, 10, 4, 11, 1, 12, 11, 12, 0, 13, 4, 14, 13, 14, 2, 15, 5, 16, 15, 16, 5, 17, 3, 18, 17, 18, 6, 19, 7, 20, 19, 20, 7, 21, 8, 22, 21, 22, 9, 23, 10, 24, 23, 24, 11, 25, 12, 25, 4, 26, 11, 27, 26, 27, 13, 28, 14, 28, 16, 29, 5, 30, 29, 30, 15, 31, 16, 31, 17, 32, 18, 32, 19, 33, 20, 34, 33, 34, 7, 35, 20, 35, 21, 36, 22, 37, 36, 37, 23, 38, 38, 39, 24, 40, 39, 40, 11, 41, 25, 42, 41, 42, 26, 43, 27, 44, 43, 44, 16, 45, 29, 46, 45, 46, 29, 47, 30, 48, 47, 48, 34, 49, 20, 50, 49, 50, 33, 51, 34, 52, 51, 52, 36, 53, 37, 54, 53, 54, 41, 55, 42, 55, 29, 56, 46, 56, 34, 57, 49, 57];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3], [4, 1, 0], [3, 2, 5], [12, 1, 4, 11], [2, 1, 6, 7, 8], [5, 16, 29, 30], [11, 41, 42, 25], [41, 55, 42], [12, 11, 25], [7, 6, 19, 20], [45, 46, 29, 16], [20, 19, 33, 34], [7, 20, 35], [20, 34, 49, 50], [22, 21, 36, 37], [34, 57, 49], [8, 7, 21, 22], [15, 31, 16], [46, 56, 29], [37, 36, 53, 54], [34, 33, 51, 52], [2, 15, 16, 5], [30, 29, 47, 48], [24, 23, 38, 39, 40], [27, 26, 43, 44], [11, 4, 26, 27], [18, 17, 32], [3, 5, 17, 18], [13, 28, 14], [10, 9, 23, 24], [0, 13, 14, 4], [0, 3, 9, 10]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[49,34],
       [29,46],
       [42,41],

@@ -120,10 +120,10 @@ obj0.userData.pointradii = 0.02;
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
 obj0.userData.edgeindices = [0, 1, 1, 2, 2, 3, 0, 4, 3, 4, 0, 5, 1, 6, 5, 6, 4, 7, 7, 8, 8, 9, 0, 10, 9, 10, 1, 11, 11, 12, 2, 13, 12, 13, 3, 14, 14, 15, 15, 16, 4, 17, 16, 17, 2, 18, 18, 19, 3, 20, 19, 20, 5, 21, 21, 22, 22, 23, 23, 24, 6, 25, 24, 25, 7, 26, 8, 27, 26, 27, 8, 28, 28, 29, 9, 30, 29, 30, 12, 31, 31, 32, 13, 33, 32, 33, 15, 34, 34, 35, 35, 36, 16, 37, 36, 37, 14, 38, 38, 39, 15, 40, 39, 40, 22, 41, 23, 42, 41, 42, 23, 43, 43, 44, 24, 45, 44, 45];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
 obj0.userData.facets = [[0, 1, 2, 3, 4], [23, 22, 41, 42], [16, 15, 34, 35, 36, 37], [6, 1, 0, 5], [14, 38, 39, 40, 15], [25, 6, 5, 21, 22, 23, 24], [7, 26, 27, 8], [9, 8, 28, 29, 30], [24, 23, 43, 44, 45], [0, 4, 7, 8, 9, 10], [2, 1, 11, 12, 13], [13, 12, 31, 32, 33], [4, 3, 14, 15, 16, 17], [3, 2, 18, 19, 20]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0xE2C833, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
+obj0.userData.facetmaterial = new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } );
 obj0.userData.axes = [[24,23],
       [23,22],
       [15,14],
@@ -166,7 +166,7 @@ obj0.userData.subtrees = [[43,44,45],
       [7,8,9,10,26,27,28,29,30],
       [5,6,21,22,23,24,25,41,42,43,44,45]];
 
-obj0.userData.polytoperoot = [[-0.94401879262168,0.38223298558461,-0.287813014155768],
+obj0.userData.polytoperoot = [[-0.944018792621679,0.38223298558461,-0.287813014155768],
       [-1.41313094749088,-0.458337839348845,0.551852495592851],
       [0.831246259030635,0.297457773210538,2.37562750402108]];
 

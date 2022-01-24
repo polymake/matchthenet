@@ -70,38 +70,38 @@ obj0.userData.explodable = 1;
 obj0.userData.points = [];
 obj0.userData.points.push(new PMPoint(0, 0, 0));
 obj0.userData.points.push(new PMPoint(1.90384, 0, 0));
-obj0.userData.points.push(new PMPoint(-0.0484374, 0.953591, 0));
-obj0.userData.points.push(new PMPoint(0.248334, -0.42346, 0));
-obj0.userData.points.push(new PMPoint(0.733459, 1.50161, 0));
-obj0.userData.points.push(new PMPoint(-1.89405, -0.192914, 0));
-obj0.userData.points.push(new PMPoint(-0.543852, -1.93755, 0));
-obj0.userData.points.push(new PMPoint(-0.929441, -1.66155, 0));
-obj0.userData.points.push(new PMPoint(1.22011, 1.56606, 0));
-obj0.userData.points.push(new PMPoint(-0.278746, 3.11408, 0));
-obj0.userData.points.push(new PMPoint(1.11166, -1.51409, 0));
-obj0.userData.points.push(new PMPoint(1.47259, 3.25612, 0));
+obj0.userData.points.push(new PMPoint(0.248334, 0.423459, 0));
+obj0.userData.points.push(new PMPoint(-0.0484375, -0.953591, 0));
+obj0.userData.points.push(new PMPoint(-0.543852, 1.93755, 0));
+obj0.userData.points.push(new PMPoint(-0.929441, 1.66155, 0));
+obj0.userData.points.push(new PMPoint(0.733459, -1.50161, 0));
+obj0.userData.points.push(new PMPoint(-1.89404, 0.192915, 0));
+obj0.userData.points.push(new PMPoint(1.11166, 1.51409, 0));
+obj0.userData.points.push(new PMPoint(1.22011, -1.56606, 0));
+obj0.userData.points.push(new PMPoint(-0.278747, -3.11408, 0));
+obj0.userData.points.push(new PMPoint(1.35999, 1.93755, 0));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
-obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 1, 4, 2, 4, 0, 5, 2, 5, 1, 6, 3, 6, 0, 7, 3, 7, 1, 8, 4, 8, 2, 9, 4, 9, 1, 10, 6, 10, 4, 11, 8, 11];
+obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 1, 4, 2, 4, 0, 5, 2, 5, 1, 6, 3, 6, 0, 7, 3, 7, 1, 8, 4, 8, 1, 9, 6, 9, 3, 10, 6, 10, 4, 11, 8, 11];
    <!-- Edge style -->
-obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, depthTest: true, linewidth: foldingLineWidth, transparent: false } );
-obj0.userData.facets = [[0, 1, 2], [0, 3, 1], [2, 1, 4], [4, 1, 8], [10, 1, 6], [4, 8, 11], [2, 4, 9], [3, 6, 1], [0, 2, 5], [0, 7, 3]];
+obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
+obj0.userData.facets = [[0, 1, 2], [6, 1, 3], [9, 1, 6], [0, 3, 1], [3, 10, 6], [4, 8, 11], [0, 7, 3], [4, 1, 8], [2, 1, 4], [0, 2, 5]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0xBA3B26, depthFunc: THREE.LessDepth, depthTest: false, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } )];
+obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } )];
 obj0.userData.axes = [[4,8],
+      [6,3],
       [1,6],
-      [2,4],
       [4,1],
       [3,0],
       [1,3],
@@ -109,29 +109,29 @@ obj0.userData.axes = [[4,8],
       [2,1],
       [1,0]];
 
-obj0.userData.angles = [2.5092611976264,
+obj0.userData.angles = [2.27219335349103,
+      1.92600967589998,
+      2.21763619896036,
       2.03512614058163,
       1.92600988653555,
-      2.21763632617713,
-      2.50926086142959,
-      2.27219376571118,
-      1.92600967589998,
       1.92601115549619,
-      2.21763619896036];
+      2.5092611976264,
+      2.2721940221309,
+      2.21763632617713];
 
 obj0.userData.subtrees = [[11],
       [10],
       [9],
       [8,11],
       [7],
-      [6,10],
+      [6,9,10],
       [5],
-      [4,8,9,11],
-      [3,6,7,10]];
+      [4,8,11],
+      [3,6,7,9,10]];
 
-obj0.userData.polytoperoot = [[-0.174594001288985,-0.583457469815967,-0.382075260235181],
-      [-1.63157627410133e+49,-6.09432573094604e+48,-1.17950218391559e+49],
-      [-1.28225830821661e+48,3.62562293833098e+49,-1.69593793073084e+49]];
+obj0.userData.polytoperoot = [[0.0890989017238094,0.713135834656815,-0.0196425966424848],
+      [-1.58260489749181,16.4498712682564,9.3606628315339],
+      [22.9239524923716,-12.131745670124,25.1953540322545]];
 
 obj0.userData.oldscale = 0;
 foldables.push(obj0);
