@@ -44,8 +44,6 @@ This project by Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan
 
 Contributions by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Antje Schulz, Sylvain Spitz.
 
-The background image of the christmas edition is contributed by Lars Kastner and Antje Schulz.
-
 [Original publication](https://drops.dagstuhl.de/opus/volltexte/2017/7243/) in the proceedings of the 33rd International Symposium on Computational Geometry (SoCG 2017).
 
 You can contact the authors via mail:
