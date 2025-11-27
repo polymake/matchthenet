@@ -368,8 +368,11 @@ button, .buttonType1{
 	background-color: hsla(0, 0%, 75%, 1);
 }
 
+#bestScore{
+   display: inline;
+}
 
-#points, #roundDiv, #timeDiv,  #logo, #bestScore{
+#points, #roundDiv, #timeDiv,  #logo {
 	position: fixed;
 	top: 0;
 	margin: 1.5vmin;
