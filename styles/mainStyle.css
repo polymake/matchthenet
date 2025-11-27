@@ -259,8 +259,10 @@ canvas{
 
 
 .bordered{
-	width: 11vmin;
+	min-width: 11vmin;
 	border-radius: 2vmin;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
