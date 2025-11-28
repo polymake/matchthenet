@@ -1,0 +1,5 @@
+descriptions.push(
+   { "en": "Polarized polytope of Johnson solid J58: A polytope with 16 vertices, 35 edges and 21 facets.", "de": "Duales Polytop des Johnson-Körpers J58: Ein Polytop mit 16 Ecken, 35 Kanten und 21 Seiten."}
+);
+
+prepareDescriptions();

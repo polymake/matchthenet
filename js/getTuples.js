@@ -6,31 +6,31 @@
 // get a data tuple containing the names of the chosen polytopes and their corresponding nets
 function getTuple(round, difficulty){
 	var polyData = data[difficulty];
-
-	// get the data randomly from the collection
+	var tuples = polyData['tuples'];
+	// get the data randomly from the collection with probability 0.9 and from tuples with probability 0.1
 	if (polyData['collection'].length){
+		var rndnum = randomNumber(10);
+		if(polyData['tuples'].length && rndnum<1 && numberOfPolytopes==3){
+			tuple = tuples[randomNumber(tuples.length)];
+		}else{
 			var collection = polyData['collection'];	
 			var numOfPolys = collection.length;
 			var tuple = [];
-      var tupleNum = [];
+     			var tupleNum = [];
 			for (var i=0; i<numberOfPolytopes; i++){
 				var temp = randomNumber(numOfPolys);
 				if (tupleNum.indexOf(temp) > -1) {
 					i--;
 					continue;
 				}
-				tupleNum.push(temp);
-				tuple.push(collection[temp]);
+			tupleNum.push(temp);
+			tuple.push(collection[temp]);
 			}
 		} 
-
-		// get the data from the predefined tuples
-		else{
-			var tuples = polyData['tuples'];
-			tuple = tuples[randomNumber(tuples.length)];
-		}
-	
-	return tuple
+	}else{// get the data from the predefined tuples if no data in collection
+		tuple = tuples[randomNumber(tuples.length)];
+	}	
+	return tuple	
 }
 			
 

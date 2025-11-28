@@ -1,0 +1,5 @@
+descriptions.push(
+   { "en": "Polarized polytope of Johnson solid J14: A polytope with 9 vertices, 15 edges and 8 facets.", "de": "Duales Polytop des Johnson-Körpers J14: Ein Polytop mit 9 Ecken, 15 Kanten und 8 Seiten."}
+);
+
+prepareDescriptions();

@@ -1,15 +1,17 @@
 # MatchTheNet
 
-Copyright (c) 2016-2017 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
+Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan Yürük & the polymake team
 
 ## data files ```(data/* img/*)```
+	
+Most of the polytopes are produced by polymake automatically. Some additional polytopes are contributed by Mara Belotti, Andrei Comaneci, Dan Corey, Holger Eble, Alexej Jordan, Lars Kastner, Marta Panizzut, Sylvain Spitz.
 
 license [CC BY-NC-SA 3.0](http://creativecommons.org/licenses/by-nc-sa/3.0/)
 
 ## source ```(js/* styles/* index.html)```
 
     MatchTheNet
-    Copyright (c) 2016-2017 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber & the polymake team
+    Copyright (c) 2016-2021 Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber, Oguzhan Yürük & the polymake team
     
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -87,3 +89,5 @@ license CC BY 3.0
 Checkered icon and Drag Flick icon made by Freepik from www.flaticon.com
 license CC BY 3.0
 
+iconoir:info-empty icon by Luca Burgio from https://github.com/lucaburgio/iconoir
+license MIT

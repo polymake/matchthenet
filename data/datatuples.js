@@ -2,7 +2,10 @@ var data = {
 
 	// for testing
 	0: {
-		"collection": [],
+		"collection": [
+		/* NEW LEVEL MARKER */
+				
+		],
 		"tuples": [['johnson_01','johnson_01','johnson_01']]
 		},
 	
@@ -117,9 +120,55 @@ var data = {
 			'truncated_icosahedron_easy',
 			'truncated_icosidodecahedron_easy',
 			'truncated_octahedron_easy',
-			'truncated_tetrahedron_easy'
+			'truncated_tetrahedron_easy',
+                       'F-3D-0016_easy',
+                       'F-3D-0015_easy',
+                       'F-3D-0014_easy',
+                       'F-3D-0013_easy',
+                       'F-3D-0012_easy',
+                       'F-3D-0011_easy',
+                       'F-3D-0010_easy',
+                       'F-3D-0009_easy',
+                       'F-3D-0008_easy',
+                       'F-3D-0007_easy',
+                       'F-3D-0006_easy',
+                       'F-3D-0005_easy',
+                       'F-3D-0004_easy',
+                       'F-3D-0003_easy',
+                       'F-3D-0002_easy',
+                       'F-3D-0001_easy',
+                       'F-3D-0000_easy',
+                       'SIM-body-6_easy',
+                       'SIM-body-5_easy',
+                       'SIM-body-4_easy',
+                       'SIM-body-3_easy',
+                       'SIM-body-2_easy',
+                       'SIM-body-1_easy',
+                       'gem2_easy',
+                       'cyclic-koebe-11_easy',
+                       'cyclic-koebe-10_easy',
+                       'cyclic-koebe-8_easy',
+                       'cyclic-koebe-7_easy',
+                       'cyclic-koebe-6_easy',
+                       'kis-octa_easy',
+                       'kis-cube_easy',
+                       'ModifiedJ62_easy',
+                       'polytrope6_easy',
+                       'polytrope5_easy',
+                       'polytrope4_easy',
+                       'polytrope3_easy',
+                       'polytrope2_easy',
+                       'polytrope1_easy',
+                       'zono-johnson-solid-26_easy',
+                       'zono-johnson-solid-15_easy',
+                       'zono-johnson-solid-14_easy',
+                       'zono-johnson-solid-12_easy',
+                       'zono-johnson-solid-1_easy'
 		],
-		"tuples": []
+		"tuples": [
+		['triplet_gem-triplet-2_1_easy', 'triplet_gem-triplet-2_2_easy', 'triplet_gem-triplet-2_3_easy'], //gem-triplet-2-triplet 
+		['triplet_gem-triplet-1_1_easy', 'triplet_gem-triplet-1_2_easy', 'triplet_gem-triplet-1_3_easy'], //gem-triplet-1-triplet 
+		]
 	},
 
 	2: {
@@ -228,7 +277,27 @@ var data = {
 			'truncated_icosahedron_dual_easy',
 			'truncated_icosidodecahedron_dual_easy',
 			'truncated_octahedron_dual_easy',
-			'truncated_tetrahedron_dual_easy',],
+			'truncated_tetrahedron_dual_easy',
+			'gem4_easy',
+			'gem3_easy',
+                       'gem1_easy',
+			'cyclic-koebe-12_easy',
+			'kis-ico_easy',
+			'zono-johnson-solid-91_easy',
+                       'zono-johnson-solid-8_easy',
+                       'zono-johnson-solid-7_easy',
+                       'zono-johnson-solid-65_easy',
+                       'zono-johnson-solid-63_easy',
+                       'zono-johnson-solid-62_easy',
+                       'zono-johnson-solid-4_easy',
+                       'zono-johnson-solid-31_easy',
+                       'zono-johnson-solid-3_easy',
+                       'zono-johnson-solid-29_easy',
+                       'zono-johnson-solid-28_easy',
+                       'zono-johnson-solid-27_easy',
+                       'zono-johnson-solid-2_easy',
+                       'zono-johnson-solid-11_easy'
+		],
 		"tuples": []
 	},
 
@@ -344,9 +413,54 @@ var data = {
 			'truncated_icosidodecahedron',
 			'truncated_octahedron',
 			'truncated_tetrahedron',
-
+			'F-3D-0016',
+                       'F-3D-0015',
+                       'F-3D-0014',
+                       'F-3D-0013',
+                       'F-3D-0012',
+                       'F-3D-0011',
+                       'F-3D-0010',
+                       'F-3D-0009',
+                       'F-3D-0008',
+                       'F-3D-0007',
+                       'F-3D-0006',
+                       'F-3D-0005',
+                       'F-3D-0004',
+                       'F-3D-0003',
+                       'F-3D-0002',
+                       'F-3D-0001',
+			'F-3D-0000',
+			'SIM-body-6',
+                       'SIM-body-5',
+                       'SIM-body-4',
+                       'SIM-body-3',
+                       'SIM-body-2',
+                       'SIM-body-1',
+                       'gem2',
+                       'cyclic-koebe-11',
+                       'cyclic-koebe-10',
+                       'cyclic-koebe-8',
+                       'cyclic-koebe-7',
+                       'cyclic-koebe-6',
+                       'kis-octa',
+                       'kis-cube',
+                       'ModifiedJ62',
+                       'polytrope6',
+                       'polytrope5',
+                       'polytrope4',
+                       'polytrope3',
+                       'polytrope2',
+                       'polytrope1',
+                       'zono-johnson-solid-26',
+                       'zono-johnson-solid-15',
+                       'zono-johnson-solid-14',
+                       'zono-johnson-solid-12',
+                       'zono-johnson-solid-1'
 		],
-		"tuples": []
+		"tuples": [
+		['triplet_gem-triplet-2_1', 'triplet_gem-triplet-2_2', 'triplet_gem-triplet-2_3'], //gem-triplet-2-triplet 
+		['triplet_gem-triplet-1_1', 'triplet_gem-triplet-1_2', 'triplet_gem-triplet-1_3'], //gem-triplet-1-triplet 
+		]
 	},
 
 	4: {
@@ -456,7 +570,25 @@ var data = {
 			'truncated_icosidodecahedron_dual',
 			'truncated_octahedron_dual',
 			'truncated_tetrahedron_dual',
-			
+			'gem4',
+			'gem3',
+			'gem1',
+			'cyclic-koebe-12',
+			'kis-ico',
+			'zono-johnson-solid-91',
+                       'zono-johnson-solid-8',
+                       'zono-johnson-solid-7',
+                       'zono-johnson-solid-65',
+                       'zono-johnson-solid-63',
+                       'zono-johnson-solid-62',
+                       'zono-johnson-solid-4',
+                       'zono-johnson-solid-31',
+                       'zono-johnson-solid-3',
+                       'zono-johnson-solid-29',
+                       'zono-johnson-solid-28',
+                       'zono-johnson-solid-27',
+                       'zono-johnson-solid-2',
+                       'zono-johnson-solid-11'
 		],
 		"tuples": []
 	},
@@ -513,7 +645,6 @@ var data = {
 			'rand_48_easy',
 			'rand_49_easy',
 			'rand_50_easy'
-	
 		],
 		"tuples": []
 	},
@@ -570,7 +701,6 @@ var data = {
 			'rand_48',
 			'rand_49',
 			'rand_50'
-	
 		],
 		"tuples": []
 	},
@@ -616,6 +746,13 @@ var data = {
 		 ['johnson_77_dual_easy', 'johnson_78_dual_easy', 'johnson_79_dual_easy'],
 
 		 /* NEW TRIPLET MARKER */
+['triplet_zono-johnson-triplet_1_easy', 'triplet_zono-johnson-triplet_2_easy', 'triplet_zono-johnson-triplet_3_easy'], //zono-johnson-triplet-triplet 
+['triplet_kis-plat_1_easy', 'triplet_kis-plat_2_easy', 'triplet_kis-plat_3_easy'], //kis-plat-triplet 
+['triplet_cyclic-koebe-hard_1_easy', 'triplet_cyclic-koebe-hard_2_easy', 'triplet_cyclic-koebe-hard_3_easy'], //cyclic-koebe-hard-triplet 
+['triplet_SIM-body-triplet_1_easy', 'triplet_SIM-body-triplet_2_easy', 'triplet_SIM-body-triplet_3_easy'], //SIM-body-triplet-triplet
+['triplet_polytrope-triplet_1_easy', 'triplet_polytrope-triplet_2_easy', 'triplet_polytrope-triplet_3_easy'], //polytrope-triplet-triplet
+['triplet_AJ-triplet_1_easy', 'triplet_AJ-triplet_2_easy', 'triplet_AJ-triplet_3_easy'], //AJ-triplet-triplet
+['triplet_distorted-cubes_1_easy', 'triplet_distorted-cubes_2_easy', 'triplet_distorted-cubes_3_easy'], //distorted-cubes-triplet
 ['triplet_rsph_1_easy', 'triplet_rsph_2_easy', 'triplet_rsph_3_easy'], //rsph-triplet
 ['triplet_j48_1_easy', 'triplet_j48_2_easy', 'triplet_j48_3_easy'], //j48-triplet
 

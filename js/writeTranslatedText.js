@@ -32,6 +32,7 @@ function writeTranslatedText(){
 	document.getElementById('newGame').innerHTML= translation[language]['Restart'];
 	document.getElementById('ok').innerHTML= translation[language]['Submit'];
 	document.getElementById('next').innerHTML= translation[language]['Next'];
+//	document.getElementById('info').innerHTML= translation[language]['Info'];
 	document.getElementById('reset').innerHTML= translation[language]['Restart'];
 	document.getElementById('solution').innerHTML= translation[language]['Solution'];
 	document.getElementById('startGame').innerHTML= translation[language]['Play'];

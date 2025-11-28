@@ -90,9 +90,14 @@ var hideCursorCheckbox = document.getElementById('hideCursor');
 //the folding mode variables
 var foldingDiv = document.getElementById('folding');
 var nextButton = document.getElementById('next');
+var infoButton = document.getElementById('info');
+var infoScreen = document.getElementById('infoScreen');
+var infoContainer = document.getElementById('infoContainer');
+var infoScreenShown = false;
+var infoScripts = document.getElementById('infoScripts');
+var descriptions = [];
 var solutionButton = document.getElementById('solution');
 var foldingRenderId;
-var foldingScripts = document.getElementById('foldingScripts');
 var closeFoldingButton = document.getElementById('closeFoldingButton');
 var centerButton = document.getElementById('centerButton');
 var foldingRenderIds = new Array(maxNumberOfPolytopes);
@@ -100,7 +105,7 @@ var foldingPolytopeRoots= new Array(maxNumberOfPolytopes);
 var foldingCreators;
 var foldingRenderers = [];
 for (var i=0; i<maxNumberOfPolytopes; i++){
-	foldingRenderers.push(Detector.webgl? new THREE.WebGLRenderer({antialias: true}): new THREE.CanvasRenderer({antialias: true}));
+	foldingRenderers.push(new THREE.WebGLRenderer({antialias: true, alpha: true}));
 }
 var foldingControls= Array(maxNumberOfPolytopes);
 var foldingAxes = Array(maxNumberOfPolytopes);
@@ -130,7 +135,7 @@ var polytopeObjects = new Array(maxNumberOfPolytopes);
 var polytopeControls = new Array(maxNumberOfPolytopes);
 var polyRotations = new Array(maxNumberOfPolytopes);
 for (var i=0; i<maxNumberOfPolytopes; i++){
-	renderers.push(Detector.webgl? new THREE.WebGLRenderer({antialias: true}): new THREE.CanvasRenderer({antialias: true}));
+	renderers.push(new THREE.WebGLRenderer({antialias: true, alpha: true}));
 }
 var renderIds = new Array(maxNumberOfPolytopes);
 var polytopeCreators;

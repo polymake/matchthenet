@@ -93,6 +93,14 @@ function startGame(){
 	initialize(1);
 }
 
+function showInfoHint(count){
+	for (var i=0; i<maxNumberOfPolytopes; i++){
+      var hint = document.getElementById('infoHint'+i);
+	   hint.style.display = i < count ? 'block' : 'none';
+   }
+
+}
+
 function showDragHint(){
 	dragHint.style.display = 'block';
 	switch(numberOfPolytopes){
@@ -131,12 +139,15 @@ function restoreGame(){
 	// show normal gaming screen
 	nextButton.style.display = 'none';
 	solutionButton.style.display = 'none';
+	//infoButton.style.display = 'none';
+   //hideInfoScreen();
 	okButton.style.display = 'inline-block';
 	resetButton.style.display = 'inline-block';
 	pointsNumber.innerHTML = points;
 	bestScoreNumber.innerHTML = highscore;
 	addPointsDiv.style.display = 'none';
 	moreScreen.style.display = 'none';
+   showInfoHint(0);
 	interact('.draggable').draggable(true);
 }
 
@@ -194,14 +205,40 @@ function computeDifficulty(round){
 function loadScripts(){
 	polytopeCreators = [];
 	foldingCreators = [];
+   descriptions = [];
+	infoScripts.innerHTML = '';
+   //infoContainer.innerHTML = '';
 	polyScripts.innerHTML = '';
 	foldingScripts.innerHTML = '';
 	currScrNum = 0;
 	currFoldingScrNum = 0;
 	appendScript();
 	appendFoldingScript();
+   prepareDescriptions();
 }
 
+function prepareDescriptions(){
+   if (descriptions.length < numberOfPolytopes) {
+		var infoScript = document.createElement('script');
+		infoScript.className = 'infoScript';
+		infoScript.src = 'data/desc/' + dataTuple[descriptions.length] + '.js';
+		infoScripts.appendChild(infoScript);
+   } else if (descriptions.length == numberOfPolytopes) {
+      for (var i=0; i < descriptions.length; i++){
+         var div = document.getElementById("infoHint"+i);
+         var desc = descriptions[i];
+         if (typeof(desc) == "string") {
+            div.setAttribute("data-tooltip", desc);
+         } else {
+            if (language in desc) {
+               div.setAttribute("data-tooltip", desc[language]);
+            } else {
+               div.setAttribute("data-tooltip", desc["en"]);
+            }
+         }
+      }
+   }
+}
 
 // append script for creating next polytope 
 function appendScript(){
@@ -428,8 +465,29 @@ function showStartScreen(){
 	stopAnimatingPolytopes();
 	stopAnimatingFoldings();
 	hideFoldings();
+   //hideInfoScreen();
 	//resetDifficulties();
 	//resetNumOfPolys();
+}
+
+function toggleInfoScreen(){
+   if (infoScreenShown) {
+      hideInfoScreen();
+   } else {
+      showInfoScreen();
+   }
+}
+
+function showInfoScreen(){
+	infoScreen.style.display = 'block';
+   infoButton.innerHTML = translation[language]['Close'];
+   infoScreenShown = true;
+}
+
+function hideInfoScreen(){
+	infoScreen.style.display = 'none';
+   infoButton.innerHTML = translation[language]['Info'];
+   infoScreenShown = false;
 }
 
 function showMoreScreen(){
@@ -665,8 +723,11 @@ function checkMatching(){
 	if (round == numOfRounds){
 		nextButton.innerHTML = translation[language]['Finish'];
 	}
+   //infoButton.style.display = 'inline-block';
+   //infoButton.innerHTML = translation[language]['Info'];
 	solutionButton.style.display = 'inline-block';
 
+   showInfoHint(numberOfPolytopes);
 }
 
 
