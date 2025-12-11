@@ -1,4 +1,4 @@
-var showLanguages = ['uk', 'en','de'];
+var showLanguages = [ 'en','de', 'uk', 'fr', 'es', 'ca'];
 
 var translation = { 
  'en': {
@@ -9,7 +9,7 @@ var translation = {
 	'Difficulty': 'Level of difficulty',
 	'Number of polytopes': 'Number of polytopes',
 	'Score': 'Score',
-	'Best score': 'Best score (what happens if this text is really, really long?',
+	'Best score': 'Best score',
 	'Time': 'Time',
 	'Round': 'Round',
 	'You': 'Your score',
@@ -182,7 +182,7 @@ var translation = {
 	'Submit': 'Перевірити',
 	'Restart': 'Перезапустити',
 	'Next': 'Далі',
-	'Info': 'інформація',
+	'Info': 'Довідка',
 	'Finish': 'Завершити',
 	'Solution': 'Розв’язання',
 	'Restart hint': 'Щоб змінити рівень складності, перезапустіть гру.',
