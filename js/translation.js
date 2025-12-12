@@ -1,4 +1,4 @@
-var showLanguages = [ 'en','de', 'uk', 'fr', 'es', 'ca'];
+var showLanguages = [ 'uk','en','de'];
 
 var translation = { 
  'en': {
