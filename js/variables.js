@@ -73,8 +73,7 @@ var moreScreen = document.getElementById('moreScreen');
 var settingsScreen = document.getElementById('settingsScreen');
 var startDifficulties= document.getElementsByClassName('startDifficulty');
 var numOfPolysDivs = document.getElementsByClassName('numOfPolys');
-var languageDivs;
-var selectLanguage;
+var languageOpt;
 var currDifficulty;
 
 

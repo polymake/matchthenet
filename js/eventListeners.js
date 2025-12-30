@@ -53,11 +53,7 @@ function setEventListeners(){
 		numOfPolysDivs[i].addEventListener('click', selectNumOfPolys);
 	};
 
-	for (var i=0; i<languageDivs.length; i++){
-		languageDivs[i].addEventListener('click', selectLanguage);
-	};
-
-	selectLanguage.onchange = changeLanguage;
+   languageOpt.addEventListener('change', changeLanguage);
 };
 
 function setNetEventListeners(){

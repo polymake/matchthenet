@@ -220,6 +220,26 @@ canvas{
 	transform: translate(-50%,-50%);
 }
 
+select,
+::picker(select) {
+	border-radius: 2vmin;
+   appearance: base-select;
+	border: solid black 0.1vmin;
+}
+
+option:hover,
+option:focus {
+  background-color: hsla(208, 100%, 74%, 1);
+}
+
+select {
+	border: solid black 0.1vmin;
+	border-radius: 2vmin;
+	padding: 0px;
+	min-height: 2.9vmin;
+	line-height: 2.9vmin;
+}
+
 .bordered, .difficulty, .numOfPolys{
 	display: inline-block;
 	height: 2.9vmin;

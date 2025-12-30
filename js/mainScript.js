@@ -552,8 +552,8 @@ function resetNumOfPolys(){
 //	resetGame();
 //}
 
-function changeLanguage(){
-	language = selectLanguage.value;
+function changeLanguage(e){
+   language = e.target.value
 	writeTranslatedText();
 }	
 
@@ -593,17 +593,6 @@ function selectDifficulty(event){
       } else {
          restrictNumOfPolys(false);
       }
-}
-
-
-function selectLanguage(event){
-		var langDiv = event.currentTarget;
-		for (var i=0; i<languageDivs.length; i++){
-			languageDivs[i].style.backgroundColor = 'transparent';
-		}
-		langDiv.style.backgroundColor= blueColor;
-		language = langDiv.getAttribute('alt');
-		writeTranslatedText();
 }
 
 function selectNumOfPolys(event){
