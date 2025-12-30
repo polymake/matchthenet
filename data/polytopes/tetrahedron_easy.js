@@ -79,7 +79,7 @@ obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, si
 obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 2, 3];
    <!-- Edge style -->
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: polytopeLineWidth, transparent: false } );
-obj0.userData.facets = [[3, 2, 0], [1, 2, 3], [3, 0, 1], [0, 2, 1]];
+obj0.userData.facets = [[2, 1, 0], [3, 1, 2], [2, 0, 3], [0, 1, 3]];
    <!-- Facet style -->
 obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),

@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of Johnson solid J91: A polytope with 14 vertices, 26 edges and 14 facets.", "de": "Duales Polytop des Johnson-Körpers J91: Ein Polytop mit 14 Ecken, 26 Kanten und 14 Seiten."}
+   {"_data":{"vertices":14,"cubical":false,"edges":26,"_type":"johnson_dual","simplicial":false,"simple":false,"_str":"J91","facets":14}}
 );
 
 prepareDescriptions();

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <!-- generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-ND 3.0; see polymake.org and matchthenet.de -->
-<svg height="841pt" id="document" viewBox="0 -775.892119797286 572 775.892119797286" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="841pt" id="document" viewBox="0 -775.892119797285 572 775.892119797285" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title id="document_title">planar_net_</title>
 	<polygon points="165.499999999996,-282.130706599102 429.499999999994,-282.130706599102 297.499999999998,-510.761413198194 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="165.499999999996,-282.130706599102 297.499999999994,-53.5 429.499999999994,-282.130706599102 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="165.499999999996,-282.130706599102 297.499999999998,-510.761413198194 33.5,-510.7614131982 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="297.499999999998,-510.761413198194 165.499999999984,-739.392119797286 33.5,-510.7614131982 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="561.5,-53.5000000000174 429.499999999994,-282.130706599102 297.499999999994,-53.5 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="297.499999999998,-510.761413198194 429.499999999994,-282.130706599102 561.49999999999,-510.761413198204 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="297.499999999998,-510.761413198194 165.499999999984,-739.392119797285 33.5,-510.7614131982 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="297.499999999998,-510.761413198194 429.499999999994,-282.130706599102 561.499999999989,-510.761413198204 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="561.5,-53.5000000000179 429.499999999994,-282.130706599102 297.499999999994,-53.5 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<circle cx="165.499999999996" cy="-282.130706599102" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="429.499999999994" cy="-282.130706599102" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="297.499999999998" cy="-510.761413198194" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="297.499999999994" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="33.5" cy="-510.7614131982" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="561.49999999999" cy="-510.761413198204" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="561.5" cy="-53.5000000000174" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="165.499999999984" cy="-739.392119797286" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="561.499999999989" cy="-510.761413198204" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="561.5" cy="-53.5000000000179" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="165.499999999984" cy="-739.392119797285" r="2" style="fill: rgb(0,0,0)" />
 	<!--
-	Generated using the Perl SVG Module V2.84
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg>

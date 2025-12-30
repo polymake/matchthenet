@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <!-- generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-ND 3.0; see polymake.org and matchthenet.de -->
-<svg height="841pt" id="document" viewBox="0 -494.732301119262 572 494.732301119262" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg height="841pt" id="document" viewBox="0 -494.732301119264 572 494.732301119264" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title id="document_title">planar_net_</title>
-	<polygon points="33.5,-239.909082735807 448.587344964741,-239.909082735807 514.325813755628,-264.223310918737 521.490456238658,-314.348304873907 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="517.456910182072,-228.537415002304 512.238274039307,-230.199618978674 537.494927396812,-53.5 561.499999999986,-152.726296778843 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="512.238274039307,-230.199618978674 448.587344964741,-239.909082735807 33.5,-239.909082735807 537.494927396812,-53.5 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="521.490456238658,-314.348304873907 514.325813755628,-264.223310918737 517.456910182136,-251.280750469324 561.5,-327.091868692771 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="33.5,-239.909082735807 521.490456238658,-314.348304873907 525.48179814852,-356.148199617257 524.513447150681,-458.232301119262 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="514.325813755628,-264.223310918737 448.587344964741,-239.909082735807 512.729653190117,-245.519675755407 513.598581277168,-250.92726756964 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="33.5,-239.909082735807 448.587344964742,-239.909082735807 514.32581375563,-264.223310918738 521.49045623866,-314.348304873908 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="517.456910182074,-228.537415002304 512.238274039308,-230.199618978674 537.494927396814,-53.5 561.499999999988,-152.726296778843 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="512.238274039308,-230.199618978674 448.587344964742,-239.909082735807 33.5,-239.909082735807 537.494927396814,-53.5 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="521.49045623866,-314.348304873908 514.32581375563,-264.223310918738 517.456910182138,-251.280750469325 561.5,-327.091868692772 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="33.5,-239.909082735807 521.49045623866,-314.348304873908 525.481798148522,-356.148199617258 524.513447150682,-458.232301119264 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="514.32581375563,-264.223310918738 448.587344964742,-239.909082735807 512.729653190119,-245.519675755407 513.59858127717,-250.92726756964 " style="fill: rgb(14,173,105); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<circle cx="33.5" cy="-239.909082735807" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="448.587344964741" cy="-239.909082735807" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="514.325813755628" cy="-264.223310918737" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="521.490456238658" cy="-314.348304873907" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="537.494927396812" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="512.238274039307" cy="-230.199618978674" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="517.456910182136" cy="-251.280750469324" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="561.5" cy="-327.091868692771" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="525.48179814852" cy="-356.148199617257" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="524.513447150681" cy="-458.232301119262" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="512.729653190117" cy="-245.519675755407" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="513.598581277168" cy="-250.92726756964" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="561.499999999986" cy="-152.726296778843" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="517.456910182072" cy="-228.537415002304" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="448.587344964742" cy="-239.909082735807" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="514.32581375563" cy="-264.223310918738" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="521.49045623866" cy="-314.348304873908" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="537.494927396814" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="512.238274039308" cy="-230.199618978674" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="517.456910182138" cy="-251.280750469325" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="561.5" cy="-327.091868692772" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="525.481798148522" cy="-356.148199617258" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="524.513447150682" cy="-458.232301119264" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="512.729653190119" cy="-245.519675755407" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="513.59858127717" cy="-250.92726756964" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="561.499999999988" cy="-152.726296778843" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="517.456910182074" cy="-228.537415002304" r="2" style="fill: rgb(0,0,0)" />
 	<!--
-	Generated using the Perl SVG Module V2.84
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg>

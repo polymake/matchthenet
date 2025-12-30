@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A simple polytope with 60 vertices, 90 edges and 32 facets. This is an Archimedean solid and its name is truncated dodecahedron.", "de": "Ein einfaches Polytop mit 60 Ecken, 90 Kanten und 32 Seiten. Dies ist ein archimedischer Körper und sein Name ist Abgestumpftes Dodekaeder."}
+   {"_data":{"_type":"archimedean","edges":90,"cubical":false,"vertices":60,"simplicial":false,"facets":32,"_str":"truncated dodecahedron","simple":true}}
 );
 
 prepareDescriptions();

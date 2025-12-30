@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of a icosidodecahedron: A simple polytope with 32 vertices, 60 edges and 30 facets.", "de": "Duales Polytop des Icosidodekaeders: Ein kubisches Polytop mit 32 Ecken, 60 Kanten und 30 Seiten."}
+   {"_data":{"edges":60,"_type":"archimedean_dual","cubical":true,"vertices":32,"facets":30,"simple":false,"_str":"icosidodecahedron","simplicial":false}}
 );
 
 prepareDescriptions();

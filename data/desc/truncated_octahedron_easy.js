@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A simple polytope with 24 vertices, 36 edges and 14 facets. This is an Archimedean solid and its name is truncated octahedron.", "de": "Ein einfaches Polytop mit 24 Ecken, 36 Kanten und 14 Seiten. Dies ist ein archimedischer Körper und sein Name ist Abgestumpftes Oktaeder."}
+   {"_data":{"simplicial":false,"simple":true,"_str":"truncated octahedron","facets":14,"vertices":24,"cubical":false,"edges":36,"_type":"archimedean"}}
 );
 
 prepareDescriptions();

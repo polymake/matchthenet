@@ -68,10 +68,10 @@ var obj0 = new THREE.Object3D();
 obj0.name = "truncated_tetrahedron_dual";
 obj0.userData.explodable = 1;
 obj0.userData.points = [];
-obj0.userData.points.push(new PMPoint(-0.721688, -0.721688, 0.721688));
+obj0.userData.points.push(new PMPoint(0.721688, 0.721688, 0.721688));
 obj0.userData.points.push(new PMPoint(0.721688, -0.721688, -0.721688));
 obj0.userData.points.push(new PMPoint(-0.721688, 0.721688, -0.721688));
-obj0.userData.points.push(new PMPoint(0.721688, 0.721688, 0.721688));
+obj0.userData.points.push(new PMPoint(-0.721688, -0.721688, 0.721688));
 obj0.userData.points.push(new PMPoint(-0.433013, 0.433013, 0.433013));
 obj0.userData.points.push(new PMPoint(0.433013, -0.433013, 0.433013));
 obj0.userData.points.push(new PMPoint(0.433013, 0.433013, -0.433013));
@@ -80,10 +80,10 @@ obj0.userData.points.push(new PMPoint(-0.433013, -0.433013, -0.433013));
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
-obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 2, 3, 0, 4, 2, 4, 3, 4, 0, 5, 1, 5, 3, 5, 1, 6, 2, 6, 3, 6, 0, 7, 1, 7, 2, 7];
+obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 2, 3, 0, 4, 2, 4, 3, 4, 0, 5, 1, 5, 3, 5, 0, 6, 1, 6, 2, 6, 1, 7, 2, 7, 3, 7];
    <!-- Edge style -->
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: polytopeLineWidth, transparent: false } );
-obj0.userData.facets = [[3, 4, 0], [2, 4, 3], [0, 4, 2], [3, 0, 5], [3, 5, 1], [5, 0, 1], [2, 3, 6], [3, 1, 6], [2, 6, 1], [0, 2, 7], [0, 7, 1], [7, 2, 1]];
+obj0.userData.facets = [[0, 4, 3], [2, 4, 0], [3, 4, 2], [0, 3, 5], [0, 5, 1], [5, 3, 1], [2, 0, 6], [0, 1, 6], [2, 6, 1], [3, 2, 7], [3, 7, 1], [7, 2, 1]];
    <!-- Facet style -->
 obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),

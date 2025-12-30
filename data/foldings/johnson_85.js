@@ -96,7 +96,7 @@ obj0.userData.points.push(new PMPoint(-1.23836, 2.14492, 0));
 obj0.userData.points.push(new PMPoint(0.906557, 2.47673, 0));
 obj0.userData.points.push(new PMPoint(-0.906538, 2.47674, 0));
 obj0.userData.points.push(new PMPoint(2.14492, -2.14491, 0));
-obj0.userData.points.push(new PMPoint(1.00251e-05, -2.47673, 0));
+obj0.userData.points.push(new PMPoint(1.00252e-05, -2.47673, 0));
 obj0.userData.points.push(new PMPoint(1.8131, -2.47673, 0));
 
 obj0.userData.pointradii = 0.02;
@@ -143,7 +143,7 @@ obj0.userData.angles = [2.51578109830269,
       2.51577466545965,
       2.53841711898687,
       2.5384184587109,
-      2.86682972605019,
+      2.86682972605018,
       2.51577983561958,
       2.53841704087057,
       2.53841614473768,
@@ -187,8 +187,8 @@ obj0.userData.subtrees = [[29],
       [3,6,7,13,14,15,21,22,23,27,28,29]];
 
 obj0.userData.polytoperoot = [[0.230904401619337,1.00318524017569,0.422188142239493],
-      [38.2386318124028,34.9562912688562,1],
-      [9.20656486125808,-8.77740671812165,-45.2208581627777]];
+      [38.2386318124027,34.9562912688561,1],
+      [9.20656486125806,-8.77740671812163,-45.2208581627776]];
 
 obj0.userData.oldscale = 0;
 foldables.push(obj0);

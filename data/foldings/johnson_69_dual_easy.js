@@ -69,97 +69,138 @@ obj0.name = "planar_net_";
 obj0.userData.explodable = 1;
 obj0.userData.points = [];
 obj0.userData.points.push(new PMPoint(0, 0, 0));
-obj0.userData.points.push(new PMPoint(0.592704, 0, 0));
-obj0.userData.points.push(new PMPoint(0.592704, 0.348855, 0));
-obj0.userData.points.push(new PMPoint(0.592704, -0.348855, 0));
-obj0.userData.points.push(new PMPoint(0.575409, 1.03639, 0));
-obj0.userData.points.push(new PMPoint(1.10908, 0.0281517, 0));
-obj0.userData.points.push(new PMPoint(0.905409, 0.503501, 0));
-obj0.userData.points.push(new PMPoint(0.575409, -1.03639, 0));
-obj0.userData.points.push(new PMPoint(0.905409, -0.503501, 0));
-obj0.userData.points.push(new PMPoint(1.10908, -0.0281517, 0));
-obj0.userData.points.push(new PMPoint(-0.0172949, 0.687531, 0));
-obj0.userData.points.push(new PMPoint(0.888803, 0.533314, 0));
-obj0.userData.points.push(new PMPoint(1.48565, 0.382603, 0));
-obj0.userData.points.push(new PMPoint(1.23307, 0.623236, 0));
-obj0.userData.points.push(new PMPoint(-0.0172949, -0.687531, 0));
-obj0.userData.points.push(new PMPoint(0.888803, -0.533314, 0));
-obj0.userData.points.push(new PMPoint(1.23307, -0.623236, 0));
-obj0.userData.points.push(new PMPoint(1.48565, -0.382603, 0));
-obj0.userData.points.push(new PMPoint(-0.626789, 1.00614, 0));
-obj0.userData.points.push(new PMPoint(-0.609999, 1.03639, 0));
-obj0.userData.points.push(new PMPoint(1.1849, 0.717772, 0));
-obj0.userData.points.push(new PMPoint(1.89448, 0.811734, 0));
-obj0.userData.points.push(new PMPoint(1.57125, -0.203887, 0));
-obj0.userData.points.push(new PMPoint(1.71057, 0.115939, 0));
-obj0.userData.points.push(new PMPoint(-0.626789, -1.00614, 0));
-obj0.userData.points.push(new PMPoint(-0.609999, -1.03639, 0));
-obj0.userData.points.push(new PMPoint(1.1849, -0.717772, 0));
-obj0.userData.points.push(new PMPoint(1.89448, -0.811734, 0));
-obj0.userData.points.push(new PMPoint(-0.609494, 0.318614, 0));
-obj0.userData.points.push(new PMPoint(-0.0172949, 1.38524, 0));
-obj0.userData.points.push(new PMPoint(1.75932, 1.09599, 0));
-obj0.userData.points.push(new PMPoint(1.73823, 0.141971, 0));
-obj0.userData.points.push(new PMPoint(2.11463, -0.440598, 0));
-obj0.userData.points.push(new PMPoint(-0.609494, -0.318614, 0));
-obj0.userData.points.push(new PMPoint(-0.0172949, -1.38524, 0));
-obj0.userData.points.push(new PMPoint(1.75932, -1.09599, 0));
-obj0.userData.points.push(new PMPoint(-1.2022, -0.0302413, 0));
-obj0.userData.points.push(new PMPoint(0, 2.07277, 0));
-obj0.userData.points.push(new PMPoint(-0.0345897, 2.07277, 0));
-obj0.userData.points.push(new PMPoint(1.14982, 1.4146, 0));
-obj0.userData.points.push(new PMPoint(2.24795, -0.319749, 0));
-obj0.userData.points.push(new PMPoint(0, -2.07277, 0));
-obj0.userData.points.push(new PMPoint(-0.0345897, -2.07277, 0));
-obj0.userData.points.push(new PMPoint(1.14982, -1.4146, 0));
-obj0.userData.points.push(new PMPoint(-1.21949, 0.657289, 0));
-obj0.userData.points.push(new PMPoint(0.592704, 1.72392, 0));
-obj0.userData.points.push(new PMPoint(-0.627294, 1.72392, 0));
-obj0.userData.points.push(new PMPoint(1.13253, 2.10213, 0));
-obj0.userData.points.push(new PMPoint(2.4042, 0.350014, 0));
-obj0.userData.points.push(new PMPoint(0.592704, -1.72392, 0));
-obj0.userData.points.push(new PMPoint(-0.627294, -1.72392, 0));
-obj0.userData.points.push(new PMPoint(1.13253, -2.10213, 0));
-obj0.userData.points.push(new PMPoint(-1.21949, 1.00614, 0));
-obj0.userData.points.push(new PMPoint(-1.51559, 0.472831, 0));
-obj0.userData.points.push(new PMPoint(-0.923393, 1.53946, 0));
-obj0.userData.points.push(new PMPoint(-0.627294, 2.07277, 0));
-obj0.userData.points.push(new PMPoint(1.74202, 1.78352, 0));
-obj0.userData.points.push(new PMPoint(3.0553, 0.571529, 0));
-obj0.userData.points.push(new PMPoint(3.06561, 0.538512, 0));
-obj0.userData.points.push(new PMPoint(-0.923393, -1.53946, 0));
-obj0.userData.points.push(new PMPoint(-0.627294, -2.07277, 0));
-obj0.userData.points.push(new PMPoint(1.74202, -1.78352, 0));
-obj0.userData.points.push(new PMPoint(-1.73587, 0.977993, 0));
-obj0.userData.points.push(new PMPoint(-1.5322, 0.502644, 0));
-obj0.userData.points.push(new PMPoint(-0.661378, 2.0711, 0));
-obj0.userData.points.push(new PMPoint(-1.17254, 1.99263, 0));
-obj0.userData.points.push(new PMPoint(-0.627294, 2.42163, 0));
-obj0.userData.points.push(new PMPoint(2.33473, 2.13237, 0));
-obj0.userData.points.push(new PMPoint(2.31644, 2.16173, 0));
-obj0.userData.points.push(new PMPoint(2.90936, -0.13125, 0));
-obj0.userData.points.push(new PMPoint(-1.17254, -1.99263, 0));
-obj0.userData.points.push(new PMPoint(-0.661378, -2.0711, 0));
-obj0.userData.points.push(new PMPoint(-0.627294, -2.42163, 0));
-obj0.userData.points.push(new PMPoint(2.31644, -2.16173, 0));
-obj0.userData.points.push(new PMPoint(-0.733004, 2.41253, 0));
-obj0.userData.points.push(new PMPoint(-1.0708, 2.49967, 0));
-obj0.userData.points.push(new PMPoint(-0.609999, 3.10916, 0));
-obj0.userData.points.push(new PMPoint(-1.0708, -2.49967, 0));
-obj0.userData.points.push(new PMPoint(-0.733004, -2.41253, 0));
-obj0.userData.points.push(new PMPoint(-0.609999, -3.10916, 0));
-obj0.userData.points.push(new PMPoint(-0.922735, 3.07359, 0));
-obj0.userData.points.push(new PMPoint(-0.922735, -3.07359, 0));
+obj0.userData.points.push(new PMPoint(0.501157, 0, 0));
+obj0.userData.points.push(new PMPoint(0.679354, 0.302757, 0));
+obj0.userData.points.push(new PMPoint(0.596869, 0.351307, 0));
+obj0.userData.points.push(new PMPoint(0.596869, -0.351307, 0));
+obj0.userData.points.push(new PMPoint(0.679354, -0.302757, 0));
+obj0.userData.points.push(new PMPoint(0.579453, 1.04367, 0));
+obj0.userData.points.push(new PMPoint(0.857552, 0.605514, 0));
+obj0.userData.points.push(new PMPoint(0.614285, 1.04367, 0));
+obj0.userData.points.push(new PMPoint(0.693547, -0.293943, 0));
+obj0.userData.points.push(new PMPoint(1.11312, 0.0145554, 0));
+obj0.userData.points.push(new PMPoint(0.579453, -1.04367, 0));
+obj0.userData.points.push(new PMPoint(0.614285, -1.04367, 0));
+obj0.userData.points.push(new PMPoint(0.857552, -0.605514, 0));
+obj0.userData.points.push(new PMPoint(-0.0174164, 0.692362, 0));
+obj0.userData.points.push(new PMPoint(1.20875, 0.59668, 0));
+obj0.userData.points.push(new PMPoint(1.21115, 0.692362, 0));
+obj0.userData.points.push(new PMPoint(1.14188, 0.0634189, 0));
+obj0.userData.points.push(new PMPoint(1.20793, 0.579993, 0));
+obj0.userData.points.push(new PMPoint(0.916751, -0.565229, 0));
+obj0.userData.points.push(new PMPoint(1.25887, -0.485413, 0));
+obj0.userData.points.push(new PMPoint(-0.0174164, -0.692362, 0));
+obj0.userData.points.push(new PMPoint(1.21115, -0.692362, 0));
+obj0.userData.points.push(new PMPoint(1.20875, -0.59668, 0));
+obj0.userData.points.push(new PMPoint(-0.631194, 1.01322, 0));
+obj0.userData.points.push(new PMPoint(-0.614285, 1.04367, 0));
+obj0.userData.points.push(new PMPoint(1.55994, 0.587846, 0));
+obj0.userData.points.push(new PMPoint(1.82493, 1.01322, 0));
+obj0.userData.points.push(new PMPoint(1.80802, 1.04367, 0));
+obj0.userData.points.push(new PMPoint(1.64974, 0.178679, 0));
+obj0.userData.points.push(new PMPoint(1.55346, 0.516533, 0));
+obj0.userData.points.push(new PMPoint(1.59029, -0.368878, 0));
+obj0.userData.points.push(new PMPoint(1.63274, -0.0201459, 0));
+obj0.userData.points.push(new PMPoint(-0.631194, -1.01322, 0));
+obj0.userData.points.push(new PMPoint(-0.614285, -1.04367, 0));
+obj0.userData.points.push(new PMPoint(1.82493, -1.01322, 0));
+obj0.userData.points.push(new PMPoint(1.55994, -0.587846, 0));
+obj0.userData.points.push(new PMPoint(1.80802, -1.04367, 0));
+obj0.userData.points.push(new PMPoint(-0.613777, 0.320853, 0));
+obj0.userData.points.push(new PMPoint(-0.0174164, 1.39498, 0));
+obj0.userData.points.push(new PMPoint(1.72269, 0.276512, 0));
+obj0.userData.points.push(new PMPoint(1.80751, 0.320853, 0));
+obj0.userData.points.push(new PMPoint(1.21115, 1.39498, 0));
+obj0.userData.points.push(new PMPoint(1.9883, -0.673417, 0));
+obj0.userData.points.push(new PMPoint(1.72775, -0.0317127, 0));
+obj0.userData.points.push(new PMPoint(-0.613777, -0.320853, 0));
+obj0.userData.points.push(new PMPoint(-0.0174164, -1.39498, 0));
+obj0.userData.points.push(new PMPoint(1.21115, -1.39498, 0));
+obj0.userData.points.push(new PMPoint(-1.21065, -0.0304538, 0));
+obj0.userData.points.push(new PMPoint(0, 2.08734, 0));
+obj0.userData.points.push(new PMPoint(-0.0348328, 2.08734, 0));
+obj0.userData.points.push(new PMPoint(2.40438, -0.0304538, 0));
+obj0.userData.points.push(new PMPoint(1.19374, 2.08734, 0));
+obj0.userData.points.push(new PMPoint(1.22857, 2.08734, 0));
+obj0.userData.points.push(new PMPoint(0, -2.08734, 0));
+obj0.userData.points.push(new PMPoint(-0.0348328, -2.08734, 0));
+obj0.userData.points.push(new PMPoint(1.19374, -2.08734, 0));
+obj0.userData.points.push(new PMPoint(1.22857, -2.08734, 0));
+obj0.userData.points.push(new PMPoint(-1.22806, 0.661908, 0));
+obj0.userData.points.push(new PMPoint(-0.631702, 1.73603, 0));
+obj0.userData.points.push(new PMPoint(2.4218, 0.661908, 0));
+obj0.userData.points.push(new PMPoint(1.82544, 1.73603, 0));
+obj0.userData.points.push(new PMPoint(-0.631702, -1.73603, 0));
+obj0.userData.points.push(new PMPoint(1.82544, -1.73603, 0));
+obj0.userData.points.push(new PMPoint(-1.13235, 1.01322, 0));
+obj0.userData.points.push(new PMPoint(-1.31055, 0.710458, 0));
+obj0.userData.points.push(new PMPoint(-1.31288, 0.706249, 0));
+obj0.userData.points.push(new PMPoint(-1.47563, 0.394915, 0));
+obj0.userData.points.push(new PMPoint(-0.716524, 1.78037, 0));
+obj0.userData.points.push(new PMPoint(-0.879274, 1.46904, 0));
+obj0.userData.points.push(new PMPoint(-0.535989, 2.08734, 0));
+obj0.userData.points.push(new PMPoint(-0.714187, 1.78458, 0));
+obj0.userData.points.push(new PMPoint(3.01867, 1.01322, 0));
+obj0.userData.points.push(new PMPoint(3.03558, 0.982761, 0));
+obj0.userData.points.push(new PMPoint(2.43922, 2.05688, 0));
+obj0.userData.points.push(new PMPoint(2.42231, 2.08734, 0));
+obj0.userData.points.push(new PMPoint(-0.879274, -1.46904, 0));
+obj0.userData.points.push(new PMPoint(-0.716524, -1.78037, 0));
+obj0.userData.points.push(new PMPoint(-0.714187, -1.78458, 0));
+obj0.userData.points.push(new PMPoint(-0.535989, -2.08734, 0));
+obj0.userData.points.push(new PMPoint(2.43922, -2.05688, 0));
+obj0.userData.points.push(new PMPoint(2.42231, -2.08734, 0));
+obj0.userData.points.push(new PMPoint(-1.32474, 1.30716, 0));
+obj0.userData.points.push(new PMPoint(-1.74431, 0.99866, 0));
+obj0.userData.points.push(new PMPoint(-1.78686, 0.92203, 0));
+obj0.userData.points.push(new PMPoint(-1.82685, 0.402788, 0));
+obj0.userData.points.push(new PMPoint(-0.631702, 2.43864, 0));
+obj0.userData.points.push(new PMPoint(-0.714187, 2.3901, 0));
+obj0.userData.points.push(new PMPoint(-0.728379, 2.38128, 0));
+obj0.userData.points.push(new PMPoint(-1.14795, 2.07278, 0));
+obj0.userData.points.push(new PMPoint(1.82544, 2.43864, 0));
+obj0.userData.points.push(new PMPoint(-0.714187, -2.3901, 0));
+obj0.userData.points.push(new PMPoint(-0.631702, -2.43864, 0));
+obj0.userData.points.push(new PMPoint(-1.14795, -2.07278, 0));
+obj0.userData.points.push(new PMPoint(-0.728379, -2.38128, 0));
+obj0.userData.points.push(new PMPoint(1.82544, -2.43864, 0));
+obj0.userData.points.push(new PMPoint(-0.649118, 3.13101, 0));
+obj0.userData.points.push(new PMPoint(-0.892385, 2.69285, 0));
+obj0.userData.points.push(new PMPoint(-0.951584, 2.65257, 0));
+obj0.userData.points.push(new PMPoint(-1.2937, 2.57275, 0));
+obj0.userData.points.push(new PMPoint(-0.892385, -2.69285, 0));
+obj0.userData.points.push(new PMPoint(-0.649118, -3.13101, 0));
 
 obj0.userData.pointradii = 0.02;
    <!-- Vertex style -->
 obj0.userData.pointmaterial = new THREE.MeshBasicMaterial( { color: 0x000000, side: THREE.DoubleSide, transparent: false } );
-obj0.userData.edgeindices = [0, 1, 0, 2, 1, 2, 0, 3, 1, 3, 0, 4, 2, 4, 1, 5, 2, 6, 5, 6, 0, 7, 3, 7, 3, 8, 1, 9, 8, 9, 0, 10, 4, 10, 2, 11, 4, 11, 5, 12, 6, 13, 12, 13, 0, 14, 7, 14, 3, 15, 7, 15, 8, 16, 9, 17, 16, 17, 0, 18, 10, 18, 4, 19, 10, 19, 4, 20, 11, 20, 12, 21, 13, 21, 5, 22, 12, 23, 22, 23, 0, 24, 14, 24, 7, 25, 14, 25, 7, 26, 15, 26, 16, 27, 17, 27, 0, 28, 18, 28, 4, 29, 19, 29, 4, 30, 20, 30, 12, 31, 21, 31, 22, 32, 23, 32, 0, 33, 24, 33, 7, 34, 25, 34, 7, 35, 26, 35, 18, 36, 28, 36, 4, 37, 29, 37, 19, 38, 29, 38, 4, 39, 30, 39, 21, 40, 31, 40, 7, 41, 34, 41, 25, 42, 34, 42, 7, 43, 35, 43, 18, 44, 36, 44, 4, 45, 37, 45, 19, 46, 38, 46, 30, 47, 39, 47, 21, 48, 40, 48, 7, 49, 41, 49, 25, 50, 42, 50, 35, 51, 43, 51, 18, 52, 44, 52, 36, 53, 44, 53, 19, 54, 46, 54, 38, 55, 46, 55, 30, 56, 47, 56, 21, 57, 48, 57, 40, 58, 48, 58, 25, 59, 50, 59, 42, 60, 50, 60, 35, 61, 51, 61, 52, 62, 44, 63, 62, 63, 46, 64, 54, 65, 64, 65, 38, 66, 55, 66, 30, 67, 56, 67, 47, 68, 56, 68, 40, 69, 58, 69, 59, 70, 50, 71, 70, 71, 42, 72, 60, 72, 51, 73, 61, 73, 64, 74, 65, 75, 74, 75, 38, 76, 66, 76, 70, 77, 71, 78, 77, 78, 42, 79, 72, 79, 74, 80, 75, 80, 77, 81, 78, 81];
+obj0.userData.edgeindices = [0, 1, 1, 2, 0, 3, 2, 3, 0, 4, 1, 5, 4, 5, 0, 6, 3, 6, 2, 7, 3, 8, 7, 8, 1, 9, 2, 10, 9, 10, 0, 11, 4, 11, 4, 12, 5, 13, 12, 13, 0, 14, 6, 14, 7, 15, 8, 16, 15, 16, 2, 17, 7, 18, 17, 18, 9, 19, 10, 20, 19, 20, 0, 21, 11, 21, 12, 22, 13, 23, 22, 23, 0, 24, 14, 24, 6, 25, 14, 25, 15, 26, 16, 27, 26, 27, 8, 28, 16, 28, 17, 29, 18, 30, 29, 30, 20, 31, 10, 32, 31, 32, 0, 33, 21, 33, 11, 34, 21, 34, 22, 35, 23, 36, 35, 36, 12, 37, 22, 37, 0, 38, 24, 38, 6, 39, 25, 39, 26, 40, 27, 41, 40, 41, 8, 42, 28, 42, 31, 43, 32, 44, 43, 44, 0, 45, 33, 45, 11, 46, 34, 46, 12, 47, 37, 47, 24, 48, 38, 48, 6, 49, 39, 49, 25, 50, 39, 50, 27, 51, 41, 51, 8, 52, 42, 52, 28, 53, 42, 53, 11, 54, 46, 54, 34, 55, 46, 55, 12, 56, 47, 56, 37, 57, 47, 57, 24, 58, 48, 58, 25, 59, 50, 59, 27, 60, 51, 60, 28, 61, 53, 61, 34, 62, 55, 62, 37, 63, 57, 63, 24, 64, 58, 65, 64, 65, 58, 66, 48, 67, 66, 67, 59, 68, 25, 69, 68, 69, 50, 70, 59, 71, 70, 71, 27, 72, 60, 72, 51, 73, 60, 73, 28, 74, 61, 74, 53, 75, 61, 75, 34, 76, 62, 77, 76, 77, 62, 78, 55, 79, 78, 79, 37, 80, 63, 80, 57, 81, 63, 81, 64, 82, 65, 83, 82, 83, 66, 84, 67, 85, 84, 85, 50, 86, 70, 87, 86, 87, 70, 88, 71, 89, 88, 89, 53, 90, 75, 90, 79, 91, 55, 92, 91, 92, 78, 93, 79, 94, 93, 94, 57, 95, 81, 95, 86, 96, 87, 97, 96, 97, 88, 98, 89, 99, 98, 99, 91, 100, 92, 101, 100, 101];
    <!-- Edge style -->
 obj0.userData.edgematerial = new THREE.LineBasicMaterial( { color: 0x000000, linewidth: foldingLineWidth, transparent: false } );
-obj0.userData.facets = [[0, 1, 2], [3, 1, 0], [0, 2, 4], [0, 4, 10], [3, 0, 7], [2, 11, 4], [7, 0, 14], [11, 20, 4], [0, 10, 18], [15, 3, 7], [0, 18, 28], [15, 7, 26], [14, 0, 24], [13, 12, 21], [10, 4, 19], [0, 33, 24], [12, 31, 21], [19, 4, 29], [17, 16, 27], [20, 30, 4], [7, 14, 25], [23, 22, 32], [4, 30, 39], [7, 25, 34], [29, 4, 37], [26, 7, 35], [28, 18, 36], [4, 45, 37], [35, 7, 43], [36, 18, 44], [7, 34, 41], [19, 29, 38], [31, 40, 21], [49, 7, 41], [19, 38, 46], [21, 40, 48], [44, 18, 52], [34, 25, 42], [39, 30, 47], [19, 46, 54], [42, 25, 50], [47, 30, 56], [36, 44, 53], [21, 48, 57], [35, 43, 51], [25, 59, 50], [30, 67, 56], [35, 51, 61], [48, 40, 58], [46, 38, 55], [58, 40, 69], [55, 38, 66], [47, 56, 68], [42, 50, 60], [38, 76, 66], [42, 60, 72], [61, 51, 73], [79, 42, 72], [74, 80, 75], [81, 78, 77], [2, 1, 5, 6], [6, 5, 12, 13], [12, 5, 22, 23], [9, 8, 16, 17], [9, 1, 3, 8], [44, 52, 62, 63], [59, 70, 71, 50], [70, 77, 78, 71], [64, 74, 75, 65], [46, 64, 65, 54]];
+obj0.userData.facets = [[0, 1, 2, 3], [5, 1, 0, 4], [0, 3, 6], [0, 6, 14], [4, 0, 11], [3, 2, 7, 8], [11, 0, 21], [8, 7, 15, 16], [0, 14, 24], [5, 4, 12, 13], [0, 24, 38], [23, 13, 12, 22], [21, 0, 33], [16, 15, 26, 27], [14, 6, 25], [0, 45, 33], [26, 40, 41, 27], [25, 6, 39], [23, 22, 35, 36], [8, 16, 28], [11, 21, 34], [32, 31, 43, 44], [8, 28, 42], [11, 34, 46], [39, 6, 49], [22, 12, 37], [38, 24, 48], [8, 42, 52], [37, 12, 47], [48, 24, 58], [11, 46, 54], [25, 39, 50], [41, 51, 27], [47, 12, 56], [25, 50, 59], [27, 51, 60], [58, 24, 64, 65], [46, 34, 55], [42, 28, 53], [25, 59, 68, 69], [55, 34, 62], [53, 28, 61], [48, 58, 66, 67], [27, 60, 72], [37, 47, 57], [34, 76, 77, 62], [61, 28, 74], [37, 57, 63], [60, 51, 73], [59, 50, 70, 71], [37, 63, 80], [70, 50, 86, 87], [53, 61, 75], [55, 62, 78, 79], [53, 75, 90], [55, 79, 91, 92], [63, 57, 81], [81, 57, 95], [86, 96, 97, 87], [101, 92, 91, 100], [2, 1, 9, 10], [2, 17, 18, 7], [18, 17, 29, 30], [10, 20, 31, 32], [10, 9, 19, 20], [64, 82, 83, 65], [67, 66, 84, 85], [78, 93, 94, 79], [89, 88, 98, 99], [71, 70, 88, 89]];
    <!-- Facet style -->
-obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+obj0.userData.facetmaterial = [new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
@@ -174,51 +215,30 @@ new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, dept
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
-new THREE.MeshBasicMaterial( { color: 0x0EAD69, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
+new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
@@ -229,88 +249,84 @@ new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, dept
 new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } ),
 new THREE.MeshBasicMaterial( { color: 0x43B8CE, depthFunc: THREE.LessDepth, depthWrite: false, opacity: 0.4, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 0.5, side: THREE.DoubleSide, transparent: true } )];
-obj0.userData.axes = [[78,77],
-      [75,74],
-      [42,72],
+obj0.userData.axes = [[92,91],
+      [89,88],
+      [87,86],
+      [81,57],
+      [79,78],
+      [55,79],
+      [53,75],
       [71,70],
-      [66,38],
+      [70,50],
+      [67,66],
       [65,64],
-      [61,51],
-      [42,60],
-      [50,59],
-      [58,40],
-      [47,56],
-      [56,30],
-      [55,38],
-      [54,46],
-      [44,52],
-      [35,51],
-      [42,50],
-      [50,25],
-      [48,40],
-      [21,48],
-      [47,30],
-      [46,38],
-      [19,46],
-      [36,44],
-      [44,18],
-      [35,43],
-      [42,25],
-      [7,41],
-      [21,40],
-      [39,30],
-      [19,38],
-      [37,4],
-      [36,18],
-      [35,7],
-      [34,25],
-      [7,34],
-      [21,31],
-      [4,30],
-      [19,29],
-      [29,4],
-      [28,18],
-      [26,7],
-      [7,25],
-      [24,0],
+      [63,57],
+      [37,63],
+      [55,62],
+      [62,34],
+      [53,61],
+      [61,28],
+      [60,51],
+      [27,60],
+      [59,50],
+      [25,59],
+      [48,58],
+      [58,24],
+      [37,57],
+      [55,34],
+      [53,28],
+      [27,51],
+      [25,50],
+      [48,24],
+      [37,47],
+      [47,12],
+      [46,34],
+      [11,46],
+      [42,28],
+      [8,42],
+      [27,41],
+      [25,39],
+      [39,6],
+      [38,24],
+      [37,12],
+      [11,34],
+      [33,0],
+      [32,31],
+      [8,28],
+      [27,26],
+      [25,6],
+      [0,24],
+      [22,12],
       [23,22],
-      [21,12],
-      [4,20],
-      [19,4],
-      [0,18],
-      [17,16],
-      [15,7],
-      [7,14],
-      [14,0],
-      [12,5],
+      [11,21],
+      [21,0],
+      [10,20],
+      [18,17],
+      [8,16],
+      [16,15],
+      [14,6],
+      [0,14],
       [13,12],
-      [4,11],
-      [10,4],
-      [0,10],
-      [9,8],
-      [3,7],
-      [7,0],
-      [6,5],
-      [4,2],
-      [0,4],
-      [1,3],
-      [3,0],
+      [11,0],
+      [10,9],
+      [7,2],
+      [8,7],
+      [0,6],
+      [5,4],
+      [4,0],
       [2,1],
-      [0,2],
+      [3,2],
+      [0,3],
       [1,0]];
 
-obj0.userData.angles = [2.81675875066152,
-      2.81675875066152,
-      2.80321785608481,
-      2.8210710137745,
-      2.80321785608481,
+obj0.userData.angles = [2.80321785608481,
       2.8210710137745,
       2.80321785608481,
       2.80321785608481,
       2.81675875066152,
       2.80321785608481,
       2.80321785608481,
-      2.80321785608481,
+      2.81675875066152,
       2.80321785608481,
       2.81675875066152,
       2.81675875066152,
@@ -343,12 +359,22 @@ obj0.userData.angles = [2.81675875066152,
       2.80321785608481,
       2.80321785608481,
       2.80321785608481,
-      2.81675875066152,
-      2.80321785608481,
-      2.80321785608481,
       2.80321785608481,
       2.80321785608481,
       2.81675875066152,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
+      2.8210710137745,
+      2.8210710137745,
+      2.80321785608481,
+      2.80321785608481,
+      2.80321785608481,
       2.80321785608481,
       2.80321785608481,
       2.80321785608481,
@@ -357,91 +383,85 @@ obj0.userData.angles = [2.81675875066152,
       2.80321785608481,
       2.80321785608481,
       2.80321785608481,
-      2.8210710137745,
-      2.80321785608481,
-      2.80321785608481,
-      2.8210710137745,
-      2.80321785608481,
       2.80321785608481,
       2.81675875066152,
       2.80321785608481,
-      2.81675875066152,
       2.80321785608481,
       2.80321785608481];
 
-obj0.userData.subtrees = [[81],
+obj0.userData.subtrees = [[100,101],
+      [98,99],
+      [96,97],
+      [95],
+      [93,94],
+      [91,92,100,101],
+      [90],
+      [88,89,98,99],
+      [86,87,96,97],
+      [84,85],
+      [82,83],
+      [81,95],
       [80],
-      [79],
-      [77,78,81],
-      [76],
-      [74,75,80],
+      [78,79,91,92,93,94,100,101],
+      [76,77],
+      [75,90],
+      [74],
       [73],
-      [72,79],
-      [70,71,77,78,81],
-      [69],
-      [68],
-      [67],
-      [66,76],
-      [64,65,74,75,80],
-      [62,63],
-      [61,73],
-      [60,72,79],
-      [59,70,71,77,78,81],
-      [58,69],
-      [57],
-      [56,67,68],
-      [55,66,76],
-      [54,64,65,74,75,80],
-      [53],
-      [52,62,63],
-      [51,61,73],
-      [50,59,60,70,71,72,77,78,79,81],
+      [72],
+      [70,71,86,87,88,89,96,97,98,99],
+      [68,69],
+      [66,67,84,85],
+      [64,65,82,83],
+      [63,80,81,95],
+      [62,76,77,78,79,91,92,93,94,100,101],
+      [61,74,75,90],
+      [60,72,73],
+      [59,68,69,70,71,86,87,88,89,96,97,98,99],
+      [58,64,65,66,67,82,83,84,85],
+      [57,63,80,81,95],
+      [56],
+      [55,62,76,77,78,79,91,92,93,94,100,101],
+      [54],
+      [53,61,74,75,90],
+      [52],
+      [51,60,72,73],
+      [50,59,68,69,70,71,86,87,88,89,96,97,98,99],
       [49],
-      [48,57,58,69],
-      [47,56,67,68],
-      [46,54,55,64,65,66,74,75,76,80],
+      [48,58,64,65,66,67,82,83,84,85],
+      [47,56,57,63,80,81,95],
+      [46,54,55,62,76,77,78,79,91,92,93,94,100,101],
       [45],
-      [44,52,53,62,63],
-      [43,51,61,73],
-      [42,50,59,60,70,71,72,77,78,79,81],
-      [41,49],
-      [40,48,57,58,69],
-      [39,47,56,67,68],
-      [38,46,54,55,64,65,66,74,75,76,80],
-      [37,45],
-      [36,44,52,53,62,63],
-      [35,43,51,61,73],
-      [34,41,42,49,50,59,60,70,71,72,77,78,79,81],
-      [33],
-      [32],
-      [31,40,48,57,58,69],
-      [30,39,47,56,67,68],
-      [29,37,38,45,46,54,55,64,65,66,74,75,76,80],
-      [28,36,44,52,53,62,63],
-      [27],
-      [26,35,43,51,61,73],
-      [25,34,41,42,49,50,59,60,70,71,72,77,78,79,81],
-      [24,33],
-      [22,23,32],
-      [21,31,40,48,57,58,69],
-      [20,30,39,47,56,67,68],
-      [19,29,37,38,45,46,54,55,64,65,66,74,75,76,80],
-      [18,28,36,44,52,53,62,63],
-      [16,17,27],
-      [15,26,35,43,51,61,73],
-      [14,24,25,33,34,41,42,49,50,59,60,70,71,72,77,78,79,81],
-      [12,13,21,22,23,31,32,40,48,57,58,69],
-      [11,20,30,39,47,56,67,68],
-      [10,18,19,28,29,36,37,38,44,45,46,52,53,54,55,62,63,64,65,66,74,75,76,80],
-      [8,9,16,17,27],
-      [7,14,15,24,25,26,33,34,35,41,42,43,49,50,51,59,60,61,70,71,72,73,77,78,79,81],
-      [5,6,12,13,21,22,23,31,32,40,48,57,58,69],
-      [4,10,11,18,19,20,28,29,30,36,37,38,39,44,45,46,47,52,53,54,55,56,62,63,64,65,66,67,68,74,75,76,80],
-      [3,7,8,9,14,15,16,17,24,25,26,27,33,34,35,41,42,43,49,50,51,59,60,61,70,71,72,73,77,78,79,81]];
+      [43,44],
+      [42,52,53,61,74,75,90],
+      [40,41,51,60,72,73],
+      [39,49,50,59,68,69,70,71,86,87,88,89,96,97,98,99],
+      [38,48,58,64,65,66,67,82,83,84,85],
+      [37,47,56,57,63,80,81,95],
+      [35,36],
+      [34,46,54,55,62,76,77,78,79,91,92,93,94,100,101],
+      [33,45],
+      [31,32,43,44],
+      [29,30],
+      [28,42,52,53,61,74,75,90],
+      [26,27,40,41,51,60,72,73],
+      [25,39,49,50,59,68,69,70,71,86,87,88,89,96,97,98,99],
+      [24,38,48,58,64,65,66,67,82,83,84,85],
+      [22,23,35,36,37,47,56,57,63,80,81,95],
+      [21,33,34,45,46,54,55,62,76,77,78,79,91,92,93,94,100,101],
+      [19,20,31,32,43,44],
+      [17,18,29,30],
+      [15,16,26,27,28,40,41,42,51,52,53,60,61,72,73,74,75,90],
+      [14,24,25,38,39,48,49,50,58,59,64,65,66,67,68,69,70,71,82,83,84,85,86,87,88,89,96,97,98,99],
+      [12,13,22,23,35,36,37,47,56,57,63,80,81,95],
+      [11,21,33,34,45,46,54,55,62,76,77,78,79,91,92,93,94,100,101],
+      [9,10,19,20,31,32,43,44],
+      [7,8,15,16,17,18,26,27,28,29,30,40,41,42,51,52,53,60,61,72,73,74,75,90],
+      [6,14,24,25,38,39,48,49,50,58,59,64,65,66,67,68,69,70,71,82,83,84,85,86,87,88,89,96,97,98,99],
+      [4,5,11,12,13,21,22,23,33,34,35,36,37,45,46,47,54,55,56,57,62,63,76,77,78,79,80,81,91,92,93,94,95,100,101]];
 
-obj0.userData.polytoperoot = [[0,-0.959014910329194,-0.592703810301373],
-      [-0.178120685518123,-1.04273665532138,3.46068950892414e-17],
-      [-0.618033988749893,0.105572809000084,0]];
+obj0.userData.polytoperoot = [[0,-0.965754173652327,-0.596868904094204],
+      [-0.176877716825102,-1.03546018985159,5.89121141287071e-17],
+      [-0.518927630227214,0.0886434218636706,-3.92747427524714e-17]];
 
 obj0.userData.oldscale = 0;
 foldables.push(obj0);

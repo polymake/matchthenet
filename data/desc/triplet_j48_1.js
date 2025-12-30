@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A polytope with 40 vertices, 90 edges and 52 facets.", "de": "Ein Polytop mit 40 Ecken, 90 Kanten und 52 Seiten."}
+   {"_data":{"simplicial":false,"_str":"","edges":90,"simple":false,"vertices":40,"facets":52,"cubical":false,"_type":""}  }
 );
 
 prepareDescriptions();

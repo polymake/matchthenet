@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of a truncated dodecahedron: A simplicial polytope with 32 vertices, 90 edges and 60 facets.", "de": "Duales Polytop des Abgestumpftes Dodekaeders: Ein simpliziales Polytop mit 32 Ecken, 90 Kanten und 60 Seiten."}
+   {"_data":{"vertices":32,"edges":90,"_type":"archimedean_dual","cubical":false,"simple":false,"_str":"truncated dodecahedron","facets":60,"simplicial":true}}
 );
 
 prepareDescriptions();
