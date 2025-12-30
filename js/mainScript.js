@@ -230,7 +230,7 @@ String.prototype.format = function() {
 
 function generateDescriptionString(descdata, lang) {
    if (!(lang in desc_translations)) {
-      lang = defaultLanguage;
+      lang = fallbackLanguage;
    }
    var dt = desc_translations[lang];
    var type = descdata["_type"];

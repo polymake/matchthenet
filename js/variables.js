@@ -76,10 +76,6 @@ var numOfPolysDivs = document.getElementsByClassName('numOfPolys');
 var languageOpt;
 var currDifficulty;
 
-
-// fallback language
-var language = 'en';
-
 var rotSpeedRange = document.getElementById('controlsRotationSpeed');
 var zoomSpeedRange = document.getElementById('controlsZoomSpeed');
 var panEnabledCheckbox = document.getElementById('controlsPanEnabled');
