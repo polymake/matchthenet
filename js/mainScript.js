@@ -533,19 +533,16 @@ function toggleInfoBox(event) {
    var disp = box.style.display;
    var newstyle;
    if (event.type == "mouseenter") {
-      console.log("mouseenter " + id);
       newstyle = "block";
       if (disp == "none") {
          box.setAttribute('data-hover', "true");
       }
    } else if (event.type == "mouseleave") {
-      console.log("mouseleave " + id);
       if (box.hasAttribute('data-hover')) {
          box.removeAttribute('data-hover');
          newstyle = "none";
       }
    } else if (event.type == "click") {
-      console.log("mouseclick " + id);
       if (box.hasAttribute('data-hover')) {
          box.removeAttribute('data-hover');
          newstyle = "block";
@@ -553,10 +550,7 @@ function toggleInfoBox(event) {
          newstyle = disp == "none" ? 'block' : 'none';
       }
    } else if (event.type == "touchstart") {
-      console.log("touchstart" + id);
       newstyle = disp == "none" ? 'block' : 'none';
-   } else {
-      console.log("other " + id + " " + event.type);
    }
    if (newstyle){
       box.style.display = newstyle;
