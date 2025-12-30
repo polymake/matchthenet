@@ -219,6 +219,42 @@ function loadScripts(){
    prepareDescriptions();
 }
 
+String.prototype.format = function() {
+   const args = arguments;
+   var str = this;
+   for (var s in args) {
+      str = str.replace("%s", args[s]);
+   }
+   return str;
+};
+
+function generateDescriptionString(descdata, lang) {
+   if (!(lang in desc_translations)) {
+      lang = defaultLanguage;
+   }
+   var dt = desc_translations[lang];
+   var type = descdata["_type"];
+   var extra = descdata["_str"];
+   if (dt["_extra"][type]) {
+      if (dt[extra]) {
+         extra = dt[extra];
+      }
+      extra = dt["_extra"][type].format(extra);
+      extra += " ";
+   }
+   var str = dt["_start"];
+   if (descdata["simplicial"]) {
+      str += dt["simplicial"] + " ";
+   } else if (descdata["simple"]) {
+      str += dt["simple"] + " ";
+   } else if (descdata["cubical"]) {
+      str += dt["cubical"] + " ";
+   }
+   str += dt["_mid"].format(descdata["vertices"], descdata["edges"], descdata["facets"]);
+   str = str[0].toUpperCase() + str.substring(1);
+   return extra + str;
+}
+
 function prepareDescriptions(){
    if (descriptions.length < numberOfPolytopes) {
 		var infoScript = document.createElement('script');
@@ -237,15 +273,12 @@ function prepareDescriptions(){
             div.appendChild(infobox);
          }
          if (typeof(desc) == "string") {
-            //div.setAttribute("data-tooltip", desc);
             infobox.innerHTML = desc;
          } else {
             if (language in desc) {
-               //div.setAttribute("data-tooltip", desc[language]);
                infobox.innerHTML = desc[language];
             } else {
-               //div.setAttribute("data-tooltip", desc["en"]);
-               infobox.innerHTML = desc[defaultLanguage];
+               infobox.innerHTML = generateDescriptionString(desc["_data"], language);
             }
          }
       }

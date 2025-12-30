@@ -204,32 +204,13 @@ var translation = {
 
 }
 
-var desc_translation = {
+var desc_translations = {
    'en': {
-      "tetrahedron": "tetrahedron",
-      "cube": "cube",
-      "octahedron": "octahedron",
-      "dodecahedron": "dodecahedron",
-      "icosahedron": "icosahedron",
-      "truncated tetrahedron": "truncated tetrahedron",
-      "cuboctahedron": "cuboctahedron",
-      "truncated cube": "truncated cube",
-      "truncated octahedron": "truncated octahedron",
-      "rhombicuboctahedron": "rhombicuboctahedron",
-      "truncated cuboctahedron": "truncated cuboctahedron",
-      "snub cube": "кирпатий куб",
-      "icosidodecahedron": "icosidodecahedron",
-      "truncated dodecahedron": "truncated dodecahedron",
-      "truncated icosahedron": "truncated icosahedron",
-      "rhombicosidodecahedron": "ромбікосододекаедр",
-      "truncated icosidodecahedron": "truncated icosidodecahedron",
-      "snub dodecahedron": "snub dodecahedron",
-
-      "simplicial": "simplicial ",
-      "simple": "simple ",
+      "simplicial": "simplicial",
+      "simple": "simple",
       "cubical": "cubical",
       "_start": "A ",
-      "_mid": "polytope with %d vertices, %d edges and %d facets",
+      "_mid": "polytope with %s vertices, %s edges and %s facets.",
       "_extra": {
              "johnson": "This is a Johnson solid named %s:",
              "johnson_dual": "Polarized polytope of Johnson solid %s:",
@@ -263,7 +244,7 @@ var desc_translation = {
       "simple": "простий",
       "cubical": "кубічний",
       "_start": "",
-      "_mid": "поліедр із %d вершинами, %d ребрами та %d гранями",
+      "_mid": "поліедр із %s вершинами, %s ребрами та %s гранями.",
       "_extra": {
              "johnson": "Це многогранник Джонсона, що має назву %s:",
              "johnson_dual": "Дуальний до многогранника Джонсона %s:",
@@ -297,7 +278,7 @@ var desc_translation = {
       "simple": "einfaches",
       "cubical": "kubisches",
       "_start": "Ein ",
-      "_mid": "Polytop mit %d Ecken, %d Kanten und %d Seiten",
+      "_mid": "Polytop mit %s Ecken, %s Kanten und %s Seiten.",
       "_extra": {
              "johnson": "Dies ist ein Johnson-Körper namens %s:",
              "johnson_dual": "Duales Polytop des Johnson-Körpers %s:",
