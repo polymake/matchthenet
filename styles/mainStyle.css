@@ -565,6 +565,7 @@ button, .buttonType1{
    transform: translate(0%, 100%);
    overflow-x: hidden;
    overflow-y: auto;
+	border: solid 1px;
 }
 
 .infoHint {
