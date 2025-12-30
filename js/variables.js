@@ -95,6 +95,7 @@ var infoContainer = document.getElementById('infoContainer');
 var infoScreenShown = false;
 var infoScripts = document.getElementById('infoScripts');
 var descriptions = [];
+var infoHints = document.getElementsByClassName('infoHint');
 var solutionButton = document.getElementById('solution');
 var foldingRenderId;
 var closeFoldingButton = document.getElementById('closeFoldingButton');
