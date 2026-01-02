@@ -1,6 +1,6 @@
 function generateLanguageButtons() {
    if (navigator.languages) {
-      for (var i = 0; i < navigator.languages.length; i++) {
+      for (var i = navigator.languages.length-1; i >= 0; i--) {
          var langtag = navigator.languages[i].split('-')[0];
          for (var j = 0; j < showLanguages.length; j++) {
             if (showLanguages[j] == langtag) {
