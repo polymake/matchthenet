@@ -220,6 +220,26 @@ canvas{
 	transform: translate(-50%,-50%);
 }
 
+select,
+::picker(select) {
+	border-radius: 2vmin;
+   appearance: base-select;
+	border: solid black 0.1vmin;
+}
+
+option:hover,
+option:focus {
+  background-color: hsla(208, 100%, 74%, 1);
+}
+
+select {
+	border: solid black 0.1vmin;
+	border-radius: 2vmin;
+	padding: 0px;
+	min-height: 2.9vmin;
+	line-height: 2.9vmin;
+}
+
 .bordered, .difficulty, .numOfPolys{
 	display: inline-block;
 	height: 2.9vmin;
@@ -383,7 +403,7 @@ button, .buttonType1{
 }
 
 #roundDiv{
-	right: 21vmin;
+	right: 23vmin;
 }
 
 #points{
@@ -532,21 +552,20 @@ button, .buttonType1{
 
 .infoBox{
 	position: absolute;
-   top: 10%;
-   right: 15%;
-	border: solid 1px;
-	background-color: hsla(0, 100%, 100%, 1);
-	padding: 2vmin;
-	font-weight: normal;
-	width: 30vmin;
-	height: 20vmin;
-   font-size: small;
-	/*margin: -20vmin -35vmin;
-	width: 80%;
-	height: 45vmin;
+    padding: 10px;
+    min-width: 16vmin;
+    max-width: 80%;
+    color: #333;
+    border-radius: 10px;
+    font-size: small;
+    background: white;
+   bottom: 3vmin;
+   left: 8vmin;
+    z-index: 100;
+   transform: translate(0%, 100%);
    overflow-x: hidden;
    overflow-y: auto;
-   transform: translate(-50%, -50%);*/
+	border: solid 1px;
 }
 
 .infoHint {
@@ -558,40 +577,9 @@ button, .buttonType1{
 	opacity: 0.3;
 }
 
-[data-tooltip]:before {
-    /* needed - do not touch */
-    content: attr(data-tooltip);
-    position: absolute;
-    opacity: 0;
-
-    /* customizable */
-    padding: 10px;
-    width: 22vmin;
-    color: #333;
-    border-radius: 10px;
-    font-size: small;
-}
-
-[data-tooltip]:hover:before,
-[data-tooltip]:active:before,
-[data-tooltop]:focus:before {
-    /* needed - do not touch */
-    opacity: 1;
-
-    /* customizable */
-    background: white;
-    margin-top: 40px;
-    margin-left: 20px;
-    z-index: 100;
-}
-
-[data-tooltip]:not([data-tooltip-persistent]):before {
-    pointer-events: none;
-}
-
-
 #infoIcon {
    width: 4vmin;
+	cursor: pointer;
 }
 
 #dragHint{

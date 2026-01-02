@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A simple polytope with 48 vertices, 72 edges and 26 facets. This is an Archimedean solid and its name is truncated cuboctahedron.", "de": "Ein einfaches Polytop mit 48 Ecken, 72 Kanten und 26 Seiten. Dies ist ein archimedischer Körper und sein Name ist Abgestumpftes Würfeloktaeder."}
+   {"_data":{"simplicial":false,"facets":26,"simple":true,"_str":"truncated cuboctahedron","edges":72,"_type":"archimedean","cubical":false,"vertices":48}}
 );
 
 prepareDescriptions();

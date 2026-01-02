@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of a truncated octahedron: A simplicial polytope with 14 vertices, 36 edges and 24 facets.", "de": "Duales Polytop des Abgestumpftes Oktaeders: Ein simpliziales Polytop mit 14 Ecken, 36 Kanten und 24 Seiten."}
+   {"_data":{"_str":"truncated octahedron","simple":false,"facets":24,"simplicial":true,"vertices":14,"edges":36,"_type":"archimedean_dual","cubical":false}}
 );
 
 prepareDescriptions();

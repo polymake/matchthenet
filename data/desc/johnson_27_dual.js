@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of Johnson solid J27: A simple polytope with 14 vertices, 24 edges and 12 facets.", "de": "Duales Polytop des Johnson-Körpers J27: Ein kubisches Polytop mit 14 Ecken, 24 Kanten und 12 Seiten."}
+   {"_data":{"vertices":14,"edges":24,"_type":"johnson_dual","cubical":true,"_str":"J27","simple":false,"facets":12,"simplicial":false}}
 );
 
 prepareDescriptions();

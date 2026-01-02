@@ -1,4 +1,8 @@
-var showLanguages = ['en','de'];
+var showLanguages = [ 'ca', 'en', 'fr', 'de', 'es', 'uk'];
+// fallback language for some strings
+var fallbackLanguage = 'en';
+// current language
+var language = fallbackLanguage;
 
 var translation = { 
  'en': {
@@ -165,8 +169,125 @@ var translation = {
 	'Zoom speed': 'Velocitat del zoom:',
 	'Zoom enabled': 'Zoom activat:',
 	'intro': "MatchTheNet és un joc sobre políedres, per a un jugador. Hi trobaràs els 5 sòlids platònics i alguns de la seva família.<br><br>En cada ronda del joc veuràs uns políedres a la part superior de la pantalla. Pots rotar-los per a veure'ls des de qualsevol costat.<br><br>A la part inferior hi veuràs el mateix nombre de desenvolupaments plans. Aquests desenvolupaments són el resultat de desplegar els políedres al pla. L'objectiu és emparellar cada políedre amb el seu desenvolupament pla. Pots intercanviar dos desenvolupaments qualsevols movent un sobre l'altre.",
+ },
+  'uk': {
+   'name': 'Українська',
+	'Controls': 'Керування',
+   'Easy': 'Легко',
+	'Difficult': 'Складно',
+	'Difficulty': 'Рівень складності',
+	'Number of polytopes': 'Кількість поліедрів',
+	'Score': 'Результат',
+	'Best score': 'Найкращий результат',
+	'Time': 'Час',
+	'Round': 'Раунд',
+	'You': 'Ваш результат',
+	'Highscore': 'Рекорд',
+	'Submit': 'Перевірити',
+	'Restart': 'Перезапустити',
+	'Next': 'Далі',
+	'Info': 'Довідка',
+	'Finish': 'Завершити',
+	'Solution': 'Розв’язання',
+	'Restart hint': 'Щоб змінити рівень складності, перезапустіть гру.',
+	'Play': 'Грати',
+	'More': 'Про гру',
+	'Close': 'Закрити',
+	'Select language': 'Будь ласка, виберіть мову',
+	'Swap': 'Поміняйте розгортки місцями',
+	'Congratulations': 'Вітаємо!!',
+	'Completed game': 'Ви успішно завершили гру.',
+	'Rotation speed': 'Швидкість обертання:',
+	'Zoom speed': 'Швидкість масштабування:',
+	'Zoom enabled': 'Масштабування увімкнено:',
+	'intro': 'MatchTheNet — це гра про поліедри для одного гравця. На вас чекають п’ять Платонових тіл і їхні найкращі друзі.<br><br>У кожному раунді гри у верхній частині вікна ви побачите кілька поліедрів. Ви можете обертати їх, щоб розглянути з усіх боків.<br><br>У нижній частині екрана розташовано таку саму кількість плоских розгорток — це розгортки даних поліедрів на площину. Мета — поєднати кожну розгортку з відповідним поліедром. Ви можете міняти будь-які дві розгортки місцями, перетягнувши одну на іншу.', 
  }
 
 
 }
 
+var desc_translations = {
+   'en': {
+      "simplicial": "simplicial",
+      "simple": "simple",
+      "cubical": "cubical",
+      "_start": "A ",
+      "_mid": "polytope with %s vertices, %s edges and %s facets.",
+      "_extra": {
+             "johnson": "This is a Johnson solid named %s:",
+             "johnson_dual": "Polarized polytope of Johnson solid %s:",
+             "archimedean": "This is an Archimedean solid and its name is %s:",
+             "archimedean_dual": "Polarized polytope of a %s:",
+             "platonic": "This is a platonic solid, and its name is %s:",
+             "randsphere": "This polytope is constructed by taking the polar of a random 3-polytope given by the convex hull of %s points from the unit sphere."
+      }
+   },
+   'uk': {
+      "tetrahedron": "тетраедр",
+      "cube": "куб",
+      "octahedron": "октаедр",
+      "dodecahedron": "додекаедр",
+      "icosahedron": "ікосаедр",
+      "truncated tetrahedron": "зрізаний тетраедр",
+      "cuboctahedron": "кубоокраедр",
+      "truncated cube": "зрізаний куб",
+      "truncated octahedron": "зрізаний октаедр",
+      "rhombicuboctahedron": "ромбокубооктаедр",
+      "truncated cuboctahedron": "зрізаний кубооктаедр",
+      "snub cube": "кирпатий куб",
+      "icosidodecahedron": "ікосододекаедр",
+      "truncated dodecahedron": "зрізаний додекаедр",
+      "truncated icosahedron": "зрізаний ікосаедр",
+      "rhombicosidodecahedron": "ромбікосододекаедр",
+      "truncated icosidodecahedron": "зрізаний ікосододекаедр",
+      "snub dodecahedron": "кирпатий додекаедр",
+
+      "simplicial": "симпліціальний",
+      "simple": "простий",
+      "cubical": "кубічний",
+      "_start": "",
+      "_mid": "поліедр із %s вершинами, %s ребрами та %s гранями.",
+      "_extra": {
+             "johnson": "Це многогранник Джонсона, що має назву %s:",
+             "johnson_dual": "Дуальний до многогранника Джонсона %s:",
+             "archimedean": "Це архімедове тіло, що має назву %s:",
+             "archimedean_dual": "Дуальний поліедр до %s:",
+             "platonic": "Це платонове тіло, що має назву %s:",
+             "randsphere": "Цей поліедр побудовано шляхом взяття дуального до випадкового многогранника, заданого опуклою оболонкою %s точок одиничної сфери."
+      }
+   },
+   "de":{
+      "tetrahedron": "Tetraeder",
+      "cube": "Würfel",
+      "octahedron": "Oktaeder",
+      "dodecahedron": "Dodekaeder",
+      "icosahedron": "Ikosaeder",
+      "truncated tetrahedron": "Abgestumpftes Tetraeder",
+      "cuboctahedron": "Würfeloktaeder",
+      "truncated cube": "Abgestumpfter Würfel",
+      "truncated octahedron": "Abgestumpftes Oktaeder",
+      "rhombicuboctahedron": "Rhombikuboktaeder",
+      "truncated cuboctahedron": "Abgestumpftes Würfeloktaeder",
+      "snub cube": "Snubwürfel",
+      "icosidodecahedron": "Icosidodekaeder",
+      "truncated dodecahedron": "Abgestumpftes Dodekaeder",
+      "truncated icosahedron": "Abgestumpftes Ikosaeder",
+      "rhombicosidodecahedron": "Rhombikosidodekaeder",
+      "truncated icosidodecahedron": "Abgestumpftes Ikosidodekaeder",
+      "snub dodecahedron": "Snubdodekaeder",
+
+      "simplicial": "simpliziales",
+      "simple": "einfaches",
+      "cubical": "kubisches",
+      "_start": "Ein ",
+      "_mid": "Polytop mit %s Ecken, %s Kanten und %s Seiten.",
+      "_extra": {
+             "johnson": "Dies ist ein Johnson-Körper namens %s:",
+             "johnson_dual": "Duales Polytop des Johnson-Körpers %s:",
+             "archimedean": "Dies ist ein archimedischer Körper und sein Name ist %s:",
+             "archimedean_dual": "Duales Polytop des archimedischen Körpers mit dem Namen %s:",
+             "platonic": "Dies ist ein platonischer Körper und sein Name ist %s:",
+             "randsphere": "Dieses Polytop wird konstruiert, indem die konvexe Hülle von %s Punkten von der Einheitskugel dualisiert wird."
+      }
+   }
+}

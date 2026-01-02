@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A simple polytope with 20 vertices, 30 edges and 12 facets.", "de": "Ein einfaches Polytop mit 20 Ecken, 30 Kanten und 12 Seiten."}
+   {"_data":{"vertices":20,"facets":12,"_type":"","cubical":false,"simplicial":false,"_str":"","edges":30,"simple":true}  }
 );
 
 prepareDescriptions();

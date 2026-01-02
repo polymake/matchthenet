@@ -97,6 +97,8 @@ function showInfoHint(count){
 	for (var i=0; i<maxNumberOfPolytopes; i++){
       var hint = document.getElementById('infoHint'+i);
 	   hint.style.display = i < count ? 'block' : 'none';
+      var box = document.getElementById('infoBox'+i);
+	   box.style.display = 'none';
    }
 
 }
@@ -217,6 +219,42 @@ function loadScripts(){
    prepareDescriptions();
 }
 
+String.prototype.format = function() {
+   const args = arguments;
+   var str = this;
+   for (var s in args) {
+      str = str.replace("%s", args[s]);
+   }
+   return str;
+};
+
+function generateDescriptionString(descdata, lang) {
+   if (!(lang in desc_translations)) {
+      lang = fallbackLanguage;
+   }
+   var dt = desc_translations[lang];
+   var type = descdata["_type"];
+   var extra = descdata["_str"];
+   if (dt["_extra"][type]) {
+      if (dt[extra]) {
+         extra = dt[extra];
+      }
+      extra = dt["_extra"][type].format(extra);
+      extra += " ";
+   }
+   var str = dt["_start"];
+   if (descdata["simplicial"]) {
+      str += dt["simplicial"] + " ";
+   } else if (descdata["simple"]) {
+      str += dt["simple"] + " ";
+   } else if (descdata["cubical"]) {
+      str += dt["cubical"] + " ";
+   }
+   str += dt["_mid"].format(descdata["vertices"], descdata["edges"], descdata["facets"]);
+   str = str[0].toUpperCase() + str.substring(1);
+   return extra + str;
+}
+
 function prepareDescriptions(){
    if (descriptions.length < numberOfPolytopes) {
 		var infoScript = document.createElement('script');
@@ -225,15 +263,22 @@ function prepareDescriptions(){
 		infoScripts.appendChild(infoScript);
    } else if (descriptions.length == numberOfPolytopes) {
       for (var i=0; i < descriptions.length; i++){
-         var div = document.getElementById("infoHint"+i);
          var desc = descriptions[i];
+         var infobox = document.getElementById("infoBox"+i);
+         if (!infobox) {
+            var div = document.getElementById("infoHint"+i);
+            infobox = document.createElement('div');
+            infobox.className = 'infoBox';
+            infobox.id = 'infoBox'+i;
+            div.appendChild(infobox);
+         }
          if (typeof(desc) == "string") {
-            div.setAttribute("data-tooltip", desc);
+            infobox.innerHTML = desc;
          } else {
             if (language in desc) {
-               div.setAttribute("data-tooltip", desc[language]);
+               infobox.innerHTML = desc[language];
             } else {
-               div.setAttribute("data-tooltip", desc["en"]);
+               infobox.innerHTML = generateDescriptionString(desc["_data"], language);
             }
          }
       }
@@ -478,6 +523,40 @@ function toggleInfoScreen(){
    }
 }
 
+function toggleInfoBox(event) {
+   var id = event.target.id;
+   if (id == "infoIcon") {
+      id = event.target.parentNode.id;
+   }
+   id = id.replace("Hint","Box");
+   var box = document.getElementById(id);
+   var disp = box.style.display;
+   var newstyle;
+   if (event.type == "mouseenter") {
+      newstyle = "block";
+      if (disp == "none") {
+         box.setAttribute('data-hover', "true");
+      }
+   } else if (event.type == "mouseleave") {
+      if (box.hasAttribute('data-hover')) {
+         box.removeAttribute('data-hover');
+         newstyle = "none";
+      }
+   } else if (event.type == "click") {
+      if (box.hasAttribute('data-hover')) {
+         box.removeAttribute('data-hover');
+         newstyle = "block";
+      } else {
+         newstyle = disp == "none" ? 'block' : 'none';
+      }
+   } else if (event.type == "touchstart") {
+      newstyle = disp == "none" ? 'block' : 'none';
+   }
+   if (newstyle){
+      box.style.display = newstyle;
+   }
+}
+
 function showInfoScreen(){
 	infoScreen.style.display = 'block';
    infoButton.innerHTML = translation[language]['Close'];
@@ -552,8 +631,8 @@ function resetNumOfPolys(){
 //	resetGame();
 //}
 
-function changeLanguage(){
-	language = selectLanguage.value;
+function changeLanguage(e){
+   language = e.target.value
 	writeTranslatedText();
 }	
 
@@ -593,17 +672,6 @@ function selectDifficulty(event){
       } else {
          restrictNumOfPolys(false);
       }
-}
-
-
-function selectLanguage(event){
-		var langDiv = event.currentTarget;
-		for (var i=0; i<languageDivs.length; i++){
-			languageDivs[i].style.backgroundColor = 'transparent';
-		}
-		langDiv.style.backgroundColor= blueColor;
-		language = langDiv.getAttribute('alt');
-		writeTranslatedText();
 }
 
 function selectNumOfPolys(event){

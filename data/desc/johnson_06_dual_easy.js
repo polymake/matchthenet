@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of Johnson solid J6: A polytope with 17 vertices, 35 edges and 20 facets.", "de": "Duales Polytop des Johnson-Körpers J6: Ein Polytop mit 17 Ecken, 35 Kanten und 20 Seiten."}
+   {"_data":{"vertices":17,"cubical":false,"edges":35,"_type":"johnson_dual","_str":"J6","simple":false,"facets":20,"simplicial":false}}
 );
 
 prepareDescriptions();

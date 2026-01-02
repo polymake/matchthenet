@@ -52,12 +52,13 @@ function setEventListeners(){
 	for (var i=0; i<numOfPolysDivs.length; i++){
 		numOfPolysDivs[i].addEventListener('click', selectNumOfPolys);
 	};
-
-	for (var i=0; i<languageDivs.length; i++){
-		languageDivs[i].addEventListener('click', selectLanguage);
-	};
-
-	selectLanguage.onchange = changeLanguage;
+	for (var i=0; i<infoHints.length; i++){
+      infoHints[i].addEventListener('click', toggleInfoBox);
+		infoHints[i].addEventListener('touchstart', toggleInfoBox);
+		infoHints[i].addEventListener('mouseenter', toggleInfoBox);
+		infoHints[i].addEventListener('mouseleave', toggleInfoBox);
+   }
+   languageOpt.addEventListener('change', changeLanguage);
 };
 
 function setNetEventListeners(){

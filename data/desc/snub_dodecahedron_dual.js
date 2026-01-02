@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of a snub dodecahedron: A polytope with 92 vertices, 150 edges and 60 facets.", "de": "Duales Polytop des Snubdodekaeders: Ein Polytop mit 92 Ecken, 150 Kanten und 60 Seiten."}
+   {"_data":{"cubical":false,"_type":"archimedean_dual","edges":150,"vertices":92,"simplicial":false,"facets":60,"_str":"snub dodecahedron","simple":false}}
 );
 
 prepareDescriptions();

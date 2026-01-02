@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of Johnson solid J5: A polytope with 12 vertices, 25 edges and 15 facets.", "de": "Duales Polytop des Johnson-Körpers J5: Ein Polytop mit 12 Ecken, 25 Kanten und 15 Seiten."}
+   {"_data":{"simple":false,"_str":"J5","facets":15,"simplicial":false,"vertices":12,"cubical":false,"_type":"johnson_dual","edges":25}}
 );
 
 prepareDescriptions();

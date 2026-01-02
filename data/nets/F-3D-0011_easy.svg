@@ -3,29 +3,29 @@
 <!-- generated using polymake; Michael Joswig, Georg Loho, Benjamin Lorenz, Rico Raber; license CC BY-NC-ND 3.0; see polymake.org and matchthenet.de -->
 <svg height="841pt" id="document" viewBox="0 -598.546851311916 572 598.546851311916" width="595pt" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<title id="document_title">planar_net_</title>
-	<polygon points="174.392166180742,-288.320276967897 362.24838775506,-288.320276967897 362.248387755062,-421.154685131181 174.392166180741,-421.15468513118 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="174.392166180742,-288.320276967897 362.24838775506,-288.320276967897 362.248387755063,-421.154685131181 174.392166180741,-421.15468513118 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="221.356221574322,-147.428110787158 362.24838775506,-288.320276967897 174.392166180742,-288.320276967897 127.428110787165,-241.356221574317 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="174.392166180742,-288.320276967897 174.392166180741,-421.15468513118 107.974962099098,-421.154685131183 107.974962099102,-288.32027696789 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<polygon points="127.428110787151,-53.5 221.356221574322,-147.428110787158 127.428110787165,-241.356221574317 33.5,-147.428110787154 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="174.392166180741,-421.15468513118 362.248387755062,-421.154685131181 221.356221574316,-562.046851311916 127.428110787159,-468.118740524744 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
-	<polygon points="362.248387755062,-421.154685131181 362.24838775506,-288.320276967897 561.5,-288.320276967897 561.499999999994,-421.154685131179 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="174.392166180741,-421.15468513118 362.248387755063,-421.154685131181 221.356221574316,-562.046851311916 127.42811078716,-468.118740524744 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
+	<polygon points="362.248387755063,-421.154685131181 362.24838775506,-288.320276967897 561.5,-288.320276967897 561.499999999995,-421.154685131179 " style="fill: rgb(67,184,206); fill-opacity: 1; stroke: rgb(0,0,0); stroke-width: 3" />
 	<circle cx="174.392166180742" cy="-288.320276967897" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="362.24838775506" cy="-288.320276967897" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="362.248387755062" cy="-421.154685131181" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="362.248387755063" cy="-421.154685131181" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="174.392166180741" cy="-421.15468513118" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="127.428110787165" cy="-241.356221574317" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="221.356221574322" cy="-147.428110787158" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="107.974962099098" cy="-421.154685131183" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="107.974962099102" cy="-288.32027696789" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="221.356221574316" cy="-562.046851311916" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="127.428110787159" cy="-468.118740524744" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="127.42811078716" cy="-468.118740524744" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="561.5" cy="-288.320276967897" r="2" style="fill: rgb(0,0,0)" />
-	<circle cx="561.499999999994" cy="-421.154685131179" r="2" style="fill: rgb(0,0,0)" />
+	<circle cx="561.499999999995" cy="-421.154685131179" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="33.5" cy="-147.428110787154" r="2" style="fill: rgb(0,0,0)" />
 	<circle cx="127.428110787151" cy="-53.5" r="2" style="fill: rgb(0,0,0)" />
 	<!--
-	Generated using the Perl SVG Module V2.84
+	Generated using the Perl SVG Module V2.87
 	by Ronan Oger
-	Info: http://www.roitsystems.com/
+
 	-->
 </svg>

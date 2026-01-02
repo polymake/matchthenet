@@ -73,13 +73,8 @@ var moreScreen = document.getElementById('moreScreen');
 var settingsScreen = document.getElementById('settingsScreen');
 var startDifficulties= document.getElementsByClassName('startDifficulty');
 var numOfPolysDivs = document.getElementsByClassName('numOfPolys');
-var languageDivs;
-var selectLanguage;
+var languageOpt;
 var currDifficulty;
-
-
-// fallback language
-var language = 'en';
 
 var rotSpeedRange = document.getElementById('controlsRotationSpeed');
 var zoomSpeedRange = document.getElementById('controlsZoomSpeed');
@@ -96,6 +91,7 @@ var infoContainer = document.getElementById('infoContainer');
 var infoScreenShown = false;
 var infoScripts = document.getElementById('infoScripts');
 var descriptions = [];
+var infoHints = document.getElementsByClassName('infoHint');
 var solutionButton = document.getElementById('solution');
 var foldingRenderId;
 var closeFoldingButton = document.getElementById('closeFoldingButton');

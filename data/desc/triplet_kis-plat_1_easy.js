@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A simplicial polytope with 14 vertices, 36 edges and 24 facets.", "de": "Ein simpliziales Polytop mit 14 Ecken, 36 Kanten und 24 Seiten."}
+   {"_data":{"simplicial":true,"_str":"","edges":36,"simple":false,"vertices":14,"facets":24,"cubical":false,"_type":""}  }
 );
 
 prepareDescriptions();

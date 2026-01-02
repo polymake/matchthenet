@@ -1,18 +1,32 @@
 function generateLanguageButtons() {
-   var div = document.getElementById('startSelectLanguage');
-   for (var i=0; i < showLanguages.length; i++) {
-		var langspan = document.createElement('span');
-		langspan.className = 'bordered language';
-      langspan.textContent = translation[showLanguages[i]]['name'];
-      langspan.setAttribute('alt',showLanguages[i]);
-      if (i==0) {
-		   langspan.style.backgroundColor = blueColor;
-         language = showLanguages[i];
+   if (navigator.languages) {
+      for (var i = navigator.languages.length-1; i >= 0; i--) {
+         var langtag = navigator.languages[i].split('-')[0];
+         for (var j = 0; j < showLanguages.length; j++) {
+            if (showLanguages[j] == langtag) {
+               language = langtag;
+               break;
+            }
+         }
       }
-		div.appendChild(langspan);
    }
-   languageDivs = document.getElementsByClassName('language');
-   selectLanguage = document.getElementById('selectLanguage');
+
+   var div = document.getElementById('startSelectLanguage');
+   var sellang = document.createElement('select');
+   sellang.className = 'bordered language';
+   sellang.id = 'optSelectLanguage';
+   for (var i=0; i < showLanguages.length; i++) {
+		var langopt = document.createElement('option');
+      var l = showLanguages[i];
+      langopt.textContent = translation[showLanguages[i]]['name'];
+      langopt.value = l;
+      if (l == language) {
+         langopt.toggleAttribute('selected', true);
+      }
+		sellang.appendChild(langopt);
+   }
+   div.appendChild(sellang);
+   languageOpt = document.getElementById('optSelectLanguage');
 }
 
 generateLanguageButtons();

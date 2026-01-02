@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A polytope with 24 vertices, 60 edges and 38 facets. This is an Archimedean solid and its name is snub cube.", "de": "Ein Polytop mit 24 Ecken, 60 Kanten und 38 Seiten. Dies ist ein archimedischer Körper und sein Name ist Snubwürfel."}
+   {"_data":{"simplicial":false,"_str":"snub cube","simple":false,"facets":38,"vertices":24,"cubical":false,"_type":"archimedean","edges":60}}
 );
 
 prepareDescriptions();

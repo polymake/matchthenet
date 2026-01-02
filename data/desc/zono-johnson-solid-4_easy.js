@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "A simple polytope with 134 vertices, 264 edges and 132 facets.", "de": "Ein kubisches Polytop mit 134 Ecken, 264 Kanten und 132 Seiten."}
+   {"_data":{"edges":264,"simple":false,"simplicial":false,"_str":"","_type":"","cubical":true,"vertices":134,"facets":132}  }
 );
 
 prepareDescriptions();

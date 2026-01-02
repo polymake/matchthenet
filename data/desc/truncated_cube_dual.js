@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "Polarized polytope of a truncated cube: A simplicial polytope with 14 vertices, 36 edges and 24 facets.", "de": "Duales Polytop des Abgestumpfter Würfels: Ein simpliziales Polytop mit 14 Ecken, 36 Kanten und 24 Seiten."}
+   {"_data":{"simplicial":true,"facets":24,"simple":false,"_str":"truncated cube","cubical":false,"edges":36,"_type":"archimedean_dual","vertices":14}}
 );
 
 prepareDescriptions();

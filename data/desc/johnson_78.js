@@ -1,5 +1,5 @@
 descriptions.push(
-   { "en": "This is a Johnson solid named J78: A polytope with 55 vertices, 105 edges and 52 facets.", "de": "Dies ist ein Johnson-Körper namens J78: Ein Polytop mit 55 Ecken, 105 Kanten und 52 Seiten."}
+   {"_data":{"cubical":false,"_type":"johnson","edges":105,"vertices":55,"facets":52,"simple":false,"_str":"J78","simplicial":false}}
 );
 
 prepareDescriptions();
