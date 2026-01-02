@@ -1,4 +1,4 @@
-var showLanguages = ['en','de'];
+var showLanguages = [ 'uk','en','de'];
 
 var translation = { 
  'en': {
@@ -165,6 +165,38 @@ var translation = {
 	'Zoom speed': 'Velocitat del zoom:',
 	'Zoom enabled': 'Zoom activat:',
 	'intro': "MatchTheNet és un joc sobre políedres, per a un jugador. Hi trobaràs els 5 sòlids platònics i alguns de la seva família.<br><br>En cada ronda del joc veuràs uns políedres a la part superior de la pantalla. Pots rotar-los per a veure'ls des de qualsevol costat.<br><br>A la part inferior hi veuràs el mateix nombre de desenvolupaments plans. Aquests desenvolupaments són el resultat de desplegar els políedres al pla. L'objectiu és emparellar cada políedre amb el seu desenvolupament pla. Pots intercanviar dos desenvolupaments qualsevols movent un sobre l'altre.",
+ },
+  'uk': {
+   'name': 'Українська',
+	'Controls': 'Керування',
+   'Easy': 'Легко',
+	'Difficult': 'Складно',
+	'Difficulty': 'Рівень складності',
+	'Number of polytopes': 'Кількість поліедрів',
+	'Score': 'Результат',
+	'Best score': 'Найкращий результат',
+	'Time': 'Час',
+	'Round': 'Раунд',
+	'You': 'Ваш результат',
+	'Highscore': 'Рекорд',
+	'Submit': 'Перевірити',
+	'Restart': 'Перезапустити',
+	'Next': 'Далі',
+	'Info': 'Довідка',
+	'Finish': 'Завершити',
+	'Solution': 'Розв’язання',
+	'Restart hint': 'Щоб змінити рівень складності, перезапустіть гру.',
+	'Play': 'Грати',
+	'More': 'Про гру',
+	'Close': 'Закрити',
+	'Select language': 'Будь ласка, виберіть мову',
+	'Swap': 'Поміняйте розгортки місцями',
+	'Congratulations': 'Вітаємо!!',
+	'Completed game': 'Ви успішно завершили гру.',
+	'Rotation speed': 'Швидкість обертання:',
+	'Zoom speed': 'Швидкість масштабування:',
+	'Zoom enabled': 'Масштабування увімкнено:',
+	'intro': 'MatchTheNet — це гра про поліедри для одного гравця. На вас чекають п’ять Платонових тіл і їхні найкращі друзі.<br><br>У кожному раунді гри у верхній частині вікна ви побачите кілька поліедрів. Ви можете обертати їх, щоб розглянути з усіх боків.<br><br>У нижній частині екрана розташовано таку саму кількість плоских розгорток — це розгортки даних поліедрів на площину. Мета — поєднати кожну розгортку з відповідним поліедром. Ви можете міняти будь-які дві розгортки місцями, перетягнувши одну на іншу.', 
  }
 
 
