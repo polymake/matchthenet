@@ -36,9 +36,16 @@
 
          <div id='startLogo' class='logo notDraggable'><span class=Match>Match</span><span class=The>The</span><span class=Net>Net</span></div>
 
+         <div id='startMain'>
+
+         <div id='startMainLeft'>
 			<p id=intro>
 			</p>
 
+			<div class='buttonType2 bordered' id='more'></div>
+
+         </div>
+         <div id='startMainRight'>
 
 			<div id='startSelectLanguage'>
 				<div id='startSelectLanguageText'>Please select a language</div>
@@ -65,8 +72,9 @@
 				<span id='numOfPolys5' alt=5 class='numOfPolys'>5</span>
 			</div>
 
-			<div class='buttonType1 bordered' id='more'></div>
-			<div class='buttonType1 bordered' id='startGame'></div>
+			<div class='buttonType2 bordered' id='startGame'></div>
+         </div>
+      </div>
 
 			<footer id=copyright>&copy; 2016-2021 Joswig, Loho, Lorenz, Raber, Yürük &amp; the polymake team; license GPLv3 / CC BY-NC-SA 3.0</footer>
 
@@ -88,7 +96,7 @@
 				<div>CSS animation library <a href="https://animate.style/" target="_blank">animate.css</a> made by <a href="https://daneden.me/" title="Daniel Eden">Daniel Eden</a> <br/><a href="https://github.com/animate-css/animate.css/blob/main/LICENSE" target="_blank">Hippocratic License</a></div><br/>
 	   	<div><a href="https://github.com/polymake/matchthenet"
 		   title="github">Download from github</a></div>
-      <div class='buttonType1 bordered' id='closeMoreButton'></div>
+      <div class='buttonType2 bordered' id='closeMoreButton'></div>
 			</div>
 
 
@@ -127,10 +135,11 @@
                   <div class='bordered' id='numBestScore'></div>
                </div>
 				</div>
-
+            <div id='rounds'>
 				<div id='roundDiv'><img id='checkered' class='notDraggable' src=img/checkered.svg><div class='bordered' id='roundNumber'></div></div>
 
 				<div id='timeDiv'><img id='watch' class='watch notDraggable' src='img/watch.svg'><div class='bordered' id='timeNumber'>0</div></div>
+            </div>
 
 			</header>
 
@@ -343,7 +352,7 @@
 				</tr>
 			</table>
 
-			<div class='bordered' id='closeSettingsButton'></div>
+			<div class='bordered buttonType2' id='closeSettingsButton'></div>
 		</div>
 
 
@@ -365,7 +374,7 @@
 				</tr>
 			</table>
 
-				<div class='buttonType1 bordered' id='newGame'></div>
+				<div class='buttonType2 bordered' id='newGame'></div>
 		</div>
 
 		<div id='infoScripts'></div>

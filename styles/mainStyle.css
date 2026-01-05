@@ -21,8 +21,8 @@ body {
 	font-weight: bold;
 }
 
-body, button{
-	font-size: 1.6vmin;
+body, button, select, option{
+	font-size: 1.8vmin;
 }
 
 
@@ -32,8 +32,9 @@ body, button{
 }
 
 #startScreen{
+   display: flex;
 	width: 100%;
-	height: 100%;
+	height: 80%;
 }
 
 #moreScreen, #settingsScreen, #infoScreen {
@@ -47,9 +48,9 @@ body, button{
 #moreScreen{
 	left: 50%;
 	top: 50%;
-	margin: -20vmin -35vmin;
+   transform: translate(-50%, -50%);
 	width: 80vmin;
-	height: 62vmin;
+	min-height: 62vmin;
 }
 
 #infoScreen{
@@ -72,11 +73,9 @@ body, button{
 }
 
 
-#startGame, #startDifficultyDiv, #startNumOfPolysDiv, #startSelectLanguage{
-	position: fixed;
-	left: 75%;
-	transform: translate(-50%, 0);
+#startDifficultyDiv, #startNumOfPolysDiv, #startSelectLanguage{
 	text-align: center;
+	padding-bottom: 3em;
 }
 
 #startSelectLanguage{
@@ -85,23 +84,11 @@ body, button{
 
 #startDifficultyDiv{
 	width: 100%;
-	top: 40%;
 }
 
-#startNumOfPolysDiv{
-	top: 60%;
-}
-
-#startSelectLanguage{
-	top: 20%;
-}
 
 #difficultyText, #startNumOfPolysText, #startSelectLanguageText{
 	margin-bottom: 1.5vmin;
-}
-
-#more, #startGame{
-	top: 80%;
 }
 
 .language{
@@ -155,6 +142,7 @@ canvas{
 
 .endpoints, .endpointsWords{
 	font-size: 1.5vmin;
+   width: fit-content;
 }
 
 
@@ -165,28 +153,49 @@ canvas{
 	margin: -22.5vmin 0 0 -30vmin;
 	text-align: center;
 	background-color: white;
-	width: 60vmin;
-	height: 42vmin;
+	min-width: 40vw;
+	min-height: 32vh;
+   height: fit-content;
 	border: black solid 1px;
+   padding: 2vmin;
+   padding-bottom: 5vh;
 }
 
 #intro{
-	position: fixed;
-	top: 45%;
-	transform: translate(-50%, -50%);
-	max-width: 40vw;
 	font-weight: normal;
 	font-size: 2.5vmin;
+   vertical-align: middle;
 }
-
-#intro, #more{
-	left: 28%;
+#startMain {
+   position: fixed;
+   width: 90%;
+   left: 5%;
+   top: 7%;
+   margin-top: 0;
+   margin-bottom: auto;
+   height: 80%;
+   display: flex;
+   flex-wrap: wrap-reverse;
+   gap: 2em;
+   justify-content: center;
+   padding-top: 5vh;
+   padding-bottom: 5vh;
 }
-
-#more{
-	transform: translate(-50%, 0);
+#startMainLeft {
+   display: block;
+   margin-top: auto;
+   margin-bottom: auto;
+   width: 50%;
+   flex: auto;
 }
-
+#startMainRight {
+   display: block;
+   margin-top: auto;
+   margin-bottom: auto;
+   width: 40%;
+   min-width: 50vmin;
+   flex: auto;
+}
 
 .endpoints{
   font-style: normal;
@@ -195,13 +204,15 @@ canvas{
 #gameOverTable{
 	width: 35vmin;
 	margin-bottom: 5vmin;
-	margin: 5vmin auto;
+	margin: 2vmin auto;
 
 }
 
 .col1, .col3{
 	text-align: right;
-	width: 11vmin;
+	min-width: 11vmin;
+   text-wrap: nowrap;
+   width: fit-content;
 }
 
 .col2, .col4{
@@ -285,15 +296,21 @@ select {
 	padding-right: 10px;
 }
 
+.buttonType2 {
+   display: block;
+   cursor: pointer;
+   margin: auto;
+   font-weight: bold;
+   width: fit-content;
+}
 
-
-button, .buttonType1{
+button.buttonType1{
 	cursor: pointer;
 	position: fixed;
 	font-weight: bold;
 }
 
-.buttonType1{
+.buttonType1, .buttonType2{
 	color: white;
 }
 #next, #ok, #solution {
@@ -302,10 +319,14 @@ button, .buttonType1{
    position: initial;
 }
 
-#reset, #nextblock, #info {
+#reset, #info {
 	position: absolute;
 	bottom: 0;
 	margin: 1.5vmin;
+}
+#nextblock {
+	position: absolute;
+	bottom: 0;
 }
 
 #logo, #startLogo{
@@ -350,34 +371,24 @@ button, .buttonType1{
 	background-color: hsla(155, 100%, 35%, 1);
 }
 
-#closeMoreButton, #closeSettingsButton{
-	left: 53%;
-	transform: translate(-50%, 0);
+
+#closeMoreButton {
+   margin-top: 1em;
 }
 
-#closeSettingsButton {
-	cursor: pointer;
-	position: relative;
-	font-weight: bold;
-	color: white;
-}
 
 #info {
 	right: 12vmin;
 }
 
 #difficultyDiv{
+   display:none;
 	left: 50%;
 	transform: translate(-50%, 0);
 }
 
 #reset, #newGame, #solution, #more, #info {
 	background-color: hsla(208, 100%, 74%, 1);
-}
-
-#newGame{
-	left: 50%;
-	transform: translate(-50%, 0);
 }
 
 #startDifficulty1, #numOfPolys3 {
@@ -390,20 +401,25 @@ button, .buttonType1{
 
 #bestScore{
    display: inline;
+   margin-left: 1em;
 }
 
-#points, #roundDiv, #timeDiv,  #logo {
+#points {
+   margin-right:auto;
+}
+#rounds{
+	right: 3vmin;
+   margin-left: auto;
+}
+
+#points, #rounds,  #logo {
 	position: fixed;
 	top: 0;
 	margin: 1.5vmin;
 }
 
-#timeDiv{
-	right: 5vmin;
-}
-
-#roundDiv{
-	right: 23vmin;
+#timeDiv, #roundDiv {
+   display: inline-block;
 }
 
 #points{
@@ -487,6 +503,9 @@ button, .buttonType1{
 
 #completedGame{
 	font-size: 2.5vmin;
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 #copyright{
