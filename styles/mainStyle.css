@@ -298,20 +298,14 @@ select {
 
 .buttonType2 {
    display: block;
-   cursor: pointer;
    margin: auto;
-   font-weight: bold;
    width: fit-content;
-}
-
-button.buttonType1{
-	cursor: pointer;
-	position: fixed;
-	font-weight: bold;
 }
 
 .buttonType1, .buttonType2{
 	color: white;
+   cursor: pointer;
+   font-weight: bold;
 }
 #next, #ok, #solution {
 	margin: 1.5vmin;
